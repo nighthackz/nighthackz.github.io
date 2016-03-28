@@ -1,0 +1,6 @@
+{
+  "date" : 1164096000000,
+  "title" : "F3: a whole new take on scripting",
+  "body" : "If you like scripting, you should take a look at <a href=\n\"http://blogs.sun.com/chrisoliver/\">Chris Oliver's weblog</a>. He\nmostly discusses a scripting language that he's been working on\ncalled <a href=\n\"http://blogs.sun.com/chrisoliver/resource/f3.html\">F3</a>. It's\nmind-bendingly cool. It's a client-side scripting engine, rather\nthan one of the usual server-side languages. It's designed for\ndoing very graphically cool applications. He's got lots of demos in\nis blog, mostly directly runnable. In particular, you really must\nrun through his <a href=\n\"http://blogs.sun.com/chrisoliver/resource/tutorial.jnlp\">interactive\ntutorial</a>. The most mind-bendingly cool feature (and a little\ntricky to understand) is F3's dependency-based evaluation. Magic.\nHave some fun with it.\n",
+  "images" : [ ]
+}

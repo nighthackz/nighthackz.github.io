@@ -1,0 +1,12 @@
+{
+  "date" : 1088665200000,
+  "title" : "Behind the curtain in the Keynote hall",
+  "body" : "Running keynote sessions at a conference with the scale of JavaOne\nis a pretty daunting task. Behind the screen there is a huge crew\nmanaging some pretty awesome technology. All of the video cameras\nand streams were full HDTV. That huge screen behind the stage was\namazing: one giant framebuffer driving four independent projectors,\ncarefully aligned, to provide one seamless image surface. This is\nthe first time that this projection technology has been used:\nJavaOne was the beta-test. It was flawless. The crew was wonderful.\n",
+  "images" : [ {
+    "image" : "Image88-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 576
+  } ]
+}

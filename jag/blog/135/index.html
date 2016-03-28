@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Transcendental Two [updated]</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../134/index.html class=button>◀</a><td align=right><a href=../136/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../131/index.html>Leonardo thought of it first...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../132/index.html>Moore's Law meets Pricing</a>
+<tr><td><td class=otherRef><a class=otherRef href=../133/index.html>Happily Subversive?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../134/index.html>Transcendental Meditation</a>
+<tr><td>✓<td class=thisRef>Transcendental Two [updated]
+<tr><td><td class=otherRef><a class=otherRef href=../136/index.html>Back at work again</a>
+<tr><td><td class=otherRef><a class=otherRef href=../137/index.html>Netbeans in Beijing</a>
+<tr><td><td class=otherRef><a class=otherRef href=../138/index.html>JavaChina</a>
+<tr><td><td class=otherRef><a class=otherRef href=../139/index.html>SOA: Buzzworld Whiplash or Real Meat?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../140/index.html>Only solve the problems you need to solve</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Transcendental Two [updated]</h1>
+<img align=right src='2005_08_01_09-12-14-835_n1.small.png'>There's a piece of historical baggage in the definition of
+<i>sin/cos</i> that is much older than just "whatever the 8087 chip
+happened to do": why are the <i>sin</i> and <i>cos</i> functions
+defined based on parameters that are periodic in a transcendental
+number? Having the period be 2*<i>pi</i> is based on decades
+(centuries!) of mathematical standard practice. This whole problem
+with <i>sin</i> and <i>cos</i> would go away if only the period had
+a nice clean representation in floating point. For example, either
+degrees or turns (1 turn == 360 degrees) would be great. In
+particular, if the parameter to <i>sin/cos</i> were turns then
+argument reduction would be easy: just throw away the integer bits.
+Then you could do a table lookup based on extracting mantissa bits.
+
+
+<p style="text-align: left">What is especially ironic is that if
+you grep through piles of source code you'll find a huge number of
+calls that look roughly like <i>sin(angle*(2*Math.PI/360))</i>.
+This has a necessarily slightly inaccurate value of <i>pi</i>,
+which is likely to be exactly the same value as the one in the
+8087's <i>sin/cos</i> implementation - the two errors come pretty
+close to canceling since the argument is divided by the value of
+<i>pi</i> used in the implementation of <i>sin/cos</i>.</p>
+
+<p style="text-align: left"><i>Update:</i> Yes, I understand that
+there are lots of deep, important mathematical reasons that
+<i>sin</i> &amp; <i>cos</i> are defined in terms of 2*<i>pi</i>.
+The point I was trying to make is that if you peel open the covers
+of an implementation of <i>sin/cos</i>, 2*<i>pi</i> is a very
+difficult period to cope with. At the same time, if you look at
+software that uses <i>sin/cos</i>, you'll find that a huge fraction
+of them use something other than 2*<i>pi</i> (degrees are real
+common), and convert when invoking <i>sin/cos</i>.</p>
+
+
+<table width=100%><tr><td align=right class=date>August 1, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

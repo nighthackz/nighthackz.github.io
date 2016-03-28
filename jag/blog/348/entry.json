@@ -1,0 +1,18 @@
+{
+  "date" : 1286434800000,
+  "title" : "The conference formerly known as JAOO",
+  "body" : "I've spent the last few days in <a href=\n\"http://www.destination360.com/europe/denmark/aarhus\">Aarhus,\nDenmark</a> at the GOTO conference - which was formerly known as\nJAOO. One of the things I like about my post-sun life is that I get\nto give talks other than a generic \"state of the union\". In this\ncase, on the hacking I've been doing to help out on a <a href=\n\"http://www.youtube.com/watch?v=exdUD02JryI&amp;feature=related\">fun\nproject at VW/Stanford</a> (but that's another whole series of blog\nposts). JAOO/GOTO is a great conference. One of the unusual things\nthey do as a commercial conference is that the content and schedule\nisn't driven by sponsors. Rather than putting out a generic \"call\nfor papers\" (which in many conferences gets tied to sponsorship),\nthe organizers map out technical trends and then invite speakers in\nthe midst of those technologies. I particularly enjoyed the tracks\non NoSQL and web-scale infrastructure. Rather than pitching\nparticular products, the speakers did an excellent job of covering\nthe whole technical debate and the tradeoffs.\n",
+  "images" : [ {
+    "image" : "aarhus.jpg",
+    "href" : "http://www.destination360.com/europe/denmark/aarhus",
+    "align" : "left",
+    "width" : 250,
+    "height" : 200
+  }, {
+    "image" : "goto_web.png",
+    "href" : "http://gotocon.com/",
+    "align" : "right",
+    "width" : 80,
+    "height" : 200
+  } ]
+}

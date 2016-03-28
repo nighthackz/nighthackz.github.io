@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RAM is my friend</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../357/index.html class=button>◀</a><td align=right><a href=../359/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../354/index.html>It's never been easier to meet friendly people</a>
+<tr><td><td class=otherRef><a class=otherRef href=../355/index.html>Back from the Sanity Rally</a>
+<tr><td><td class=otherRef><a class=otherRef href=../356/index.html>Oracle and Apple Announce OpenJDK Project for Mac OS X</a>
+<tr><td><td class=otherRef><a class=otherRef href=../357/index.html>Merry Christmas Everyone!</a>
+<tr><td>✓<td class=thisRef>RAM is my friend
+<tr><td><td class=otherRef><a class=otherRef href=../359/index.html>Hudson is dead, long live Jenkins</a>
+<tr><td><td class=otherRef><a class=otherRef href=../360/index.html>Elastic Beanstalk</a>
+<tr><td><td class=otherRef><a class=otherRef href=../361/index.html>Equations and Methods</a>
+<tr><td><td class=otherRef><a class=otherRef href=../362/index.html>Refactoring considered harmful, sometimes</a>
+<tr><td><td class=otherRef><a class=otherRef href=../363/index.html>Let go ...</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>RAM is my friend</h1>
+I got a kick out of reading the Slashdot posting <a href=
+"http://hardware.slashdot.org/article.pl?sid=11/01/01/1614215">Replacing
+Traditional Storage, Databases With In-Memory Analytics</a>. One of
+my personal quirks is that the relational/sql model has never made
+much sense to me. It's both cumbersome and slow. Give me a big
+bucket of RAM and a log file any day. It's always hugely faster and
+more flexible. If the database is too big for RAM, <a href=
+"http://en.wikipedia.org/wiki/Shard_(database_architecture)">shard</a>.
+There's a odd sort of political correctness about SQL. I've
+frequently run into people with high performance transaction
+systems. When asked how they achieved that performance, "big
+HashMap" comes up often, and often with a hint of embarrassment.
+Some people seem to think that it's just a hack that they're forced
+into to achieve performance. But there's a murky distinction in my
+mind between "hack" and "elegant technique". I tend to think of the
+log as the Truth, and RAM as a cache that just happens to be big
+enough to contain everything. There's a huge bag of tricks to trade
+off reliability, scale, distribution and startup time. Pick a point
+in that multidimensional space, and there's almost always a set of
+tricks to get you there.
+
+<table width=100%><tr><td align=right class=date>January 1, 2011</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

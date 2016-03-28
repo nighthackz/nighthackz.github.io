@@ -1,0 +1,6 @@
+{
+  "date" : 1162972800000,
+  "title" : "Is it safe to use doc.java.sun.com?",
+  "body" : "One of the commentators on my last blog entry asked if it was safe\nto do translations: would they be lost? It is pretty safe. I can't\nguarantee anything, but no translation has ever been lost. The way\nthe database works is extremely reliable. The server is in a very\nsafe server room. The disks are 3-way redundant. Running load tests\non the server software on my laptop, it can do almost 2000 pages\nper second - and the real server is a lot faster. So yea... It's\nsafe. It can take a pounding. I've got a to-do list a mile long,\nbut the translation database won't get trashed.\n",
+  "images" : [ ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1204444800000,
+  "title" : "Hanging out in OZ",
+  "body" : "The TechDays traveling circus is in <a href=\n\"http://au.sun.com/sunnews/events/2008/techdays/index.jsp\">Sydney</a>\nthis week. Lucky me! I get to tag along. This is such a great town.\nIf you're in Sydney and looking for a geek fest, come join in.\n",
+  "images" : [ {
+    "image" : "Kangaroo_jumping.jpg",
+    "href" : "http://au.sun.com/sunnews/events/2008/techdays/index.jsp",
+    "align" : "right",
+    "width" : 450,
+    "height" : 307
+  } ]
+}

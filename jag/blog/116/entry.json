@@ -1,0 +1,12 @@
+{
+  "date" : 1119164400000,
+  "title" : "A BlogEd feature I hadn't realized existed...",
+  "body" : "I can publish my blog to two sites at the same time! Both\nblogs.sun.com and today.java.net. Bonus!\n",
+  "images" : [ {
+    "image" : "2005_06_19_16-39-35-000_n5.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 150,
+    "height" : 150
+  } ]
+}

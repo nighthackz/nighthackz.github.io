@@ -1,0 +1,12 @@
+{
+  "date" : 1220338800000,
+  "title" : "Current State of Java for HPC",
+  "body" : "At the last JavaOne I did a walk-on talk during the AMD keynote\nwhere I talked about how incredible HotSpot's performance had\nbecome - beating the best C compilers. I ended my talk with a\njoking comment that \"the next target is Fortran\". Afterwards, <a\nhref=\"http://www-sop.inria.fr/oasis/Denis.Caromel/\">Denis\nCaromel</a> of <a href=\"http://www.inria.fr\">Inria</a> came up to\nme and said \"you're already there\". He and some colleges had been\nworking on some comparisons between Java and Fortran for HPC. Their\nfinal report <i><a href=\n\"http://hal.inria.fr/inria-00312039/en\">Current State of Java for\nHPC</a></i> has been made available as a Tech Report and makes\npretty interesting reading. There are a lot of HPC micro benchmarks\nin it which look great. Thanks!\n",
+  "images" : [ {
+    "image" : "200px-Logo-INRIA.png",
+    "href" : "http://hal.inria.fr/inria-00312039/en",
+    "align" : "right",
+    "width" : 200,
+    "height" : 51
+  } ]
+}

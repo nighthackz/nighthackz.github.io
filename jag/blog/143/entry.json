@@ -1,0 +1,18 @@
+{
+  "date" : 1130745600000,
+  "title" : "Science Fair, Monterrey",
+  "body" : "I spent a chunk of last week on one of the <a href=\n\"http://en.wikipedia.org/wiki/Prepa_Tec\" shape=\"rect\">Prepa\nTech</a> campuses in <a href=\n\"http://en.wikipedia.org/wiki/Monterrey\" shape=\n\"rect\">Monterrey</a>, Mexico at Mexico's national high school\nScience Fair. It was really cool to see what these students had put\ntogether, especially since their culture and economics are so\ndifferent from Canada and the US. For example, there was a group of\ngirls who had invented a clever device to clean the spines off of\ncactus, which is commonly used as a vegetable in Mexico. Another\ncool one was a robotic manipulator whose actuators were all\nhydraulic, made from hypodermic syringes. It was a great group of\nkids who had poured their hearts into these projects. Young geeks\nhaving way to much fun. \n\n<p><br clear=\"both\">\n One of the uniquely wonderful bits of Mexican culture is their\ncelebration of the <a href=\n\"http://en.wikipedia.org/wiki/Day_of_the_dead\" shape=\"rect\">Day of\nthe Dead</a>, where they celebrate their deceased ancestors. They\nbuild altars dedicated to them. At Prepa Tech I came across this\nwonderful altar dedicated to a collection of scientists including\nMarie Curie, Neils Bohr, Isaac Newton and Albert Einstein.</p>\n<br clear=\"both\">\n\n",
+  "images" : [ {
+    "image" : "MXHypodermicHydraulics.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 640,
+    "height" : 480
+  }, {
+    "image" : "MXTechDayOfTheDead.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 480,
+    "height" : 640
+  } ]
+}

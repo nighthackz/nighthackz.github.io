@@ -1,0 +1,12 @@
+{
+  "date" : 1088492400000,
+  "title" : "As always, the Brazilians",
+  "body" : "I met up with more of the Brazilian group today. As always, they're\nway out there. They're easy to recognize: several of them wear\nflags as capes. And they're loud. The whole country is a party. But\nlots of interesting technology and great hackers. A group of them\ngot an award this year for their tax collection system: 96% of all\ntax returns are filed electronically, The back end is all J2EE, and\nthey have a new J2SE front end. I wish taxes were as easy in this\ncountry.\n",
+  "images" : [ {
+    "image" : "Image82-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 576
+  } ]
+}

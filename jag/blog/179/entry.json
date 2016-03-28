@@ -1,0 +1,12 @@
+{
+  "date" : 1147417200000,
+  "title" : "The race server is live...",
+  "body" : "The JavaOne <a href=\"http://race.java.sun.com\">slot car race\nserver</a> is open for business. If you're interesting in entering\nwhen you get to JavaOne, all of the materials are there. Rules.\nCode samples. NetBeans modules. Hints. It's all there, except that\nyou can't actually enter yet. You can construct an entry, but\nyou'll have to wait until you get to JavaOne to actually enter.\nWe've been doing a dry run for the past few weeks. The whole rig\nseems to be in pretty good shape. It's pretty easy to get times\nunder 30 seconds. Getting under 25 is challenging, but a few have\ndone it. No one has broken 20 seconds yet: you can be the first.\n",
+  "images" : [ {
+    "image" : "DukeWithHelmet.png",
+    "href" : "http://race.java.sun.com",
+    "align" : "right",
+    "width" : 512,
+    "height" : 512
+  } ]
+}

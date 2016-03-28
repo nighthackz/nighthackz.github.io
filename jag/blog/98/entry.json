@@ -1,0 +1,12 @@
+{
+  "date" : 1118991600000,
+  "title" : "Java is Everywhere",
+  "body" : "Several people have asked about the rather goofy \"Java is\nEverywhere\" cartoon that was shown during my keynote. Yes, it was\nmore of my Lightwave hacking. A week of evenings: I didn't have\nmuch time to do real polishing. The animation was pretty slap-dash,\nbut still fun. If you'd like to watch it again, look <a href=\n\"http://today.java.net/jag/je/\" shape=\"rect\">here</a>.\n",
+  "images" : [ {
+    "image" : "Image25-small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 135
+  } ]
+}

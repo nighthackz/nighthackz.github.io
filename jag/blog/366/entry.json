@@ -1,0 +1,12 @@
+{
+  "date" : 1301814000000,
+  "title" : "Congratulations to Barn2 Robotics!",
+  "body" : "As wild a ride as my first week at Google was, the real thrill was\nthe <a href=\"http://www.firstsv.org/\">FIRST Silicon Valley Robotics\nCompetition</a> held at San Jose State University Thursday through\nSaturday of the week. I've been one of the folks mentoring the team\nfrom the <a href=\"http://www.woodsidepriory.com/\">Woodside Priory\nSchool</a>. My youngest daughter attends the school, but she isn't\nold enough for the robotics team - although she has competed in the\nFIRST Lego League. I skipped out of work for a few hours on Friday\nto be with the kids. I took some <a href=\n\"http://gallery.me.com/james.gosling#100172&amp;view=mosaic&amp;bgcolor=black&amp;sel=3\">photos\nand videos</a> of the team, robots and three of the rounds. The did\nso well that they ended up on the winning alliance, and so are\ngoing to the national championships in St Louis. One of their\nrobot's real strengths was its performance during the autonomous\npart of each round. Of the three I watched, it performed perfectly\neach time, which was fantastic. Each round has an initial period of\ntime where the robot has to drive itself autonomously, then it's\ncontrolled by the students remotely. \n\n<p>Several years ago a group at Sun (driven by Eric Arseneau -\nthanks Eric!) worked with the folks at FIRST and <a href=\n\"http://first.wpi.edu/\">WPI</a> to port the <a href=\n\"http://java.net/projects/squawk/\">Squawk</a> VM (the VM used in\nthe <a href=\"http://www.sunspotworld.com/\">SunSPOT</a>) to the\nCompact RIO from National Instruments, the industrial automation\ncontroller used by the FIRST Robotics League. In prior years,\nprogramming this controller was freakishly hard, so the students\nrarely took advantage of the ability to do any programming. Between\nthe ability to code in Java, and the tool support through NetBeans\n(breakpoints in a real robot, how cool is that???), the RIO becomes\nreally easy to program, and hence capable of much more\nsophisticated algorithms.</p>\n\n<p>I loved watching the kids design, build, and program their\nrobot. The software team hardly needed any help from me. They were\ngreat.</p>\n\n",
+  "images" : [ {
+    "image" : "barn2medium.jpg",
+    "href" : null,
+    "align" : "right\nsrc=",
+    "width" : 484,
+    "height" : 648
+  } ]
+}

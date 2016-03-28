@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Equations and Methods</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../360/index.html class=button>◀</a><td align=right><a href=../362/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../357/index.html>Merry Christmas Everyone!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../358/index.html>RAM is my friend</a>
+<tr><td><td class=otherRef><a class=otherRef href=../359/index.html>Hudson is dead, long live Jenkins</a>
+<tr><td><td class=otherRef><a class=otherRef href=../360/index.html>Elastic Beanstalk</a>
+<tr><td>✓<td class=thisRef>Equations and Methods
+<tr><td><td class=otherRef><a class=otherRef href=../362/index.html>Refactoring considered harmful, sometimes</a>
+<tr><td><td class=otherRef><a class=otherRef href=../363/index.html>Let go ...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../364/index.html>Why US Broadband is So Slow</a>
+<tr><td><td class=otherRef><a class=otherRef href=../365/index.html>Next step on the road...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../366/index.html>Congratulations to Barn2 Robotics!</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=35b501243f57758c02dd9b0ce68b809a.png class=fresco data-fresco-group=bovik><img src=35b501243f57758c02dd9b0ce68b809a.png height=48></a>
+<a href=e3ed0ed85e155f78e3b1ccee03d190fe.png class=fresco data-fresco-group=bovik><img src=e3ed0ed85e155f78e3b1ccee03d190fe.png height=48></a>
+<p>
+<div class=entry><h1>Equations and Methods</h1>
+<blockquote>
+  Instead of my usual whining, I thought I'd write a few blog
+  entries that are more technical. I've been playing with a lot of
+  stuff lately. Lots of threads of ideas to play with. Mostly just
+  fragments, not adding up to much. This is the start of one thread
+  that's been wandering through my head for years. I'll need to add
+  several more blog entries before this one even starts to make
+  sense.
+</blockquote>Ignore computer science for a moment, including
+everything you know about programming languages. Think back to the
+math courses you took in school. There are many things in that
+space that are programming-language-ish, but missing from
+programming languages. Consider Newton's Method: 
+
+<blockquote>
+  <h2><a href=
+  "http://en.wikipedia.org/wiki/Newton's_method">Newton's
+  method</a>, from Wikipedia:</h2>
+  In <a href="http://en.wikipedia.org/wiki/Numerical_analysis"
+  title="Numerical analysis">numerical analysis</a>, <b>Newton's
+  method</b> (also known as the <b>Newton-Raphson method</b>),
+  named after <a href="http://en.wikipedia.org/wiki/Isaac_Newton"
+  title="Isaac Newton">Isaac Newton</a> and <a href=
+  "http://en.wikipedia.org/wiki/Joseph_Raphson" title=
+  "Joseph Raphson">Joseph Raphson</a>, is a method for finding
+  successively better approximations to the zeroes (or <a href=
+  "http://en.wikipedia.org/wiki/Root_of_a_function" title=
+  "Root of a function">roots</a>) of a <a href=
+  "http://en.wikipedia.org/wiki/Real_number" title=
+  "Real number">real</a>-valued <a href=
+  "http://nighthacks.com/wiki/Function_(mathematics)" title=
+  "Function (mathematics)">function</a>. The algorithm is first in
+  the class of <a href=
+  "http://en.wikipedia.org/wiki/Householder%27s_method" title=
+  "Householder's method">Householder's methods</a>, succeeded by <a
+  href="http://en.wikipedia.org/wiki/Halley%27s_method" title=
+  "Halley's method">Halley's method</a>.<br>
+  <br>
+   
+
+  <p style="font-weight: bold">The Newton-Raphson method in one
+  variable:</p>
+
+  <p>Given a function <i>&#402;</i>(<i>x</i>) and its <a href=
+  "http://en.wikipedia.org/wiki/Derivative" title=
+  "Derivative">derivative</a> <i>&#402;</i>'(<i>x</i>), we begin
+  with a first guess <i>x</i><sub>0</sub>. Provided the function is
+  reasonably well-behaved a better approximation
+  <i>x</i><sub>1</sub> is</p>
+
+  <p>Geometrically, x<sub>1</sub> is the intersection point of the
+  <a href="http://en.wikipedia.org/wiki/Tangent_line" title=
+  "Tangent line" class="mw-redirect">tangent line</a> to the graph
+  of f, with the x-axis. The process is repeated until a
+  sufficiently accurate value is reached:</p>
+</blockquote>So what is Newton's Method? It's kind of like a
+function that takes two functions as parameters (f(x) and f'(x)).
+But the second parameter is should really be derived from the
+first. f'(x) can be approximated by a little numerical trickery,
+but it's a numerically dicey thing to do. One of the big drawbacks
+with closures and function pointers is that you just get to execute
+the function. You can't do any introspection. This is one of those
+times where I miss Lisp macros: the ability to rip open a function
+and do wild things like symbolic differentiation was wonderful. My
+PhD thesis project was filled with such hackery. 
+
+<p>Instead, people rarely code Newton's method in the abstract.
+They usually apply it on paper to some concrete function, like
+f(x)=x<sup>2</sup>-V (finding the zeros computes sqrt(V)). The code
+you end up with looks like this:</p>
+
+<table align="center">
+  <tr>
+    <td>
+<pre>
+public double xyzzy(final double v) {
+        long lt = Double.doubleToRawLongBits(v);
+        double t = Double.longBitsToDouble((((1L&lt;&lt;52)-1)|(1L&lt;&lt;63)) &amp; lt |
+                  (((long)((((int)((lt&gt;&gt;52)&amp;((1&lt;&lt;11)-1))-1023)&gt;&gt;1)+1023))&lt;&lt;52));
+        t = 0.5*(t+v/t);
+        t = 0.5*(t+v/t);
+        t = 0.5*(t+v/t);
+        t = 0.5*(t+v/t);
+        t = 0.5*(t+v/t);
+        return t;
+ }
+</pre>
+    </td>
+  </tr>
+</table>(This actually works, it's almost good to the last bit) If
+someone emailed this code fragment to you, I'll bet that you'd be
+hard pressed to figure out what it does. The 5x loop unrolling
+might be a good hint, but the long bit-bashing expression at the
+beginning is pretty opaque. Both f(x) and Newton's method have
+become totally obscure. The code is hard to fix or modify. It's
+very brittle. 
+
+<p>This isn't just a specific rant about Newton's method. There are
+lots of other "method"s that map from some problem to a piece of
+code for computing the result. The domains that are particularly
+problematic these days are the zillion techniques for using
+multicore machines and clusters of them to solve some problem.
+Straightforward solutions get twisted and pulled as they're mapped
+to frameworks like MPI or Hadoop until they're totally obscure and
+wound into a ton of boilerplate.</p>
+
+<p>More on this another day...</p>
+
+
+<table width=100%><tr><td align=right class=date>February 1, 2011</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

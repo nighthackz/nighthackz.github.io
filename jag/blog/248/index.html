@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Solaris and OS X</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../247/index.html class=button>◀</a><td align=right><a href=../249/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../244/index.html>Hanging out with printer engineers</a>
+<tr><td><td class=otherRef><a class=otherRef href=../245/index.html>Java documentation in Chinese and Japanese</a>
+<tr><td><td class=otherRef><a class=otherRef href=../246/index.html>Thanks to the iText folks for a great PDF library</a>
+<tr><td><td class=otherRef><a class=otherRef href=../247/index.html>The Omnivore's Dilemma</a>
+<tr><td>✓<td class=thisRef>Solaris and OS X
+<tr><td><td class=otherRef><a class=otherRef href=../249/index.html>Solaris and OS X (continued)</a>
+<tr><td><td class=otherRef><a class=otherRef href=../250/index.html>There's a new "Where" in "Anywhere"</a>
+<tr><td><td class=otherRef><a class=otherRef href=../251/index.html>JavaME is *not* dead!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../252/index.html>Hanging out in Tokyo</a>
+<tr><td><td class=otherRef><a class=otherRef href=../253/index.html>Cell phones in Japan</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=DukeJackJammin.png class=fresco data-fresco-group=bovik><img src=DukeJackJammin.png height=300></a>
+<p>
+<div class=entry><h1>Solaris and OS X</h1>
+I loved Tom Yeager's article <i><a href=
+"http://weblog.infoworld.com/yager/archives/2007/10/">The next best
+thing to OS X</a></i>. As several people have noticed at my talks
+over the past few months, I no longer carry a Mac laptop. As much
+as I love the Mac's eye candy, it really hasn't been keeping up as
+a developer's machine - their attention has clearly been elsewhere.
+Meanwhile, the Solaris folks have made huge strides in Solaris's
+usability on a laptop with recent Nevada builds: the latest Gnome
+is quite lovely. Firefox, Thunderbird and Lightning kick ass. The
+new installer is totally slick. The nwam (network automagic)
+service makes network hassles almost totally disappear. And Java,
+NetBeans and Glassfish go like the wind! It's amazing how fast
+things run. 
+
+<p>And then there are all the cool Solaris goodies to take
+advantage of. I'm totally addicted to Zones and ZFS. For example: I
+have my laptop set up with ZFS managing the disk. Then I mirror the
+laptop's disk onto a USB drive. When I'm wandering around with my
+laptop disconnected, the filesystem runs in "degraded" mode - which
+simply means that the mirror isn't up to date - it's as fast as
+ever. But when I get back to my desk and the USB drive reconnects,
+ZFS magically updates the mirror and I have an incredibly fast
+backup. If I want to use backups for going back in time, ZFS
+snapshots are perfect and <i>fast</i>.</p>
+
+<p>There is one area that's a problem: when I close the lid on my
+laptop, it keeps right on running. It doesn't suspend. I have to
+manually shut the system down. I've been bugging the Solaris folks
+about it for a while: they're working on getting there, but it'll
+take awhile. In typical Solaris fashion, they're going for a "solve
+world hunger" scale solution: last week I was at a talk about <a
+href="http://www.opensolaris.org/os/project/tesla/">Tesla</a>, the
+upcoming power management system. It'll be great when they're
+done.</p>
+
+<p>And no, I don't use any of the virtualization/multiboot
+facilities: They all consume more performance and disk space than
+I'm comfortable with.</p>
+
+
+<table width=100%><tr><td align=right class=date>October 12, 2007</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JNN: the Juicy News Network</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../24/index.html class=button>◀</a><td align=right><a href=../26/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../21/index.html>Yahoo!  The latest Mars Rover landed!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../22/index.html>Alpha Geek?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../23/index.html>The Tiger is out!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../24/index.html>Support the T-Shirt Hurling Contest!</a>
+<tr><td>✓<td class=thisRef>JNN: the Juicy News Network
+<tr><td><td class=otherRef><a class=otherRef href=../26/index.html>It's so easy to be annoying</a>
+<tr><td><td class=otherRef><a class=otherRef href=../27/index.html>It talks!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../28/index.html>The Sun/Microsoft settlement</a>
+<tr><td><td class=otherRef><a class=otherRef href=../29/index.html>More on Sun & Microsoft</a>
+<tr><td><td class=otherRef><a class=otherRef href=../30/index.html>Netbeans as a platform</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=Image56-large.jpeg class=fresco data-fresco-group=bovik><img src=Image56-large.jpeg height=300></a>
+<p>
+<div class=entry><h1>JNN: the Juicy News Network</h1>
+It's been a log time since I last wrote a blog entry: I'll try to
+pick up the pace and be more regular. I did a little "weekend hack"
+and did an <b>RSS</b> feed reader that goes by the rather goofy
+name of JNN, the "Juicy News Network". If you'd like to try it out,
+it's available via <b>JNLP</b> <a href=
+"http://jnn.dev.java.net/jnn.jnlp" shape="rect">here</a>. It's an
+open source project on java.net, it's home is <a href=
+"http://jnn.dev.java.net/" shape=
+"rect">http://jnn.dev.java.net</a>. All the sources are there, as
+well as a JAR file that works on any platform, and a Mac OS X
+installation. I comes with a preset list of subscriptions. You can
+unsubscribe to news feeds by using the "unsubscribe" menu entry.
+You can subscribe to feeds by using drag-and-drop of RSS URLs or
+HTML pages with rss+xml links. There's a "Help" page that explains
+it all. The application itself is pretty straightforward. The most
+interesting thing is what it does to be fast at startup: all news
+feed reading is done by a swarm of low priority threads, one for
+each feed. So all feeds get fetched in parallel. This is very easy
+to do in Java: the threading API and networking support made it all
+straightforward.
+
+<table width=100%><tr><td align=right class=date>March 16, 2004</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

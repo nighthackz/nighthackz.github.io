@@ -1,0 +1,12 @@
+{
+  "date" : 1119942000000,
+  "title" : "T-Shirt hurling contest: day 2",
+  "body" : "Peter Moore and his mates from <a href=\"http://cenqua.com/\" shape=\n\"rect\">Cenqua</a> in Australia were the second contestants in the\nT-Shirt contest. Their entry was a contraption (I don't know a\nbetter word: Rube Goldberg would have been thrilled) that used\ncentrifugal force to propel the shirts, and a pile of electronics\nto figure out when to let go. If you'd like to get a better look,\nthey have a <a href=\"http://flickr.com/photos/pte/tags/tshc\" shape=\n\"rect\">large collection of photos</a> up on the web. The release\nmechanism involved infrared sensors on the spinning wheel that\noperated the solinoids that released the shirts. The sensors were\nused to receive trigger information from the computer and a funky\nwire-wrapped board. \n\n<p style=\"text-align: left\">The early prototypes were pretty\nstraightforward. No electronics. Real reliable. What they ended up\nwith was a total victory for creeping featurism.</p>\n\n<p style=\"text-align: left\">They managed to launch a reasonable\nnumber of shirts, and got great range, but the vast majority of the\nshirts were randomly spewed all over the stage and backdrop. The\ninfrared sensors were their undoing, and an interesting case study\nin just how hard testing is.</p>\n\n<p style=\"text-align: left\">They had done a lot of testing, in lots\nof circumstances. They had had problems the night before with the\nstage lights having enough IR to trigger the device prematurely.\nThey had tuned and corrected for that. But it was the large,\nprofessional-grade photographic flashes that did it. No one had\nfired off one of those in the vicinity of the launcher during any\ntest runs.</p>\n\n<p style=\"text-align: left\">Just as in every branch of engineering,\n\"shit happens\", and it's incredibly hard to predict.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_06_28_13-43-48-387_n5.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 150
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1284706800000,
+  "title" : "Google's Earth",
+  "body" : "WIlliam Gibson wrote a great op-ed piece for <a href=\n\"http://www.nytimes.com/2010/09/01/opinion/01gibson.html\">The New\nYork Times</a>. It's all about the universe that's being built\naround us by Google (and Facebook, and many of the other social\nmedia sites). Despite their good intentions and 'do no evil'\nmantra, they're getting perilously close to some of the dystopian\nnightmares that should stay in the pages of fiction. With every\nline of code we engineers write, we have to ask ourselves: does\nthis move us closer to the world of Star Trek, or of Blade Runner?\nI, for one, would rather not live in the Blade Runner universe, and\nyet that's what we're sliding into building. \n\n<p>One small act that can help avoid the dystopia is to <a href=\n\"http://www.cafepress.com/OrcOmit\">keep the pressure on Oracle to\ndo the right thing</a>. I don't believe that parading around in\nprotest t-shirts will convince them to do what <a href=\n\"http://jcp.org/aboutJava/communityprocess/summaries/2007/December07-summary.html\">they\ncommitted to</a>, but it'll let them know that the community is\nwatching.</p>\n\n<p>I have an offer to members of the press: a free dinner anywhere\nin the Bay Area to anyone who gets a straight, reasonable,\nintellectually defensible official answer from Oracle to the\nquestion of why their demand for the creation of an independent\nJava Foundation applied to Sun, but now doesn't apply to\nOracle.</p>\n\n",
+  "images" : [ {
+    "image" : "01opedimg-articleInline.jpg",
+    "href" : "http://www.nytimes.com/2010/09/01/opinion/01gibson.html",
+    "align" : "right",
+    "width" : 190,
+    "height" : 264
+  } ]
+}

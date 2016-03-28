@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flying at Mach 1</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../4/index.html class=button>◀</a><td align=right><a href=../6/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../1/index.html>My Grandmother, the Zen Master</a>
+<tr><td><td class=otherRef><a class=otherRef href=../2/index.html>Duke's family out for a stroll in Brazil</a>
+<tr><td><td class=otherRef><a class=otherRef href=../3/index.html>My latest favorite Java APIs: XML{En,De}coder</a>
+<tr><td><td class=otherRef><a class=otherRef href=../4/index.html>A brutal ending</a>
+<tr><td>✓<td class=thisRef>Flying at Mach 1
+<tr><td><td class=otherRef><a class=otherRef href=../6/index.html>URLs are your friend</a>
+<tr><td><td class=otherRef><a class=otherRef href=../7/index.html>The first rule of debugging</a>
+<tr><td><td class=otherRef><a class=otherRef href=../8/index.html>Is it ever too early to optimize?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../9/index.html>Java in China</a>
+<tr><td><td class=otherRef><a class=otherRef href=../10/index.html>Buy this book...</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=Image36-large.jpeg class=fresco data-fresco-group=bovik><img src=Image36-large.jpeg height=300></a>
+<p>
+<div class=entry><h1>Flying at Mach 1</h1>
+<i>I got dragged into a little flame-fest on a mailing list and got
+a little out of hand... Here's a email from me:</i> 
+<hr>
+
+<p>What a troll-ish set of remarks based on zero knowledge and
+spreading massive falsehoods. Normally I don't respond to such
+drivel, but this time, if feels like I have to:</p>
+
+<blockquote>
+  <tt>From: XXX Subject: Re: YYY</tt> 
+
+  <p><tt>No, as I understand it he is a C developer.</tt></p>
+</blockquote>It is true, I have been a C developer, and I still do
+occasionally. But I have also developed code in C++, Fortran,
+Algol, SNOBOL, Mesa, Smalltalk, Pascal, Modula, Simula, Cobol,
+Basic, Focal, BLISS, PL/1, Pearl, several versions of Lisp, and
+assembler code for x86, Sparc, PowerPC, IBM 360/370, CDC 7000(CPU
+and PPU), PDP {8,10,11,VAX} and a bunch of stuff too obscure for me
+to remember at all. Of that lot I've probably written the most in C
+- at least 500K lines of C written by me, personally, over a couple
+of decades. For the last decade I've written almost zero C code and
+write almost exclusively in Java. 
+
+<blockquote>
+  <tt>Apart from throwing T-shirts, he hasn't done any work with
+  Java lately.</tt>
+</blockquote>
+
+<p>One could start a Clintonian debate on the use of the word
+"with". Almost everything I write is in Java these days. I mostly
+work on things other than the compiler or the JDK release.</p>
+
+<p>This is the piece that makes my blood boil:</p>
+
+<blockquote>
+  <tt>He designed Java so marginally capable developers could have
+  a job. Hence all the annoying little limitations that slow down
+  development but prevent errors (and features). He finds it too
+  limiting to use himself. I can't really blame him.</tt>
+</blockquote>
+
+<p>This is so damned false I don't know where to begin. I designed
+Java so I could write more code in less time and have it be way
+more reliable. In the past I've wasted huge numbers of hours
+chasing down memory smashes and all the other time wasters that are
+so typical of what happens when writing C code. I wanted to spend
+time writing code, not debugging. Life is too short for debugging.
+All of those little "limitations" turn out to be things that make
+coding faster and debugging vanish.</p>
+
+<p>For example, lots of newbie's coming in from the C world
+complain about exceptions and the fact that they have to put
+exception handling all over the place - they want to just write
+their code. But that's stupid: most C code never checks return
+codes and so it tends to be very fragile. If you want to build
+something really robust, you need to pay attention to things that
+can go wrong and most folks don't in the C world because it's just
+to damn hard.</p>
+
+<p>One of the design principles behind Java is that I don't care
+much about how long it takes to slap together something that kinda
+works. The real measure is how long it takes to write something
+solid. Lots have studies have been done on developer productivity,
+and Java beats C and C++ by a factor of 2.</p>
+
+<p>It's kinda like the evolution of the airplane. Once upon a time
+when folks scooted around in open cockpit biplanes they navigated
+by sticking their heads out over the side of the plane and looking
+down. When covered cockpits with windows were first introduced
+pilots didn't like them because there was no way to stick their
+head out. But if they had won the argument, they'd never have been
+able to fly at Mach 1 or at 30,000 feet. Stick your head into a
+Mach 1 airflow and see what the bloody stump looks like. I want to
+fly at Mach 1. I'll take the windows.</p>
+
+<blockquote>
+  <tt>On Sunday, July 27, 2003, at 02:55 PM, ZZZ wrote:</tt> 
+
+  <p><tt>I've forgotten, is Gosling a Java developer? If he is, why
+  does he use a Mac? Masochism? "A state of denial"?</tt></p>
+</blockquote>
+
+<p>I use the MAC because it's a great platform. One of the nice
+things about developing in Java on the Mac is that you get to
+develop on a lovely machine, but you don't cut yourself off from
+deploying on other platforms. It's a fast and easy platform to
+develop on. Rock solid. I never reboot my machine... Really!
+Opening and closing the lid on a Powerbook actually works. The
+machine is up and running instantly when you open it up. No
+viruses. Great UI. All the Java tools work here: NetBeans and JEdit
+are the ones I use most. I tend to think of OSX and Linux with QA
+and Taste.</p>
+
+
+<table width=100%><tr><td align=right class=date>July 30, 2003</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "date" : 1138521600000,
+  "title" : "Improbable engineering",
+  "body" : "One of my favorite hacks is the rather improbably piece of\nengineering known in Thailand as a longtail boat. They function as\ntaxis and tour boats in the many waterways of Bangkok. They zoom by\nat incredible speeds: \n\n<p>When you look at them when they get closer, you see a truck\nengine mounted on the stern with a long piece of pipe stretching\nout toward the bow that the boatman holds on to. There's another\npiece of pipe welded onto the transmission pointing out toward the\nstern:</p>\n\n<p>When the boatman pushes on his piece of pipe, it rotates the\nengine left, right, up or down. When he pushes down, it rotates the\ntail upward and you get to see the business end of the beast: a\nnaked propeller just hanging out there.</p>\n\n<p><br clear=\"both\">\n Safety is not a real concern here. Balance is pretty dubious too.\nThese boats are pretty narrow, 4ish feet at best. They're really\njust evolved canoes. It must take an amazing amount of skill to\nstay balanced, navigate, and not kill anyone. At speed...</p>\n\n<p>The engines are just regular truck engines, mounted on a U\nshaped yoke, bolted to the stern. Some of the engines are very\nlarge - they wouldn't look out of place in a large Fruehauf\ntractor. Not a lot of standardized rigs - lots of welding fun. A\ntruly glorious hack.<br clear=\"both\">\n</p>\n\n",
+  "images" : [ {
+    "image" : "LTZoomingBy.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 512,
+    "height" : 227
+  }, {
+    "image" : "LTPropIn.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 640,
+    "height" : 220
+  }, {
+    "image" : "LTPropOut.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 640,
+    "height" : 219
+  }, {
+    "image" : "LTSternInside.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 182,
+    "height" : 273
+  }, {
+    "image" : "LTEngineCloseup.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 546,
+    "height" : 364
+  } ]
+}

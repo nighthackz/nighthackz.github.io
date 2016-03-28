@@ -1,0 +1,18 @@
+{
+  "date" : 1218610800000,
+  "title" : "Fun at SIGGRAPH",
+  "body" : "I'm spending this week in LA at SIGGRAPH. It's really great to be\nat a conference where I can concentrate on learning. Lots of\ninteresting papers and folks doing cool experimental stuff. <a\nhref=\"http://onlatte.com\">One group that I ran into, OnLatte</a>,\nhad whacked together the mechanical bits of a flatbed scanner, an\nold inkjet printer and some bits of electronics to come up with a\nwild printer that makes images by jetting caramel syrup onto the\nfoam on top of a latte. \n\n<p><br clearx=\"both\">\n Tuesday was \"Pixar Night\" at the animation festival. In a really\nclassy move, John Lasseter started by not showing something by\nPixar: instead he showed the phenominal <a href=\n\"http://home.infomaniak.ch/arboretum/Man_Tree.htm\"><i>The Man Who\nPlanted Trees</i></a>, an animation by <a href=\n\"http://www.fredericback.com/index.en.shtml\">Fr&#233;d&#233;ric\nBack</a> of the story written by Jean Giono. It really shook me\nwhen I first saw it years ago: this was a beautiful print on a\ngiant screen with a great sound system at the Nokia theatre.\nNothing digital in this one: hand drawn, frame by frame, by one\nincredible artist. After the screening, Lasseter brought Back up to\nthe stage,to a standing ovation, and the two of them talked about\nthe film for a while.</p>\n\n",
+  "images" : [ {
+    "image" : "FoamPrinter.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 800,
+    "height" : 600
+  }, {
+    "image" : "expo_2008_v2.jpg",
+    "href" : "http://www.fredericback.com/expo_2008.en.shtml",
+    "align" : "left",
+    "width" : 272,
+    "height" : 107
+  } ]
+}

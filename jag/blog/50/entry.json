@@ -1,0 +1,12 @@
+{
+  "date" : 1088492400000,
+  "title" : "At the Apple WWDC",
+  "body" : "One of the happy bits of syncronization is that this year JavaOne\nand the Apple WWDC happened at the same time. WWDC is in the West\nHall of Moscone Center, JavaOne is everywhere else. I did a short\ntalk at WWDC that was a quick run through of the state of the Java\nuniverse, what's happening in tools, and how well Java and the Mac\nfit together. I did a little demo of <a href=\"http://netbeans.org\"\nshape=\"rect\">NetBeans</a> and <a href=\n\"http://developers.sun.com/prodtech/javatools/jscreator/\" shape=\n\"rect\">Creator</a>, running on my Mac. We really do care about\ncross platform support!\n",
+  "images" : [ {
+    "image" : "Image81-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 576
+  } ]
+}

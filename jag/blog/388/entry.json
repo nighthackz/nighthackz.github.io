@@ -1,0 +1,12 @@
+{
+  "date" : 1326960000000,
+  "title" : "Having an unreasonable amount of fun",
+  "body" : "For the past several months I've been having an unreasonable amount\nof fun. I've been spending almost all of my time coding, with very\nlittle time wasted on meetings and corporate rubbish. I've built a\npublish/subscribe cloud repository that deals with some of the\noddities of dealing with streaming telemetry. All the usual\nreplication/redundancy stuff. And I've been building a rich client\nfor doing visualization. I'm totally in love with the <a href=\n\"http://worldwindcentral.com/wiki/Main_page\">WorldWind</a> library\nfrom NASA. Totally solid and filled with a pile of features that\nmake building complex apps (almost) dead simple. I did have to do\none bit of low level hacking: their line drawing primitives work\nwell for a few hundred lines that don't need level-of-detail\nsupport. I needed to handle lines with 10s of thousands of segments\nwith level-of-detail handling. Not hard, just fun. I've done a lot\nof library work that it probably makes sense to open source\nsometime. \n\n<p>I have actually been doing a lot of blogging, just not here on\nmy personal blog. You'll find it at <a href=\n\"http://pacxdata.liquidr.com\">the PacX challenge site</a> which I\nand several other folks contribute to.</p>\n\n",
+  "images" : [ {
+    "image" : "RoVrInAction.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 1024,
+    "height" : 768
+  } ]
+}

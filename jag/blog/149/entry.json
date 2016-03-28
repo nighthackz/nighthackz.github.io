@@ -1,0 +1,12 @@
+{
+  "date" : 1132387200000,
+  "title" : "ZFS Rules!",
+  "body" : "I downloaded the latest Solaris build from OpenSolaris.org - <a\nhref=\"http://www.opensolaris.org/os/downloads/\" shape=\"rect\">Nevada\nbuild B27</a> - when you boot it, it calls itself Solaris 11. I\nhave to admit that I hadn't been paying as much attention to the <a\nhref=\"http://www.opensolaris.org/os/community/zfs/\" shape=\n\"rect\">ZFS</a> filesystem as I should have. I finally read through\nthe <a href=\n\"http://www.opensolaris.org/os/community/zfs/docs/zfs_last.pdf\"\nshape=\"rect\">slides</a> and some of the other <a href=\n\"http://www.opensolaris.org/os/community/zfs/docs/\" shape=\n\"rect\">documentation</a>, and I really got jazzed. In past lives I\nhave been a Unix SysAdmin, and fussing with filesystems was the #1\npain in the ass (remember ncheck, dcheck and fsdb?). I couldn't\nbelieve that ZFS could be as easy and powerful as the documentation\nsaid it was, so yesterday I scrounged up a couple of extra drives,\nslapped them in my <a href=\n\"http://www.sun.com/desktop/workstation/ultra20/\" shape=\n\"rect\">Opteron</a> box, and took it out for a spin. <i>Wow</i>. It\n<i>is</i> that easy. Putting together a raid array is truly a <a\nhref=\"http://www.opensolaris.org/os/community/zfs/intro/\" shape=\n\"rect\">one-liner</a>. Try the experiment yourself. I spent way more\ntime plugging in the SATA drives than I did in turning them into a\n<a href=\"http://blogs.sun.com/roller/page/bonwick/20051118\" shape=\n\"rect\">RAIDZ</a> array. It's got one cool feature after another,\nbut if I had to pick a favorite, it would be the ability to\natomically, at low cost, and transaction-aware, create a file\nsystem snapshot. Between being an interesting way to do versioning\nand backups of live systems, it's just way too cool for words. Hats\noff to <a href=\"http://blogs.sun.com/roller/page/bonwick/20051117\"\nshape=\"rect\">Jeff Bonwick and the rest of the ZFS team</a>.\n",
+  "images" : [ {
+    "image" : "ZFSsmall.png",
+    "href" : "http://www.opensolaris.org/os/community/zfs/docs/",
+    "align" : "right",
+    "width" : 250,
+    "height" : 184
+  } ]
+}

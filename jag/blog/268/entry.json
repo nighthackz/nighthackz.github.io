@@ -1,0 +1,12 @@
+{
+  "date" : 1207292400000,
+  "title" : "Hotspot performance",
+  "body" : "A few days ago Kohsuke Kawaguchi posted a really cool blog entry\ntitled a \"<a href=\n\"http://weblogs.java.net/blog/kohsuke/archive/2008/03/deep_dive_into.html\">Deep\ndive into assembly code from Java</a>\". It's a pile of fascinating\n(if gory) assembly code with commentary. Some things to notice: \n\n<ul>\n  <li>Really aggressive inlining</li>\n\n  <li>Even storage allocation &amp; initialization gets inlined -\n  new T() really is as efficient as C's alloca() (and it beats the\n  pants off malloc())</li>\n\n  <li>Careful management of cache prefetching</li>\n\n  <li>Deep understanding of variablity between the flavors of x86\n  machines</li>\n\n  <li>Loop unrolling with warmup/cooldown</li>\n\n  <li>\"theorum proving away\" of array index checks (and many other\n  things)</li>\n\n  <li>much cleverness with locks</li>\n</ul>I've had several run-ins in recent months with crusty C (and a\nfew Fortran) programmers who say \"you must be faking your\nbenchmarks!\". Nope. The HotSpot crew has done a truly great piece\nof work.\n",
+  "images" : [ {
+    "image" : "DukeTubbingSmall.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 156
+  } ]
+}

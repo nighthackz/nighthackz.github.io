@@ -1,0 +1,12 @@
+{
+  "date" : 1274166000000,
+  "title" : "Speaking at PayPal",
+  "body" : "I spent the morning speaking at an internal conference of PayPal's\nengineering organization. They had invited me to give a talk on how\nto do innovation. I don't know if I said anything useful in between\nthe cynical rants :-) but I had a good time. They've got a great\ncrew of engineers putting together a new generation of APIs for\ndoing commerce. I had used their old APIs in previous projects, but\nwhen the current round of work on store.java.com got started in Sun\nwe started using the <a href=\n\"https://www.x.com/community/ppx/documentation\">new \"adaptive\"\nAPIs</a>. Lovely!\n",
+  "images" : [ {
+    "image" : "paypal_logo.gif",
+    "href" : "http://paypal.com",
+    "align" : "right",
+    "width" : 200,
+    "height" : 50
+  } ]
+}

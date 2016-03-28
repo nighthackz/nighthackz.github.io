@@ -1,0 +1,12 @@
+{
+  "date" : 1096527600000,
+  "title" : "The Tiger is out!",
+  "body" : "After a mammoth amount of testing, J2SE 5.0 has finally hit FCS.\nThe team that put it together, and the community they work in, have\ndone a fabulous job. I'm particularly happy that the longest\nrunning feature request has finally shipped: <a href=\n\"http://java.sun.com/j2se/1.5/pdf/generics-tutorial.pdf\" shape=\n\"rect\">Generics</a>. This has been high on my wish list since\nbefore the first release of Java. The global technical debate that\nraged on-and-on finally settled down and a fine piece of work has\nresulted. Thanks to Gilad Bracha for being the lead cat-herder on\nJSR14.\n\n<p>There is, of course, a lot more to 5.0 than Generics. The <a\nhref=\n\"http://java.sun.com/developer/technicalArticles/releases/j2se15langfeat/\"\n shape=\"rect\">language feature list is long</a>, as is the <a href=\n\"http://java.sun.com/developer/technicalArticles/releases/j2se15/\"\nshape=\"rect\">feature summary</a>. This has been a major\nundertaking, and truly represents a large advance for Java\ndevelopers everywhere.</p>\n\n<p>Today there is also a new release of the <a href=\n\"http://www.netbeans.org\" shape=\"rect\">NetBeans</a> IDE, with full\nsupport for all the cool new stuff in Tiger -- and a whole lot\nmore. It's fast. It's easy to use. Take it out for a spin.</p>\n\n",
+  "images" : [ {
+    "image" : "Image100-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 567
+  } ]
+}

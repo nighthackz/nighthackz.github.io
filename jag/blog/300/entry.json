@@ -1,0 +1,12 @@
+{
+  "date" : 1240124400000,
+  "title" : "Java for FIRST Robotics Competition",
+  "body" : "I spent the end of last week in Atlanta at the finals for the <a\nhref=\"http://www.usfirst.org/what/frc/default.aspx?id=366\">FIRST\nRobotics Competition</a>. This is a competition where high school\nstudents build robots that perform some task. This year's task\nlooked an awful lot like building a robotic basketball player. I\nwas there partly because it's just a cool event; but mostly because\nwe were <a href=\n\"http://research.sun.com/spotlight/2009/2009-04-16_squawk.html\">announcing</a>\n(along with the folks from FIRST and from <a href=\n\"http://www.wpi.edu/Academics/Majors/RBE/\">the Robotics lab at\nWPI</a>) that beginning with next years event, students could do\ntheir programming in Java. The controller that all teams use is the\n<a href=\"http://www.ni.com/compactrio/\">Compact RIO</a> from\nNational Instruments. It's a nice enough unit, but the C\nprogramming environment is brutal: when bugs cause crashes, the\nmost you'll get is a register dump with (maybe) a listing of the\nassembly code around the crash site. There's no protection between\nthe OS and the application, so the whole OS goes down when the\napplication crashes. This is a tough place for professionals to\nwork, let alone high school students. As a consequence, the amount\nof programming that is done is pretty minimal. So the robots are\nmostly mechanical engineering, with very little robotic ability to\noperate autonomously. We were demoing the new Java environment\nwhere NetBeans could be used to remotely (over the wireless link)\ndebug Java programs live inside the robot: stack traces,\nbreakpoints, looking at variables, ... all the cool NetBeans\ndeployment and debugging tools totally transform the development\nexperience.\n",
+  "images" : [ {
+    "image" : "IMG_1799.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 1024,
+    "height" : 683
+  } ]
+}

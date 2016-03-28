@@ -1,0 +1,12 @@
+{
+  "date" : 1240902000000,
+  "title" : "JavaOne free pass and travel contest",
+  "body" : "<table>\n  <tr>\n    <td valign=\"top\">\n    </td>\n\n    <td valign=\"top\">Can't afford a JavaOne pass or travel\n    expenses? We're running a <a href=\n    \"http://java.sun.com/javaone/2009/contest/\">contest</a> to help\n    get you there.</td>\n  </tr>\n</table>\n",
+  "images" : [ {
+    "image" : "DukeMegaphone.jpg",
+    "href" : "http://java.sun.com/javaone/2009/contest/",
+    "align" : null,
+    "width" : 149,
+    "height" : 136
+  } ]
+}

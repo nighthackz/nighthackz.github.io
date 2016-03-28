@@ -1,0 +1,12 @@
+{
+  "date" : 1061535600000,
+  "title" : "URLs are your friend",
+  "body" : "It's amazing how cool URLs are, especially when you think of them\nas more than just web references. If you use them instead of Files,\nyou can end up with applications that are much more flexible. I've\ngotten to the point where I hardly use class File at all - I almost\nalways use URLs. They can be really cool when you start exploiting\nsynergies with other APIs.\n\n<p>For example, drag-and-drop. This seems like an odd one to relate\nto URLs, but it does. Drag-and-drop can be somewhat erratic from\none system to another. For example, on some systems when you drag\nfrom a file browser, you never see a file dropped on you, you just\nsee a string that contains the name of the file. The same thing can\nhappen with a web browser: dragging an image or a link sometimes\ndrops a string, or a file. This isn't odd behavior in the D&amp;D\nhandling in the Java libraries, it's in the originating\napplication. These days, when I write code that deals with strings\nbeing dropped on me, I will often try to interpret them as other\ntypes. For example, if new File(s).exists() is true, I convert the\nfile to a URL with new File(s).toURL(). If it doesn't look like a\nfile, then I try new URL(s).openStream(). If this succeeds, then I\nuse that URL as the data source. In either case, the data source\nlooks like a URL. This way I can drag from either a file browser or\na web browser and it all works uniformly.</p>\n\n<p>Another thing to try is to use URLClassLoader as a general\nrepository manager, not as a class loader. Say you're doing\nsomething like a document editor or a presentation tool. The\ndocument often has associated resources, like images. If you\nreference the images using URLs, then they can reside anywhere: on\nthe local file system, across the net, or packaged inside a zip\nfile - that's where URLClassLoader comes it. A Jar file is just a\nzipped archive of a bunch of files. Applying getResource to a\nURLClassLoader attached to a zip file returns a URL that, when\nopened, get's you to the file bundled as a component of the zip\nfile. So you represent a document as a zip file that contains the\ndocument data itself, and all the associated external data objects\n(like image files) that you want to bundle with it.</p>\n\n",
+  "images" : [ {
+    "image" : "Image37-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 504,
+    "height" : 403
+  } ]
+}

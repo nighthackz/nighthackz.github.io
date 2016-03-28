@@ -1,0 +1,6 @@
+{
+  "date" : 1178607600000,
+  "title" : "Moore's law turns scale into evolution",
+  "body" : "One of the questions that has popped up about JavaFX Mobile is\n\"does this replace midlets &amp; xlets\"? The answer is \"no\". It\nactually supports both midlets and xlets. Midlets were initially\ndesigned for the very constrained cellphones of 5 years ago. It has\nevolved since then and is the volume Java platform today. The next\nstep up are xlets, which are starting to appear on CDC based\nphones. But the trajectory is clear: these APIs are approaching the\nfull capability of a desktop: JavaSE. As the hardware constraints\ndisappear, the API capabilities step up. \n\n<p>This is one of the great places to apply Moore's law: at any\npoint in time you can look across the axis of scale and turn it on\nits side: today's high-end is tomorrow's volume.</p>\n\n",
+  "images" : [ ]
+}

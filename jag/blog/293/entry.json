@@ -1,0 +1,12 @@
+{
+  "date" : 1229846400000,
+  "title" : "Merry Christmas Everyone!",
+  "body" : "This has certainly been a year that no one will forget. Between\nwars, global economic meltdown and an amazing election in America,\nall the stuff that goes on in the computer industry pales to\ninsignificance - although the stuff we all build had a role to\nplay. The internet has certainly changed the process of elections\nforever. \n\n<p>Nonetheless, it's been a great year in the Java universe: JavaFX\n1.0 launched; NetBeans 6.5; Glassfish V3; JDK6u10/11; MSA;\nOpenJDK&amp;jdk7... OpenSolaris 2008.11, OpenStorage, OpenSSO,\nVirtualBox, OpenOffice 3, MySQL 5.1... Software at Sun has really\nbeen cranking out great stuff.</p>\n\n",
+  "images" : [ {
+    "image" : "DukeTuxChristmas2008.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 2560,
+    "height" : 1920
+  } ]
+}

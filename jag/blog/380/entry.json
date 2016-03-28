@@ -1,0 +1,12 @@
+{
+  "date" : 1317193200000,
+  "title" : "OpenJDK 7 on Mac lives!",
+  "body" : "The folks working on the OS X port of OpenJDK are making real\n      progress. I've been regularly downloading their <a href=\n      \"http://code.google.com/p/openjdk-osx-build/downloads/list?q=label:Featured\"\n       style=\"color:red\">\"unofficial\" builds</a> and kicking the\n      tires. More than that, I'm starting to use it as my normal\n      VM. Their <a href=\n      \"http://wikis.sun.com/display/OpenJDK/Mac+OS+X+Port+Project+Status\"\n       style=\"color:red\">project status page</a> gets regular\n      updates as, one after another, issues get knocked off. For my\n      use, it's been reasonably solid, although graphics\n      performance needs some work - the app I'm working on right\n      now pushes Graphics2D rather hard. It's far from done, but\n      I'm happy with the progress so far. I've got an early access\n      copy of the JavaFX libraries that I keep meaning to kick the\n      tires on, but haven't had the time just yet. \n\n      <p>Over the years I've talked a lot about all of the wild and\n      wonderful stuff in the Java ecosystem. One of the things I\n      love about my new job is getting to really use all of that\n      stuff. Things like the <a href=\n      \"http://www.jhlabs.com/java/maps/proj/\" style=\n      \"color:red\">Map Projection Library</a>... so cool!</p>\n\n      <p>Thanks everyone!</p>\n ",
+  "images" : [ {
+    "image" : "DukeMacSmall.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 126,
+    "height" : 187
+  } ]
+}

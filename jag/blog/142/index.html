@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fault Containment: an unsung hero</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../141/index.html class=button>◀</a><td align=right><a href=../143/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../138/index.html>JavaChina</a>
+<tr><td><td class=otherRef><a class=otherRef href=../139/index.html>SOA: Buzzworld Whiplash or Real Meat?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../140/index.html>Only solve the problems you need to solve</a>
+<tr><td><td class=otherRef><a class=otherRef href=../141/index.html>Java Urban Performance Legends</a>
+<tr><td>✓<td class=thisRef>Fault Containment: an unsung hero
+<tr><td><td class=otherRef><a class=otherRef href=../143/index.html>Science Fair, Monterrey</a>
+<tr><td><td class=otherRef><a class=otherRef href=../144/index.html>NetBeans tidbits</a>
+<tr><td><td class=otherRef><a class=otherRef href=../145/index.html>Good Night, and Good Luck</a>
+<tr><td><td class=otherRef><a class=otherRef href=../146/index.html>Kids & Java</a>
+<tr><td><td class=otherRef><a class=otherRef href=../147/index.html>Java on OS X</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=AppCrash.gif class=fresco data-fresco-group=bovik><img src=AppCrash.gif height=292></a>
+<p>
+<div class=entry><h1>Fault Containment: an unsung hero</h1>
+As I suffered through the <i>n</i><sup>th</sup> application crash
+of the day, I couldn't help thinking of my favorite
+underappreciated Java feature: fault containment. Between
+<b>try{}catch</b> and the tight memory model, failures tend to
+happen close to where the error is, and they can be caught with a
+very good chance that there has been no corruption of neighbouring
+data structures. So if you're using some sort of editor and one of
+the commands has a bug in it, if it's written in Java you usually
+get a little pop-up box that says something like "error in
+command", and you can carry on working. In C apps, one bad pointer
+and you're blown out of the water, with all of your editing lost.
+This is particularly bad in systems that use plugins where the
+amount of QA is variable. A lot of what motivated the tight memory
+model was me having wasted too much of my life tracking down weird
+exotic memory smashes, and vowing to never have to waste time on
+stuff like that again.
+
+<table width=100%><tr><td align=right class=date>October 14, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

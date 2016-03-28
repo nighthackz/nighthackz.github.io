@@ -1,0 +1,12 @@
+{
+  "date" : 1207033200000,
+  "title" : "We love MySQL!",
+  "body" : "Especially on April 1<sup>st</sup>. These inflatable dolphins\nshowed up mysteriously this morning :-) all over Sun's Santa Clara\ncampus.\n",
+  "images" : [ {
+    "image" : "AprilFirstDolphins.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 640,
+    "height" : 480
+  } ]
+}

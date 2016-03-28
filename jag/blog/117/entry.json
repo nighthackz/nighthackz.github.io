@@ -1,0 +1,12 @@
+{
+  "date" : 1119250800000,
+  "title" : "Victory!  Accurate times!",
+  "body" : "The dates and times in the <a href=\n\"http://www.rollerweblogger.org/page/project\" shape=\n\"rect\">Roller</a> version of my <a href=\n\"http://blogs.sun.com/roller/page/jag\" shape=\"rect\">blog</a> are\naccurate! Except that I cheated: the dates are actually in the body\nof the entry that BlogEd publishes to Roller - I whacked my blog\ntemplate to get rid of the dates that come from Roller. The only\nway this cheat is visible is in the calendar on the side: if you\nclick on dates you see the dates that Roller understands, rather\nthan the accurate dates. \n\n<p style=\"text-align: left\">The problem ended up being with the\nmetaweblog API and its realization in Roller: while Roller allows\nthe publication date to be set manually through a web page, there's\nno access to that through metaweblog. Which leads to <a href=\n\"http://www.xml.com/pub/a/2003/10/15/dive.html\" shape=\"rect\">all\nthe thrashing about other blog APIs</a>, like <a href=\n\"http://www.atomenabled.org/\" shape=\"rect\">Atom</a>. I'm <i>so</i>\nlooking forward to something that works...</p>\n\n",
+  "images" : [ {
+    "image" : "2005_06_20_13-55-36-829_n1.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 156,
+    "height" : 150
+  } ]
+}

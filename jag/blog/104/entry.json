@@ -1,0 +1,30 @@
+{
+  "date" : 1118991600000,
+  "title" : "Lessons from last years t-shirt contest entrants",
+  "body" : "Last years t-shirt contest entrants are pretty interesting to look\nat as a group to reflect on what they say about engineering in\ngeneral. \n\n<p>In third place were the \"Caffeinators\" and their calibrated\ncrossbow/slingshot. From an engineering point of view it was the\nsimplest: a big elastic cord and a wooden frame. Nothing fancy.\nNothing to break down. Simple to operate. While they came in last,\nthey managed to fling more t-shirts to the audience than either of\nthe other entrants. By a wide margin. Easily the most effective\nt-shirt distribution mechanism of the lot.<br clear=\"both\">\n</p>\n\n<p>In second place was a very impressive cannon from Ron Hughes and\nthe folks from <a href=\"http://visicomp.com/\" shape=\n\"rect\">Visicomp</a>, who make some killer developer tools. Their\ncannon was an absolute engineering marvel. Automated azimuth and\nelevation. Remote firing over the web. Calibrated gas pressure for\nrange control. Beautifully machined. But it took longer to reload\nthan the slingshot. And it was <i>really</i> powerful. Far too\npowerful for the folks responsible for the safety of the audience:\nthey had Ron throttle back the tank pressure significantly. Ron did\nget in a little fun: at the end of his turn on stage, he removed\nthe pressure limiter and we fired off one shirt at full pressure.\nNot many people in the audience noticed, but it was pretty\nimpressive: the shirt went way past the last row in the audience...\nIt's trajectory had hardly started to curve when it ricocheted off\nthe concrete wall way at the back of the very large hall that the\nkeynotes were held in.</p>\n\n<p>The winner was a real contraption: a bicyle-built-for-two with\nno wheels, connected to a flywheel that functioned like a baseball\npitching machine. The gizmo has a \"magazine\" that allows many\nrolled-up t-shirts to be stacked up and released in quick\nsuccession. A \"machine-gun\" for t-shirts. When it worked properly,\nit hurled t-shirts a great distance. But... It really was a\nRub-Goldberg-esque contraption. A <i>hack</i> in the best sense of\nthe word. As such, it had more than a few reliability problems.\nWhen the time came for it to perform, it's drive chain broke after\nonly 3 shirts were launched. But the audience loved it anyway.</p>\n\n<p>Each of these could have won if the criteria were chosen\nappropriately: the crossbow would have won on the basis of shirts\nactually delivered. The canon would have won based on range and\nengineering excellence. The third could have won on launch rate, if\nonly it hadn't broken... In the end, the audience chose based on\nwhatever moved each individual in the audience.</p>\n\n",
+  "images" : [ {
+    "image" : "Image110-small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 187,
+    "height" : 150
+  }, {
+    "image" : "Image90-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 640,
+    "height" : 479
+  }, {
+    "image" : "Image79-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 640,
+    "height" : 426
+  }, {
+    "image" : "Image83-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 576
+  } ]
+}

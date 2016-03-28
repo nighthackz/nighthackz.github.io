@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Looking  Back, Looking Forward</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../19/index.html class=button>◀</a><td align=right><a href=../21/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../16/index.html>Hell on the road to Prague</a>
+<tr><td><td class=otherRef><a class=otherRef href=../17/index.html>The Peter Principle: software developers version</a>
+<tr><td><td class=otherRef><a class=otherRef href=../18/index.html>T-Shirt hurling contest</a>
+<tr><td><td class=otherRef><a class=otherRef href=../19/index.html>The Message of Christmas, the Geek Version</a>
+<tr><td>✓<td class=thisRef>Looking  Back, Looking Forward
+<tr><td><td class=otherRef><a class=otherRef href=../21/index.html>Yahoo!  The latest Mars Rover landed!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../22/index.html>Alpha Geek?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../23/index.html>The Tiger is out!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../24/index.html>Support the T-Shirt Hurling Contest!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../25/index.html>JNN: the Juicy News Network</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=JamesGoslingInPhysicsLab1971ish-web.jpg class=fresco data-fresco-group=bovik><img src=JamesGoslingInPhysicsLab1971ish-web.jpg height=300></a>
+<a href=JamesGoslingBadge2003-web.gif class=fresco data-fresco-group=bovik><img src=JamesGoslingBadge2003-web.gif height=300></a>
+<a href=Generations-web.jpg class=fresco data-fresco-group=bovik><img src=Generations-web.jpg height=300></a>
+<p>
+<div class=entry><h1>Looking  Back, Looking Forward</h1>
+For the last few months I've been using a couple of pictures in
+talks that I give. They're a pretty stark reminder of the reality
+of Moore's law.
+
+<p>This is a picture of me in about 1970. My mom insists that I was
+14, which would have been 1969, but I think it was more likely a
+year later. This was taken at the Physics department of the
+University of Calgary where I had a part-time job writing software
+on a PDP-8/I for the ISIS-II satellite. In the background is the
+machine that I wrote software for. There are a couple of 9-track
+tape drives, a couple of DECtape drives, a flatbed plotter, a
+paper-tape reader, an A/D panel, a display and immediatly to the
+right of me is the front panel for the CPU, which occupied the
+bottom half of one whole rack. The CPU was pretty hot for its day:
+about 1/4 MHz. It had 8K of RAM that was eventually upgraded to
+12K.<br clear="both">
+</p>
+
+<p>This is another picture of me. It's on my Sun employee ID card.
+It's a java-based smart card. You can see the smart card reader
+contacts on the bottom of the card. The CPU+memory chip is imbedded
+in the plastic next to it. Woven into the card is the antenna for
+the RF network connection.<br clear="both">
+</p>
+
+<p>Of course, the interesting thing here is not the pictures of me,
+or the demonstration of the toll the years have taken on my
+hairline. It's the technology in the background. I find it amazing
+that the hot machine on the left, capable of doing all sorts of
+interesting things with satellite telelemetry (including making
+high resolution photographs, which was a neat trick with only 8K!),
+has less horsepower than the cheap piece of disposable plastic on
+the right. What will it mean when todays large hot machine fits
+into a volume smaller than a grain of rice?</p>
+
+<p>Today's hot lab machine, that would be used in places where the
+PDP-8/I was used, runs about 4GHz, which is about 2<sup>14</sup>
+times faster. So that's 14 doublings in 33 years, or about one
+doubling in 28 months. These two data points give a rate for
+Moore's law that is somewhat slower than the numbers that folks
+often use (18-24 months), but it's still pretty fast.</p>
+
+<p>The exponential nature of Moore's law can really be
+nonintuitive. My favorite is a cool proof, due to Ed Fredkin, that
+P==NP. Yes! It's true! P does really equal NP. (If you don't know
+what I'm talking about, look <a href=
+"http://www.ics.uci.edu/~eppstein/161/960312.html" shape=
+"rect">here</a> and <a href=
+"http://en.wikipedia.org/wiki/NP-complete" shape="rect">here</a>.)
+Well... The proof only works if you assume that you have a CPU
+whose clock rate accelerates exponentially - it's a pretty easy
+proof since this assumption turns exponential time algorithms into
+polynomial time algorithms). Where can you buy such a crazy
+machine? Anywhere! If you upgrade the machine on your desk every
+couple of years, it'll be twice as fast. What you experience is a
+machine in front of you that accelerates exponentially. Moore's law
+makes P=NP.</p>
+
+<p>This has a number of interesting implications:</p>
+
+<ul>
+  <li>One is that folks making security standards need to be
+  careful about setting limits on key lengths: while it is true
+  that for most decent encryption/signature algorithms, the length
+  of time needed to crack the key is exponential in the length of
+  the key; it is also true that the speed of CPUs is increasing
+  exponentially, so the time until a standard with a fixed key
+  length is obsolete is <b>linear</b> in the length of the
+  key.</li>
+
+  <li>Another is that there's a different strategy for completing
+  long running calculations. Say you have some calculation that
+  will take 1000 years to complete. You could start your machine
+  running today and come back in 1000 years, but there is a better
+  way: go to the beach for 14 years (if the Moore's law doubling
+  period is 18 months), buy a new machine, and solve the problem in
+  a single year.</li>
+
+  <li>Another is that one of these days "AI" will really work. Read
+  <a href=
+  "http://www.amazon.com/exec/obidos/ASIN/0262193787/ref=nosim/jamesgoslingA"
+   shape="rect"><i>HAL's Legacy: 2001's Computer as Dream and
+  Reality</i></a> for an interesting perspective on this.</li>
+</ul>
+
+<p>The computer revolution has only just begun. What will it mean
+<i>when</i> (not <i>if</i>) your wristwatch is smarter than you
+are?</p>
+
+
+<table width=100%><tr><td align=right class=date>January 2, 2004</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

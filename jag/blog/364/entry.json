@@ -1,0 +1,12 @@
+{
+  "date" : 1299484800000,
+  "title" : "Why US Broadband is So Slow",
+  "body" : "The CEO of <a href=\"http://sonic.net\">sonic.net</a> wrote a clear\nand concise blog entry on <a href=\n\"http://corp.sonic.net/ceo/2011/03/05/why-your-broadband-is-so-slow/\">Why\nUS Broadband is So Slow</a>. Sonic is a wonderful small ISP that\nserves the Bay Area and have been in the middle of the fight to\nbring good broadband to its customers for years. I've been their\ncustomer for a long time. It's nice to have a service provider who\nknows what they're talking about. The summary: blame the\ncongresscritters.\n",
+  "images" : [ {
+    "image" : "CongressCritters200.png",
+    "href" : "http://corp.sonic.net/ceo/2011/03/05/why-your-broadband-is-so-slow/",
+    "align" : "right",
+    "width" : 188,
+    "height" : 200
+  } ]
+}

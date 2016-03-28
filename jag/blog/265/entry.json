@@ -1,0 +1,12 @@
+{
+  "date" : 1206860400000,
+  "title" : "In the depths of CERN.",
+  "body" : "On slashdot, the question was just asked <a href=\n\"http://ask.slashdot.org/askslashdot/08/03/30/2046208.shtml\">What\nAre Must-Sees For Open Day At the LHC?</a> I had the good fortune\nto get to visit CERN at the end of November last year and I got\nshown around. It is truly awe-inspiring. I put a pile of my\npictures <a href=\"http://gallery.mac.com/james.gosling#100015\">up\non the web</a>. None of them have any captions, but they're pretty\ncool anyways. Most of the pictures are either in the chamber with\nthe Atlas experiment, or in the tunnel itself. For my money, those\nare the two big must-sees. \n\n<p>I was invited by some of the Java geeks who worked there. A lot\nof software at CERN is done in Java. One of the folks from CERN is\ngoing to be showing off some of their toys during my keynote\nsession on the last day of JavaOne - yet another reason to come.\nJavaOne is stacking up to be great this year: all the early\nregistration numbers show we're going to have another healthy\nincrease over last year. Everyone's into advanced sleep\ndeprivation, getting ready.</p>\n\n",
+  "images" : [ {
+    "image" : "web.jpg",
+    "href" : "http://gallery.mac.com/james.gosling#100015/IMG_5050&bgcolor=black",
+    "align" : "right",
+    "width" : 1024,
+    "height" : 681
+  } ]
+}

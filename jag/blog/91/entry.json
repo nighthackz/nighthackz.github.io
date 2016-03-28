@@ -1,0 +1,6 @@
+{
+  "date" : 1118991600000,
+  "title" : "Personal projects on dev.java.net",
+  "body" : "I've got a couple of small utilities that I've put out on\ndev.java.net. One is the web log editor that I spoke about earlier,\ncalled <a href=\"http://bloged.dev.java.net\" shape=\n\"rect\">BlogEd</a>. It's pretty simple, but it does what I need. The\nsources are all out there and they build.\n\n<p>The other is the program I've been using to show slides, <a\nhref=\"http://huckster.dev.java.net\" shape=\"rect\">Huckster</a>. I\ndon't have the files on the web side quite in a buildable state\nyet. I'm a little busy with other stuff...</p>\n\n<p>At the keynote this morning, during Jonathan's talk, he made a\nremark about me hacking while sitting in the audience. I held up my\nlaptop and the audience chuckled. I was tweaking Huckster.</p>\n\n",
+  "images" : [ ]
+}

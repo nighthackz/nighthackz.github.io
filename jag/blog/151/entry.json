@@ -1,0 +1,12 @@
+{
+  "date" : 1134374400000,
+  "title" : "Adventures in internationalization",
+  "body" : "I spent a good chunk of last week fussing with how rocky\ninternationalization support can be. My 100 year old <a href=\n\"http://blogs.sun.com/roller/page/jag?entry=my_grandmother_the_zen_master\"\n shape=\"rect\">grandmother</a> died and I got the job of dealing\nwith creating notices and recording stuff. Her name was fine\n(Kar&#243;l&#237;na Margr&#233;t Sveinsd&#243;ttir) since it only\ncontained conventional European accents. But the place she was\nliving when she left Iceland (H&#230;&#240;arenda) and her\ngrandmothers name (Kar&#237;tas &#222;orsteinsd&#243;ttir) were\nproblematic. Enough software failed to handle these that it was\npretty awkward. I won't name names, but I did file bug reports.\n",
+  "images" : [ {
+    "image" : "2005_12_12_11-44-33-823_n0.large.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 45,
+    "height" : 53
+  } ]
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cell phones in Japan</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../252/index.html class=button>◀</a><td align=right><a href=../254/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../249/index.html>Solaris and OS X (continued)</a>
+<tr><td><td class=otherRef><a class=otherRef href=../250/index.html>There's a new "Where" in "Anywhere"</a>
+<tr><td><td class=otherRef><a class=otherRef href=../251/index.html>JavaME is *not* dead!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../252/index.html>Hanging out in Tokyo</a>
+<tr><td>✓<td class=thisRef>Cell phones in Japan
+<tr><td><td class=otherRef><a class=otherRef href=../254/index.html>What a time!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../255/index.html>@JavaPolis</a>
+<tr><td><td class=otherRef><a class=otherRef href=../256/index.html>Merry Christmas!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../257/index.html>Thank you, Developer.com!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../258/index.html>Jazzed about MySQL</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Cell phones in Japan</h1>
+One of the things that's always interesting about visiting Japan is
+looking at all of their cell phones. I've seen some great things
+here on this visit. 
+
+<p>One was a very cool phone that flips open on the long side,
+something like a Nintendo DS - and in a piece of cool mechanical
+engineering, it can flip open on the orthogonal edge, just like a
+conventional flip phone. It has a lovely hardware implementation of
+<a href="http://en.wikipedia.org/wiki/OpenGL_ES">OpenGL/ES</a> and
+does truly impressive 3D graphics. Fluid frame rates, great
+modeling and texturing, ... a great handheld game machine. The
+games I played were great - and Java! Distributed multiplayer
+gaming - challenge your friend to a road race while you're both
+commuting on the train - and on different trains.</p>
+
+<p>One of the games was a bowling game that you play roughly the
+same way that you'd use a Nintendo WII: you hold the phone as
+though it's a bowling ball, and you go through the motions of
+throwing the ball. You use a button press to release the ball. When
+this happens, it does the physics. But the phone doesn't have
+accelerometers to measure how you move the phone. They used one of
+the most glorious hacks I've seen in years: images are captured by
+the camera as you swing it in your hand, which are then analysed
+and correlated and motion vectors are computed from the interframe
+deltas.</p>
+
+<p>The most impressive thing I've seen is the use of cell phones
+for money. I see people all over Tokyo paying for everything from
+groceries in minimarts to airplane tickets by holding their phones
+up to cash registers. This is done by having a proximity
+stored-value smart-card chip embedded in the skin of the phone.
+These cryptographically secure chips can do transactions with
+point-of-sale terminals instantaneously, no matter how slow the
+network is, or even if it is down. It is very much like the
+stored-value smart-cards that have been used around the world for
+years. But having them embedded in the skin of a cell phone has
+some great advantages, stemming from the Java APIs that allow
+direct communication between the stored-value chip and the phone.
+This allows a variety of banking and commerce applications to be
+built. For example, to put more money into the stored-value chip,
+you don't have to go to a bank kiosk, you can do it directly over
+the network from the phone. You can also do Quicken-style
+check-writing and budgeting - directly from the phone. All Java
+apps. As a bonus, if you lose your phone (or it gets stolen) you
+can call up the phone company and (after a few security questions)
+they can lock the phone remotely and use the network's
+location-awareness capabilities to tell you roughly where the phone
+is. (Privacy freaks: explode now...).</p>
+
+<p>Plus... You can use your cell phone to book airplane (and train)
+tickets, and use the cell phone itself as both the ticket
+<b>and</b> the boarding pass. Zero paper. To check in, you just
+swipe your phone on a reader as you're dashing to your seat. Very
+fast and secure.</p>
+
+<p><b>[Update</b> <i>in response to <a href=
+"http://human-begin.blogspot.com/">flavin</a>'s comment about the
+design of JavaME:</i> In fact, the situation is quite the opposite:
+the evolution of JavaME is heavily driven by the capabilities of
+international carriers and phone manufacturers. It's a huge
+frustration to American JavaME developers that they can read about
+all of these cool APIs (like OpenGL/ES), but the available systems
+don't support them<b>]</b></p>
+
+
+<table width=100%><tr><td align=right class=date>November 7, 2007</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "date" : 1095231600000,
+  "title" : "What's happening with Huckster?",
+  "body" : "A bunch of people have been downloading <a href=\n\"http://huckster.dev.java.net\" shape=\"rect\">Huckster</a> and\njoining the community. The question I keep getting is \"why hasn't\nanything new been checked in recently\". It's a combination of\nfactors: one is that (sadly) I have a day job. The big one is that\nI got this goofy idea: could I do something cool by integrating 3D\n(JOGL+Xith) into Huckster? The answer was <i>yes</i>, but there was\na problem: I needed to go between the 3D world, and 2D. I wanted to\nrender 2D into texture maps, and then get them to fly around on the\nscreen. This actually works fine on my OSX machine. With one big\nproblem: performance. OpenGL/JOGL/Xith are quite particular about\nhow their pixels are laid out. Java2D has these great ColorModel\nobjects that allow it to handle any pixel layout you might want to\nuse, so it's possible to specify the OpenGL preferred pixel layout\n-- but only a few of them are optimized, and the one OpenGL likes\ndoesn't have an optimized rendering pipeline. I've tried lots of\ncombinations: mostly variations on either rendering directly to\ntexture maps or rendering to a {Volatile,Buffered}Image then\n<tt>drawImage</tt>ing it into a texture map. I still havn't found\none with performance that makes me happy. I did do an experiment\nwith Java3D and got much better performance for 2D-&gt;3D, but I'd\nlike to stick with JOGL. So now I'm off, in my copious spare time,\ntrying to figure out how to accelerate JOGL imaging. \n\n<p>One of the annoying side problems is that OpenGL requires that\ntexture maps have power-of-two sizes, which forces me into all\nsorts of contortions, since slides and slide fragments don't fit\nwell into power-of-two sizes. I was really happy when the <a href=\n\"http://www.opengl.org/documentation/opengl_current_version.html\"\nshape=\"rect\">OpenGL 2.0</a> spec got rid of this restriction. I can\nhardly wait for this to percolate out into deployed OpenGL\nimplementations.</p>\n\n",
+  "images" : [ {
+    "image" : "Image97-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 256,
+    "height" : 256
+  } ]
+}

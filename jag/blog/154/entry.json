@@ -1,0 +1,12 @@
+{
+  "date" : 1136880000000,
+  "title" : "The new Macintoshes",
+  "body" : "Now that the new Intel Macintoshes are officially out, it's\nprobably safe for me to comment on my experience as a developer in\ntheir transition program: it was completely boring - as it should\nhave been. Things just worked. Java code moved over with zero\neffort. Even big things like <a href=\"http://www.netbeans.org/\"\nshape=\"rect\">NetBeans</a> just worked. In all the time I've had my\nIntel Mac box, my experience has been totally painless. \n\n<p style=\"text-align: left\">Great job!</p>\n\n",
+  "images" : [ {
+    "image" : "2006_01_10_11-15-48-450_n0.large.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 168,
+    "height" : 167
+  } ]
+}

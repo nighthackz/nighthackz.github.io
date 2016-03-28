@@ -1,0 +1,12 @@
+{
+  "date" : 1118991600000,
+  "title" : "TechDays Mexico City",
+  "body" : "I'm in Mexico City today for another <a href=\n\"http://developers.sun.com/events/techdays/\" shape=\n\"rect\">TechDays</a> event. It's two days of intensive training\nseminars on all the cool stuff going on in the Java world. I got to\ndo the opening talk and spend a bunch of time talking with\ndevelopers and the press. The picture on the right is of me with a\ncouple of students from <a href=\"http://tese.edu.mx/\" shape=\n\"rect\">TESE</a> who where showing me some cellphone applications\nthat one of them had written. The turnout for the conference was\ngreat, the sessions were overflowing. There's a really energetic\nand talented group of developers in Mexico. Great fun. \n\n<p>The major tragedy was that we shipped 650 Duke dolls to the\nevent to be given away, but 550 of them got \"liberated\" in transit,\nand only 100 arrived. Somewhere, floating around in the Mexican\nblack market, are 550 Duke dolls. This was after a flap with\nMexican customs where the dolls were described as \"stress\nrelievers\", so we had to get a medical certificate for them.</p>\n\n",
+  "images" : [ {
+    "image" : "Image114-small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 150
+  } ]
+}

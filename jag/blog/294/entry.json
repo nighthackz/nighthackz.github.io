@@ -1,0 +1,12 @@
+{
+  "date" : 1232006400000,
+  "title" : "NetBeans rocks the awards!",
+  "body" : "<a href=\"resource/dev09_poy_winner_1.jpgnner_1.jpg\" align=\"right\"\nborder=\"0\"></a>I apologize for not blogging much lately, but life\nhas been seriously hectic. One tidbit has broken me out of my manic\nfrenzy: The <a href=\n\"http://nighthacks.com/roller/jag/netbeans.org\">NetBeans</a> crew\nended up with an <a href=\n\"http://www.developer.com/java/other/article.php/3795991\">impressive\nstack of awards</a> from <a href=\n\"http://developer.com\">developer.com</a>. They've totally changed\nthe way <b>I</b> develop software.\n",
+  "images" : [ {
+    "image" : "nekobean_happy.png",
+    "href" : "http://ja.netbeans.org/nekobean/",
+    "align" : "left",
+    "width" : 376,
+    "height" : 271
+  } ]
+}

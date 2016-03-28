@@ -1,0 +1,12 @@
+{
+  "date" : 1120114800000,
+  "title" : "The T-Shirt Hurling Contest",
+  "body" : "<div class=\"composite\" marginheight=\"0\" marginwidth=\"0\" onload=\n\"loginfocus()\">\n  <table border=\"0\" cellpadding=\"4\" cellspacing=\"0\">\n    <tr>\n      <td colspan=\"1\" rowspan=\"1\">\n        The final contestant in the t-shirt hurling contest, Ron\n        Smith, had his turn today. His entry was truly medieval: he\n        built a Trebuchet. Two years ago, I built one of these for\n        JavaOne (with much help from Dale Yoakum). I kinda learned\n        how they worked as I built it. Ron clearly knew how they\n        worked from the beginning: his had a very clean release\n        that resulted in beautiful flawless flat arcs. Totally\n        reliable. No wires, motors or computers. \n\n        <p style=\"text-align: left\">Peter Moore and his mates from\n        Cenqua in Australia came in second, and Oscar Guandique\n        from El Salvadore came in third.</p>\n\n        <p style=\"text-align: left\">They all got silly\n        certificates, a cheque and (surprise) a sun workstation\n        (the winner got two). It was a huge amount of fun. All put\n        in excellent efforts. There are some interesting lessons\n        about the practice of engineering here.</p>\n\n        <p style=\"text-align: left\">Start thinking about your entry\n        for next year!</p>\n      </td>\n    </tr>\n  </table>\n</div>\n",
+  "images" : [ {
+    "image" : "2005_07_21_14-00-18-129_n1.small.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 75
+  } ]
+}

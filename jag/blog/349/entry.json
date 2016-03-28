@@ -1,0 +1,12 @@
+{
+  "date" : 1286780400000,
+  "title" : "Peace breaks out?!?",
+  "body" : "Wow. The <a href=\n\"http://www.oracle.com/us/corporate/press/176988\">press release\nfrom Oracle and IBM</a> is pretty vague, but it certainly gives the\nimpression that peace has broken out between the two. The JCP\nlogjam has been a huge problem for the last few years, despite many\nattempts on Sun's part to make progress. When Sun was trying to do\nthis, the Oracle/IBM version of a solution effectively amounted to\nSun taking a vow of poverty. Does this break the logjam? Only time\nwill tell, but I'd sure be happy if it does. I'm sure that there's\na great backstory that will never come out.\n",
+  "images" : [ {
+    "image" : "PeaceBreaksOut.png",
+    "href" : "http://www.youmeworks.com/goodnews.html",
+    "align" : "right",
+    "width" : 130,
+    "height" : 128
+  } ]
+}

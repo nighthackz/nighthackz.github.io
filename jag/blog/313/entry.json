@@ -1,0 +1,12 @@
+{
+  "date" : 1256022000000,
+  "title" : "Map browser on kenai",
+  "body" : "I ripped the little demo map browser component out of my Oracle\nOpenWorld slides and moved it to kenai as a new project called <a\nhref=\"http://kenai.com/projects/osmbrowser\">OSMBrowser</a>. Not\nvery polished, more of a starting point for someone motivated to\nplay :-) \n\n<p>Thanks to the crew at the <a href=\n\"http://openstreetmap.org\">Open Street Map</a> project for a nice\ndatabase and tile server. A Thing of Beauty.</p>\n\n<p><b>Update:</b> I fixed the busted .jnlp file, so it can be <a\nhref=\"http://osmbrowser.kenai.com/launch.jnlp\">run</a>.</p>\n\n",
+  "images" : [ {
+    "image" : "osmbrowser.png",
+    "href" : "http://kenai.com/projects/osmbrowser",
+    "align" : "right",
+    "width" : 150,
+    "height" : 150
+  } ]
+}

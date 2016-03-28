@@ -1,0 +1,12 @@
+{
+  "date" : 1252566000000,
+  "title" : "OMG - Alan Turing gets an apology!",
+  "body" : "It's decades late, but a lovely gesture none-the-less: Gordon\nBrown, the Prime Minister of Britain has <a href=\n\"http://www.number10.gov.uk/Page20571\">formally apologized for the\ntreatment of Alan Turing</a>. It's hard to overstate his impact on\nthe latter half of the 20th century, and the discipline of computer\nscience in particular. Think of what your life would have been like\nwithout him: a longer and more devastating second world war; and\nthe development of computers delayed by many years. How much better\ncould the world have been if his life had not been cut short by\nthoughtless intolerance? For details, as always, consult <a href=\n\"http://en.wikipedia.org/wiki/Alan_Turing\">wikipedia</a>.\n",
+  "images" : [ {
+    "image" : "AlanTurning.png",
+    "href" : "http://www.number10.gov.uk/Page20571",
+    "align" : "right",
+    "width" : 118,
+    "height" : 146
+  } ]
+}

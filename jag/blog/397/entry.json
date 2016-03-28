@@ -1,0 +1,6 @@
+{
+  "date" : 1338534000000,
+  "title" : "Meltdown Averted",
+  "body" : "<a href=\n\"http://news.cnet.com/8301-1035_3-57445082-94/judge-william-alsup-master-of-the-court-and-java/\">Sanity\nprevails</a>: \n\n<blockquote>\n  So long as the specific code used to implement a method is\n  different, anyone is free under the Copyright Act to write his or\n  her own code to carry out exactly the same function or\n  specification of any methods used in the Java API. It does not\n  matter that the declaration or method header lines are identical.\n\n  <p>Under the rules of Java, they must be identical to declare a\n  method specifying the same functionality -- even when the\n  implementation is different. When there is only one way to\n  express an idea or function, then everyone is free to do so and\n  no one can monopolize that expression. And, while the Android\n  method and class names could have been different from the names\n  of their counterparts in Java and still have worked, copyright\n  protection never extends to names or short phrases as a matter of\n  law.</p>\n</blockquote>\n",
+  "images" : [ ]
+}

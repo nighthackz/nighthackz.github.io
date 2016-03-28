@@ -1,0 +1,12 @@
+{
+  "date" : 1190271600000,
+  "title" : "Thanks to the iText folks for a great PDF library",
+  "body" : "I just checked in yet another new version of <a href=\n\"https://huckster.dev.java.net\">Huckster</a>, the simple\npresentation tool that I use. The major new feature is the ability\nto export PDF - which I need on non-mac platforms. It was simple to\ndo, thanks to the sweet PDF generation capabilities of the <a href=\n\"http://www.lowagie.com/iText/\">iText</a> library. It's well\ndocumented on the website, and even better in the <a href=\n\"http://www.manning.com/affiliate/idevaffiliate.php?id=223_53\">book</a>.\n<b><i>Thanks!</i></b>\n",
+  "images" : [ {
+    "image" : "SnakeOil128.png",
+    "href" : "https://huckster.dev.java.net",
+    "align" : "right",
+    "width" : 128,
+    "height" : 128
+  } ]
+}

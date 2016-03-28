@@ -1,0 +1,12 @@
+{
+  "date" : 1132300800000,
+  "title" : "JavaOne is getting closer...",
+  "body" : "I know, it's six months away (it's happening in <a href=\n\"http://java.sun.com/javaone/sf/index.jsp\" shape=\"rect\">May\n2006</a>, rather than the usual June), but some deadlines are\ncreeping up. The call-for-papers closes <a href=\n\"https://www28.cplan.com/cfp_2006J1/CFPLogin.jsp\" shape=\n\"rect\">November 30th</a>. Do a really good job on your abstracts:\nthere are always far more proposals than available time slots. And\nit's time to start thinking seriously about ideas for the <a href=\n\"https://tshc.dev.java.net/rules/\" shape=\"rect\">T-Shirt hurling\ncontest</a>. Cash! Free passes to JavaOne! You just have to figure\nout how to get some t-shirts into the audience. Last year was a\nreal lesson in engineering: 2 out of 3 entries broke, but in\ninteresting ways: one \"over tested\" and burned out his motor; the\nother had their IR sensors prematurly triggered by the\nphotographers cameras. Surely you (yes you, the person reading\nthis) can do better!\n",
+  "images" : [ {
+    "image" : "2005_11_17_17-20-59-365_n0.large.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 279,
+    "height" : 108
+  } ]
+}

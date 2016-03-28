@@ -1,0 +1,12 @@
+{
+  "date" : 1244444400000,
+  "title" : "JavaOne 2009: another amazing experience.",
+  "body" : "This was another amazing JavaOne. It was also the weirdest: between\nthe Oracle situation, the global meltdown, and the financial\nsituation, it was very different. Early on, we were really\nconcerned (==nearly paniced) that no one would show up. Almost\nevery company that usually sends a crowd of people to JavaOne had\ntravel restrictions that meant that few could attend. From what we\nhad seen from other conferences, we feared the worst. And yet,\nattendance ended up being about 15,000. Very respectable! \n\n<p>The press, of course, was weird this year: we did few\ninterviews, mostly because there was only one topic they wanted to\nask about, and there was nothing we could say.</p>\n\n<p>My favorite part of JavaOne this year was the standing ovation\nthat Scott got on Monday. It was a remarkably emotional moment for\neveryone. To all of you who contributed to that thundering\napplause: Thanks!</p>\n\n<p>Our lineup of new technologies was great: JDK7 is looking\nwonderful; JavaFX reached another release milestone and is maturing\nnicely, along with it's tools; glassfish V3 is becoming totally\nwonderful; NetBeans 6.7+kenai is a killer combination; and the\nstore is on it's way to being an amazing addition.</p>\n\n<p>The fun part, for me, is the <a href=\n\"http://java.sun.com/javaone/2009/general_sessions.jsp\">Toy\nShow</a>. It's not about strategic initiatives, business issues,\ncorporate relations, or new releases. It's all about jaw-dropping\nsurprise. Everything from the <a href=\"http://mifos.org/\">Mifos\n(MIcroFinance, Open Source)</a> project: bringing millions out of\npoverty. To Manuel Tijerino's <a href=\n\"http://www.check1two.com/\">jukebox</a> architected to give indie\nmusicians broad exposure and a source of revenue independent of the\nstudios. To teaching kids through <a href=\n\"http://bluej.org\">BlueJ</a> and <a href=\n\"http://www.usfirst.org/what/frc/default.aspx?id=366\">robotics\ncompetitions</a>. And saving lives by doing <a href=\n\"http://www.visuvi.com/\">computationally intensive image\nmatching</a> in an EE server with a JavaFX front end to analyse\ncancer biopsies. And the total victory of technology and style over\ncommon sense that is Neil Young's <a href=\n\"http://www.lincvolt.com\">LincVolt</a>. And a whole lot more.</p>\n\n",
+  "images" : [ {
+    "image" : "TShirt2009brandedMedium.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 618,
+    "height" : 1000
+  } ]
+}

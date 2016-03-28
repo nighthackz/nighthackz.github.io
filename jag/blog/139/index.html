@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SOA: Buzzworld Whiplash or Real Meat?</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../138/index.html class=button>◀</a><td align=right><a href=../140/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../135/index.html>Transcendental Two [updated]</a>
+<tr><td><td class=otherRef><a class=otherRef href=../136/index.html>Back at work again</a>
+<tr><td><td class=otherRef><a class=otherRef href=../137/index.html>Netbeans in Beijing</a>
+<tr><td><td class=otherRef><a class=otherRef href=../138/index.html>JavaChina</a>
+<tr><td>✓<td class=thisRef>SOA: Buzzworld Whiplash or Real Meat?
+<tr><td><td class=otherRef><a class=otherRef href=../140/index.html>Only solve the problems you need to solve</a>
+<tr><td><td class=otherRef><a class=otherRef href=../141/index.html>Java Urban Performance Legends</a>
+<tr><td><td class=otherRef><a class=otherRef href=../142/index.html>Fault Containment: an unsung hero</a>
+<tr><td><td class=otherRef><a class=otherRef href=../143/index.html>Science Fair, Monterrey</a>
+<tr><td><td class=otherRef><a class=otherRef href=../144/index.html>NetBeans tidbits</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=SOAdisjoint.png class=fresco data-fresco-group=bovik><img src=SOAdisjoint.png height=83></a>
+<a href=SOAsame.png class=fresco data-fresco-group=bovik><img src=SOAsame.png height=82></a>
+<a href=SOAsuper.png class=fresco data-fresco-group=bovik><img src=SOAsuper.png height=128></a>
+<p>
+<div class=entry><h1>SOA: Buzzworld Whiplash or Real Meat?</h1>
+For some odd reason, long lost in the fuzzy recesses of my memory,
+I agreed to give a talk last week at Oracle OpenWorld on SOA. It's
+a topic that I'm not an expert on. There are lots of people around
+who know far more about it than I do. A lot of my unease about
+giving the talk was that I was very confused about what SOA is, and
+that ended up being what I spent most of my hour onstage talking
+about. 
+
+<p style="text-align: left">There are a lot of corporations,
+analysts, consultants, experts, "experts" and pundits saying a lot
+of things about SOA, without a lot of consistancy about the meaning
+of the term. When you expand the acronym to "Service Oriented
+Architecture" you get a pretty good, but broad, picture. The <a
+href="http://en.wikipedia.org/wiki/Service-oriented_architecture"
+shape="rect">Wikipedia definition</a> is one of the better ones out
+there. In most descriptions, SOA has become a broad cellectiom of
+techniques that go far beyond just architecting systems as
+services. The topic feels a lot like that quote from <a href=
+"http://en.wikiquote.org/wiki/Lewis_Carroll" shape="rect">Through
+the Looking Glass</a>:</p>
+
+<p style="margin-left: 0.5i; text-align: left"><i>'When I use a
+word,' Humpty Dumpty said in rather a scornful tone, 'it means just
+what I choose it to mean--neither more nor less.'<br clear="none">
+'The question is,' said Alice, 'whether you CAN make words mean so
+many different things.'<br clear="none">
+'The question is,' said Humpty Dumpty, 'which is to be master...
+that's all.'</i></p>
+
+<p style="text-align: left">There is a collection articles that
+insist that SOA is not OOP (or OOP-ITL [Object Oriented Programming
+In The Large]). They draw weird distinctions that mostly
+demonstrate how little they understand of OOP. A common
+misunderstanding is the belief that everything that can be done to
+an object must be a method on the object - for example that "play"
+must be a method on a "MusicCD" object, tying the service to the
+object. In this example, the right way to have done it is to
+represent the CD player as an object distinct from the CD itself,
+which would be played with a statement like "player.play(cd)". OOP
+is a modeling tool, how you choose to model a situation is a matter
+of taste, the situation at hand, and engineering judgement.</p>
+
+<p style="text-align: left">Then there's the camp that defines SOA
+as just being the same as OOP. I rather like this because it meshes
+well with the phrase "Service Oriented Architecture", which is the
+way that I tend to think of most good OOP designs. Using the
+previous example, rather than having verbs like "play" be methods
+on the CD object it's usually better to try to restrict methods to
+things that are intrinsic to the object. One could argue in this
+world that perhaps SOA could be thought of as a subset of OOP,
+since there are many other architectures that can be modeled within
+OOP.</p>
+
+<p style="text-align: left">One of the concepts here that is often
+not made clear in these discussions is the distinction between a
+<b>serv<u>er</u></b> and a <b>serv<u>ice</u></b>. A server is an
+implementation artifact: usually a machine. A service is an
+abstract concept that may be implemented by some number of servers
+(perhaps zero, perhaps many). The mapping between services and
+servers should be dynamic, depending on factors like load and
+quality of service - implemeted in things like the N1 Service
+Provisioning System.</p>
+
+<p style="text-align: left">The last bit of confusion for me is
+that in most discussions, SOA is about more than just architecting
+around services. The "S" in SOA should expand to "Scale", since so
+much of what is talked about is how to archtect these systems for
+large scales. <a href=
+"http://en.wikipedia.org/wiki/Stateless_server" shape=
+"rect">Statelessness</a> and <a href=
+"http://en.wikipedia.org/wiki/Idempotent_%28software%29" shape=
+"rect">idempotence</a> are techniques that have been around for
+years (both appear, for example, in the design of NFS from 20 years
+ago) are usually considered key components of SOA
+architectures.</p>
+
+<p style="text-align: left">In the end, there's a big bag of
+techniques that you may or may not want to use. Whether the
+collection you need fits someone's definition of SOA shouldn't
+matter - do what's appropriate. Statelessness and idempotence are
+tough and only really valuable at high levels of scale. Proper OO
+structuring is always a good idea.</p>
+
+
+<table width=100%><tr><td align=right class=date>September 30, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

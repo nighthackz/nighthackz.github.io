@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MPI meets Multicore</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../185/index.html class=button>◀</a><td align=right><a href=../187/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../182/index.html>JavaOne, day 1.75</a>
+<tr><td><td class=otherRef><a class=otherRef href=../183/index.html>JavaOne, day 2.1</a>
+<tr><td><td class=otherRef><a class=otherRef href=../184/index.html>JavaOne, day 4+</a>
+<tr><td><td class=otherRef><a class=otherRef href=../185/index.html>Kudos to the Ubuntu team!</a>
+<tr><td>✓<td class=thisRef>MPI meets Multicore
+<tr><td><td class=otherRef><a class=otherRef href=../187/index.html>IMMUNIZING THE INTERNET, OR: HOW I LEARNED TO STOP WORRYING AND LOVE THE WORM</a>
+<tr><td><td class=otherRef><a class=otherRef href=../188/index.html>Boiling oceans</a>
+<tr><td><td class=otherRef><a class=otherRef href=../189/index.html>The Black Hole Theory of Design</a>
+<tr><td><td class=otherRef><a class=otherRef href=../190/index.html>Fly low, fly fast, turn left</a>
+<tr><td><td class=otherRef><a class=otherRef href=../191/index.html>On the Java Road</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>MPI meets Multicore</h1>
+Last month I had the great thrill of being asked to give a talk at
+the <a href="http://spie.org/conferences/programs/06/as/">SPIE
+Astronomy Conference</a> (thanks to Hilton Lewis for inviting me).
+I gave a broad talk on the state of scientific computing. The issue
+I got the most feedback on is an odd stress I've noticed between <a
+href=
+"http://en.wikipedia.org/wiki/Message_Passing_Interface">MPI</a>
+and the proliferation of multicore chips. It goes like this: 
+
+<p>MPI is a Message Passing Interface that is the predominant API
+used in building applications for scientific clusters. There are
+Java versions; one of my favorites is an MPI-like system called <a
+href="http://dsg.port.ac.uk/projects/mpj">MPJ Express</a>. MPI has
+been around for years and there's a large body of existing MPI
+applications in C and Fortran.</p>
+
+<p>On the one hand, MPI is a wonderful thing because it enables
+scientific applications to take advantage of large clusters. On the
+other hand it's horrible because it forces applications to ship
+large quantities of data around, and they often quickly find that
+communication overheads far overshadow the actual computation. An
+immense amount of cleverness goes into both making the
+communication efficient, and minimizing the amount of
+communication. For example, computational fluid dynamics
+applications will sometimes do adaptive non-uniform partitioning of
+the simulation volume so that regions with highly detailed
+interactions (like vortices) don't get split across computation
+nodes. Scientific applications generally get much better CPU
+utilization if they are run in one big address space with all of
+the CPUs having direct access to it.</p>
+
+<p>But there's a huge catch: these applications are mostly single
+threaded, having been designed for clusters where each node is a
+single-CPU machine. But now the shift to multicore is happening and
+folks are building clusters of SMPs. There is a tendancy to run
+multiple copies of the application on each machine, one per core.
+Using MPI within one machine to communicate between the copies of
+the application. This is crazy - especially on machines with lots
+of cores: which will be the norm in not too many years. Even though
+the communication is often highly optimized within the one machine,
+there's still overhead.</p>
+
+<p>To get the best CPU utilization the apps have to be written to
+be multithreaded on a cluster node, and use MPI between nodes. This
+is the worst of both worlds because you have to architect for
+threading <i>and</i> clustering at the same time. This is pretty
+straightforward in the Java world because we have great threading
+facilities, but folks with bags of Fortran code have trouble
+(auto-parallelizing matrix code doesn't help nearly enough).</p>
+
+<p>This is (almost) a non-issue for folks writing enterprise
+applications using the JavaEE frameworks because the containers
+deal with both threading and clustering.</p>
+
+
+<table width=100%><tr><td align=right class=date>June 23, 2006</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

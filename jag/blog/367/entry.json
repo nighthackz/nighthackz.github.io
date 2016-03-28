@@ -1,0 +1,12 @@
+{
+  "date" : 1303801200000,
+  "title" : "Nice job on NetBeans 7!",
+  "body" : "I've been religiously downloading and using the NetBeans 7.0\ndailies for months. It's shaped up to be pretty tasty and has <a\nhref=\"http://netbeans.org\">finally FCSed</a>. I'm particularly fond\nof the GridBag layout editor. I've long felt that it just hasn't\nbeen getting the usage that it deserves. If you like html tables,\nyou'll like GridBag. I'm conceptually fond of the support for JDK7,\nbut the JDK7 port doesn't yet run on my usual coding platform (OS X\n- the port project does seem to be <a href=\n\"http://wikis.sun.com/display/OpenJDK/Mac+OS+X+Port+Project+Status\">making\nprogress</a>). The GlassFish 3.1 support (and GlassFish 3.1 itself,\nwith its clustering) is also high on my favorites list.\n",
+  "images" : [ {
+    "image" : "nekobean_happy.png",
+    "href" : "http://netbeans.org",
+    "align" : "right",
+    "width" : 376,
+    "height" : 271
+  } ]
+}

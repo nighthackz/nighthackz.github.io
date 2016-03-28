@@ -1,0 +1,18 @@
+{
+  "date" : 1103616000000,
+  "title" : "Merry Christmas Everyone!",
+  "body" : "It's been a pretty amazing year for Java: \n\n<ul>\n  <li>A Great JavaOne... Growing and exciting. It's great to have\n  the bubble years fading into the past.</li>\n\n  <li>The most important part of JavaOne - the t-shirt hurling\n  contest - was a huge amout of fun. Remember to be thinking of\n  ideas for your entry next year.</li>\n\n  <li>4.5M Developers, 1.5 billion devices. Whoo hoo!</li>\n\n  <li><a href=\"http://java.sun.com/j2se/1.5.0/index.jsp\" shape=\n  \"rect\">J2SE 5.0</a> (Tiger) FCSed. It's the most sweeping update\n  of Java ever</li>\n\n  <li>5M+ downloads of <a href=\"http://java.sun.com/j2ee\" shape=\n  \"rect\">J2EE</a></li>\n\n  <li><a href=\"http://netbeans.org\" shape=\"rect\">Netbeans 3.6, and\n  4.0</a> (fabulous! Come out from the dark and take it for a\n  spin!)</li>\n\n  <li><a href=\"http://www.sun.com/software/products/jscreator\"\n  shape=\"rect\">Java Studio Creator</a> and <a href=\n  \"http://developers.sun.com/prodtech/javatools/jsenterprise\"\n  shape=\"rect\">Java Studio Enterprise 7</a> shipped.</li>\n\n  <li>We finally <a href=\"http://today.java.net/jag/page7.html#59\"\n  shape=\"rect\">settled</a> all of our litigation with Microsoft. No\n  more legal distractions! No more long meetings with lawyers!</li>\n</ul>\n",
+  "images" : [ {
+    "image" : "Image105-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 702
+  }, {
+    "image" : "DukeTuxChristmas-small.gif",
+    "href" : "http://nighthacks.com/roller/jag/DukeTuxChristmas.html",
+    "align" : "right",
+    "width" : 317,
+    "height" : 211
+  } ]
+}

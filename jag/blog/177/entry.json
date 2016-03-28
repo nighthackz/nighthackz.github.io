@@ -1,0 +1,12 @@
+{
+  "date" : 1146553200000,
+  "title" : "Tech Days, Johannesburg",
+  "body" : "<a href=\"http://www.suntechdays.co.za/\"></a>\n\n<p>I'm in Johannesburg for another 3 days of developer education\nsessions at <a href=\"http://www.suntechdays.co.za/\">Tech Days</a>.\nSouth Africa is such a cool place: I really regret having to rush\nback to finish preparing for JavaOne. Life is such a blur these\ndays... It's feeling like the Bubble Years again.</p>\n\n",
+  "images" : [ {
+    "image" : "DukeWithHelmet.png",
+    "href" : null,
+    "align" : null,
+    "width" : 512,
+    "height" : 512
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1237878000000,
+  "title" : "Wandering the UK",
+  "body" : "I spent last week wandering the UK. Mostly in London, but I spent a\ngreat day at a developer conference for <a href=\n\"http://www.gchq.gov.uk\">GCHQ</a> where I gave a keynote and was on\na panel about agile development. It was a pretty spirited group and\na lot of fun. \n\n<p>In London I gave talks at a pile of companies: mostly financial\ninstitutions, all heavy Java users. I'm always amazed at the cool\nthings bankers do: not at all like the stodgy stereotype at all.\nThey seemed really happy to get into geekish deep dives, if only to\ndistract themselves from everything else that's going on. I ended\nthe trip at a developer event at the Royal Geographic Society.</p>\n\n<p>One thing I kept getting asked about was using <a href=\n\"http://java.sun.com/javase/technologies/realtime/rts/\">real-time</a>\nfor transaction servers. The reason they're all interested is\nbecause the real-time VM has a garbage collector that has\nguaranteed maximum pause times. While this does work very well, it\nis often overkill. One of the cool new pieces of technology on the\nJava landscape is the <a href=\"\">Garbage First (G1)</a> collector.\nIt was presented at the last JavaOne, but not available then. For\ndetails, you should read the <a href=\n\"http://research.sun.com/jtech/pubs/04-g1-paper-ismm.pdf\">excellent\npaper on it</a>. Continuing our recent habit of sliding major\nfunctionality into update releases, G1 is going to be in JDK6\nupdate 14, which is <a href=\n\"https://jdk6.dev.java.net/6uNea.html\">currently in beta and\navailable through the early-access program</a>. If you have issues\nwith large heaps, multicore, or pause times, give it a try. We'd\nlove to hear your testing feedback.</p>\n\n",
+  "images" : [ {
+    "image" : "Garbage.png",
+    "href" : "https://jdk6.dev.java.net/6uNea.html",
+    "align" : "right",
+    "width" : 76,
+    "height" : 118
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1068710400000,
+  "title" : "Syntax coloring is Evil",
+  "body" : "I was just configuring an Apache server on a freshly purchased and\ninstalled version of RedHat9. I fired up <i>vi</i> (one of my\nfavorite editors) to edit <tt>httpd.conf</tt> and what came up was\nan incomprehensible riot of color. Red9 comes preconfigured with\n<i>vim</i> as the replacement for <i>vi</i>, and along with it\ncomes a huge pile of standard syntax coloring tables. The coloring\ntable that <tt>httpd.conf</tt> hit was particularly odd: it used\nthis bright unsaturated teal-ish color for keywords, on a pale\nyellow background. This made the keywords almost invisible. All of\nthe other colors were similarly odd.\n\n<p>One of the mistakes that I've made over and over again, as a\nleft-brained engineer, is to tread into tasks that really require\nright-brain artistic skills. Very talented people have spent their\nwhole careers just picking colors. For us left-brainers, this is an\nalmost incomprehensible situation: how could anyone spend so much\ntime on something so trivial? Just pick some numbers and go for it.\nBut it really does matter. There is a real talent to user interface\ndesign: art, aesthetics, ergonomics, cognitive function.... and all\nthe rest.</p>\n\n<p>It's nice to see the work of folks with artistic talent show up\non the desktop. We need more.</p>\n\n",
+  "images" : [ {
+    "image" : "Image44-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 580
+  } ]
+}

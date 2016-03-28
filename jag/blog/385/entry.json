@@ -1,0 +1,12 @@
+{
+  "date" : 1321516800000,
+  "title" : "They're on their way!",
+  "body" : "Today we launched the four wavegliders for the <a href=\n\"http://liquidr.com/pacx\">PacX Challenge</a>. We had a launch event\nin San Francisco. The robots got christened then sent out to sea on\na fishing boat. They got dropped off at roughly where the water\ndepth got to 100 fathoms. It's crab season in California and the\nseas up to a depth of about 80 fathoms are littered with crab pots,\nalong with their pesky marker buoys and lines. The robots are\nstreaming a pile of telemetry to <a href=\n\"http://data.liquidr.com\">data.liquidr.com</a>. Folks with a geeky\nattraction to marine data can extract it in a variety of formats,\nfrom images to CSV files - all courtesy of a lovely server called\n<a href=\n\"http://coastwatch.pfeg.noaa.gov/erddap/information.html\">ERDDAP</a>\nfrom the wonderful folks at NOAA. \n\n<p>The data is \"open source\". Everyone from marine scientists to\nkids doing science fair projects is welcome to download and mine it\nfor whatever they'd like.</p>\n\n<p>In this image you can see the temperature reading from the\nglider, which is at a depth of about 7 meters when the robot is at\nsea. The map covers the trip on the freeway from the factory in\nSunnyvale up to San Francisco. Then onboard the boat that launched\nthem, then they're launched and swim separate, but parallel\ntracks.<br>\n</p>\n\n",
+  "images" : [ {
+    "image" : "pacx_web_globe.png",
+    "href" : "http://data.liquidr.com",
+    "align" : "right",
+    "width" : 140,
+    "height" : 170
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1310713200000,
+  "title" : "Greenfoot rocks!",
+  "body" : "I've been talking about <a href=\"http://bluej.org\">BlueJ</a> and <a\nhref=\"http://greenfoot.org\">Greenfoot</a> for years. They're tools\nfor teaching people to program who have never programmed before.\nBlueJ is a special-purpose IDE that's all about teaching. Greenfoot\nis a collection of scenarios layered on BlueJ that provide the\nframework for assignments based on simulations and games. They each\nhave books (<a href=\n\"http://www.amazon.com/Objects-First-Java-Practical-Introduction/dp/0136060862\">bluej</a>\nand <a href=\n\"http://www.amazon.com/Introduction-Programming-Greenfoot-Object-Oriented-Simulations/dp/0136037534\">greenfoot</a>)\nthat are designed for classroom or independent use. \n\n<p>It's summer and one of the items on my to-do list has been to\nteach my youngest daughter how to program. I was planning to spend\nsome time in the evenings with her. But before I could get started,\nmy wife handed her a copy of the <a href=\n\"http://www.amazon.com/Introduction-Programming-Greenfoot-Object-Oriented-Simulations/dp/0136037534\">greenfoot\nbook</a> and my daughter started reading. While I was off at work\nshe downloaded and installed the IDE and started using the book the\nway it was intended: reading it cover-to-cover doing the exercises\nas they came along. I've helped her a couple of times when she got\nstuck, but mostly she's just plowed ahead on her own and is having\na great time. The exercises are all very visual and engaging.\nGreenfoot makes it <i>fun</i> to learn programming. It starts out\nwith very <a href=\n\"http://el.media.mit.edu/logo-foundation/logo/programming.html\">logo-ish</a>\nexercises (moving a wombat around via method calls to find food),\nthen automating the characters so that they can find their own\nfood, and progressing to a variety of video games. The scenarios\nreally absorb kids.</p>\n\n<p>Thanks to everyone on the <a href=\n\"http://greenfoot.org/about/contributors.html\">GreenFoot team</a>!!\nYou've made a difference in at least one young girl's life.</p>\n\n",
+  "images" : [ {
+    "image" : "greenfoot-icon-128.png",
+    "href" : "http://nighthacks.com/roller/jag/greenfoot.org",
+    "align" : "right",
+    "width" : 240,
+    "height" : 240
+  } ]
+}

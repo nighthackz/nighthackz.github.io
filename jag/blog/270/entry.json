@@ -1,0 +1,12 @@
+{
+  "date" : 1209538800000,
+  "title" : "There's dancing in the streets!",
+  "body" : "We've had some really nice presents the last couple of days: \n\n<p>Thanks to the folks at Apple for shipping <a href=\n\"http://docs.info.apple.com/article.html?artnum=307403\">64 bit\nIntel support for Java SE 6</a>. We really appreciate the work that\nthey've done to make this happen.</p>\n\n<p>And thanks to the folks at Red Hat and Ubuntu for announcing the\ninclusion of <a href=\"http://openjdk.java.net\">OpenJDK-based</a>\nimplementations in Fedora 9 and Ubuntu 8.04.</p>\n\n<p>JavaOne is going to be fun!</p>\n\n",
+  "images" : [ {
+    "image" : "Dancing.jpg",
+    "href" : "http://docs.info.apple.com/article.html?artnum=307403",
+    "align" : "right",
+    "width" : 128,
+    "height" : 128
+  } ]
+}

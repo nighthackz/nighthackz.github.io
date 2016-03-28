@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My latest favorite Java APIs: XML{En,De}coder</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../2/index.html class=button>◀</a><td align=right><a href=../4/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../0/index.html>Took a little time off...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../1/index.html>My Grandmother, the Zen Master</a>
+<tr><td><td class=otherRef><a class=otherRef href=../2/index.html>Duke's family out for a stroll in Brazil</a>
+<tr><td>✓<td class=thisRef>My latest favorite Java APIs: XML{En,De}coder
+<tr><td><td class=otherRef><a class=otherRef href=../4/index.html>A brutal ending</a>
+<tr><td><td class=otherRef><a class=otherRef href=../5/index.html>Flying at Mach 1</a>
+<tr><td><td class=otherRef><a class=otherRef href=../6/index.html>URLs are your friend</a>
+<tr><td><td class=otherRef><a class=otherRef href=../7/index.html>The first rule of debugging</a>
+<tr><td><td class=otherRef><a class=otherRef href=../8/index.html>Is it ever too early to optimize?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../9/index.html>Java in China</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>My latest favorite Java APIs: XML{En,De}coder</h1>
+One of my little quirks is that many of the things I write use
+their own private file formats. I tend to not use things like XML
+because for the straightforward things I do most often, rolling my
+own reader/writer is often easier than wading through the XML APIs.
+They're great if you're doing something complicated, but usually
+I'm not. So I recently decided to take <a href=
+"http://java.sun.com/j2se/1.4.1/docs/api/java/beans/XMLEncoder.html"
+ shape="rect">java.beans.XMLEncoder</a> and XMLDecoder out for a
+spin. What a great experience! They made life <i>so</i> much
+easier. One of the things I had heard from folks as a problem with
+these APIs is that they don't work well if your objects aren't
+well-formed beans and can't be completely constructed/examined
+using bean properties. I decided, after a little pain, that this
+problem was a feature: after I converted over to use XML??coder,
+not only could I delete a whole bunch of IO code, but my objects
+were much better structured.
+
+<p>Take them out for a spin some time.</p>
+
+
+<table width=100%><tr><td align=right class=date>July 27, 2003</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

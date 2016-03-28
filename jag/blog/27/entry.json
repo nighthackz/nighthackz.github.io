@@ -1,0 +1,6 @@
+{
+  "date" : 1080720000000,
+  "title" : "It talks!",
+  "body" : "Paul Lamere just checked in a cool feature for JNN: it talks! He\ntied <a href=\n\"http://sourceforge.net/project/showfiles.php?group_id=42080\"\nshape=\"rect\">FreeTTS</a> (the Java-based text to speech engine at\nsourceforge) into JNN so that when new news is noticed, it speaks\nthe headline. So that if you're a real news junkie, you can run JNN\nall the time and not have it take up any screen space. To enable\nspeech, just install the FreeTTS libraries from sourceForge: the\nnext time JNN is started, it will notice the existance of the\nlibraries and start talking automatically.\n",
+  "images" : [ ]
+}

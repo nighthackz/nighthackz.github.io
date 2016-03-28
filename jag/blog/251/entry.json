@@ -1,0 +1,6 @@
+{
+  "date" : 1193122800000,
+  "title" : "JavaME is *not* dead!",
+  "body" : "It's growing up. Sheesh. Some folks are far too eager to <a href=\n\"http://www.theregister.co.uk/2007/10/23/javafx_mobile/\">misinterpret\nstatements and put words in my mouth</a>. The early versions of\nJavaME were very simple and limited, a direct reflection of the\nfact that early phones themselves were simple and limited: we had\nto work with what we had. But as time has passed, and cell phones\nhave become more powerful and capable, JavaME has grown up too.\nCell phones are becoming the new desktop. We've been saying this\nfor years. Over time, it's pretty clear that JavaME and JavaSE will\nconverge and become largely indistinguishable. It goes both ways:\nJavaSE has a much more sophisticated graphics API, and JavaME is\ngrowing there. JavaME has a <a href=\n\"http://en.wikipedia.org/wiki/Location_API_for_Java_ME\">location\nAPI (GPS)</a> and one could easily make the argument that it should\nbe available in JavaSE. \n\n<p>This is a process of evolution, not \"out with the old, in with\nthe new\".</p>\n\n<p>JavaFX mobile contains within it an implementation of JavaME. It\nis not some weird new beast.</p>\n\n",
+  "images" : [ ]
+}

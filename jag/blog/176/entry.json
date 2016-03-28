@@ -1,0 +1,12 @@
+{
+  "date" : 1146380400000,
+  "title" : "More slot car hacking",
+  "body" : "The madness of putting together all of the material and demos for\nJavaOne is slowly calming down as things come together. The slot\ncar race programming challenge has been sucking up a lot of my time\n(particularly the software infrastructure). This isn't a challenge\nthat MATLAB is well suited for: it would be if there were\naccelerometers on the car, but there aren't. It can be used, and I\nhave seen some cool tools to transform MATLAB into RTSJ code. It's\nalso not entirely possible to just precompute a voltage profile and\nblindly follow it: The physical world is unpredicable in all kind\nof small ways: tires slip; engines heat up and become less\nefficient; the track gets polished; there are slight differences\nbetween the cars... A winning entry will have to have some degree\nof adaptive behaviour.\n",
+  "images" : [ {
+    "image" : "picture-7.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 700,
+    "height" : 466
+  } ]
+}

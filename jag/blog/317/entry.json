@@ -1,0 +1,12 @@
+{
+  "date" : 1258358400000,
+  "title" : "Moules Frites @ Devoxx",
+  "body" : "I'm back in lovely Antwerp for <a href=\n\"http://devoxx.com/display/DV09/Home\">Devoxx</a>. The purgatory\nwe're in over the situation with Oracle has it's pluses and\nminuses. On the plus side, I don't have to do a keynote.... Steve\nHarris from Oracle get's <a href=\n\"http://devoxx.com/display/DV09/Java%2C+the+Platform+for+the+Future\">that\njob</a>. I will be doing a talk, but I'll be concentrating on the\nstore we're in the process of launching. The hard part is that the\nonly questions that anyone will be asking are the ones that neither\nSteve nor I can answer: until the acquisition clears the EC\ncompetition commission and closes, we're required to be mostly\nsilent about the future. We're pretty much limited to the <a href=\n\"http://www.sun.com/third-party/global/oracle/\">official\nstatements</a>. \n\n<p>I'll be spending the end of the week at <a href=\n\"http://www.cartes.com/ExposiumCms/do/admin/visu?reqCode=accueil\">Cartes</a>,\ntalking with the SmartCard crowd. Between the 10th anniversary of\n<a href=\"http://globalplatform.org\">GlobalPlatform</a> (12 years of\nJavaCard!) and the release of JavaCard 3, it's a big year for us in\nthe SmartCard world.</p>\n\n",
+  "images" : [ {
+    "image" : "logo",
+    "href" : "http://devoxx.com/display/DV09/Home",
+    "align" : "right",
+    "width" : 367,
+    "height" : 137
+  } ]
+}

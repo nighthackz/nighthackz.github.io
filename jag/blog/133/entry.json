@@ -1,0 +1,12 @@
+{
+  "date" : 1122274800000,
+  "title" : "Happily Subversive?",
+  "body" : "I've been spending the last few days helping figure out what we\n(Sun) should do about version control for all of our source files.\nWe've been using a system called TeamWare that we developed\nin-house years ago. It's the father-of-BitKeeper. It's solid as a\nrock and scales well, but no one has worked on it for years and\nit's beginning to show its age (in particular, it has no web-based\ndistributed development: it's based around NFS). \n\n<p style=\"text-align: left\">So I've been going through the\nalternatives. <a href=\"http://www.bitkeeper.com/\" shape=\n\"rect\">BitKeeper</a> is \"problematic\" (mostly: incompatible with\nworking with open source organizations). CVS has a huge raft of\ntechnical problems. We've thought about open-sourcing TeamWare, but\nthere would be a lot of engineering effort required to bring it\ninto the modern world and run on many different platforms. <a href=\n\"http://subversion.tigris.org\" shape=\"rect\">SubVersion</a>+<a href=\n\"http://svk.elixus.org/\" shape=\"rect\">svk</a> is looking\ninteresting, but it's hard to tell how well it works under fire at\nscale.</p>\n\n<p style=\"text-align: left\">I'd love to hear from folks who have\nused SubVersion (with or without svk) for multi-million-line code\nbases with thousands of versions.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_07_25_10-18-57-165_n1.small.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 27
+  } ]
+}

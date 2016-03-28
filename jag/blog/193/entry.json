@@ -1,0 +1,12 @@
+{
+  "date" : 1160895600000,
+  "title" : "Community translation experiment",
+  "body" : "My spare-time fun hacking project for the past couple of months has\nbeen a web site for community tranlation of documentation. It's\ncurrently live at <a href=\n\"http://doc.java.sun.com\">doc.java.sun.com</a>. When you first look\nat it, you see what looks like the output of javadoc, which is\nroughly what it is: <a href=\n\"http://java.sun.com/j2se/javadoc/\">javadoc</a> run inside a\nservlet container. You can choose which language to view the\ndocumentation in - right now, there's very little that has actually\nbeen translated. Take a look at an <a href=\n\"http://doc.java.sun.com/DocWeb/index.html?claz=javax.swing.AbstractAction&amp;lang=fr\">example\npage</a> to see what's possible (I'd like to apologize in advance\nto French readers: my French is very poor, so I used Google's\nlanguage tools to do a few translations). The little green squares\nindicate a successfully located translation, red squares indicate\nfailure. You can volunteer to translate some phrases. And there can\nbe multiple translations of a phrase available: there's a voting\nmechanism for other users to pick which version they like the best.\n\n\n<p>All of the source is available under the GPL license at <a href=\n\"http://docweb.dev.java.net\">docweb.dev.java.net</a>. Please use <a\nhref=\n\"https://docweb.dev.java.net/servlets/ForumMessageList?forumID=2332\">the\nforum</a> to discuss DocWeb, and file bug reports and RFEs on the\n<a href=\"https://docweb.dev.java.net/servlets/ProjectIssues\">issue\ntracker</a>.</p>\n\n<p>For now, it really is just an experiment. I'll try to keep it\nsomewhat stable, but it is under active development, and it isn't\nset up yet for really huge scale.</p>\n\n",
+  "images" : [ {
+    "image" : "ComfyChairRadSmall.jpg",
+    "href" : "http://doc.java.sun.com",
+    "align" : "right",
+    "width" : 287,
+    "height" : 320
+  } ]
+}

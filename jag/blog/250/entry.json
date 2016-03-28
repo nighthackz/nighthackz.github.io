@@ -1,0 +1,12 @@
+{
+  "date" : 1192518000000,
+  "title" : "There's a new \"Where\" in \"Anywhere\"",
+  "body" : "One of the things I've been having fun with lately is the \"mote\"\nsoftware from <a href=\"http://www.sentilla.com/\">Sentilla</a>\n(formerly MoteIV). As MoteIV, they've been doing these \"mote\"\ndevices for several years. But they were really painful to program\n- so much so that the pain was a real obstacle. Now they have a\ntiny CLDC VM for these machines (that's one at the right, vaguely\nlife size) and really nice tools as IDE plugins (Eclipse today,\nNetBeans support is in the works). They're renaming their company\nbecause they're changing the nature of their business: instead of\nbuilding physical mote hardware, they do software used in motes\nmade by others. These devices are usually used to make sensor\nmeshes. The developer kit I have came with 4 motes that have\ntemperature and humidity sensors - but they can use other sensors\nand control things: you just have to be handy with a soldering iron\n:-) If you look at the picture, you'll see a wide trace around the\nedge of the board and a circular structure in the lower right\ncorner: this is the antenna for the RF network. These beasts have a\nslick mesh networking stack so that they can all talk to each\nother, routing packets through auto-discovered/configured paths.\nWhen you click the \"run\" button in the IDE, it deploys to the\nmesh... Totally easy. These are very much like SunSpots, but much\nsmaller and oriented for the volume industrial market.\n",
+  "images" : [ {
+    "image" : "MoteIV-medium.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 1120,
+    "height" : 544
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1088406000000,
+  "title" : "<i>The</i> gizmo",
+  "body" : "One of the folks in the audience this morning showed me a seriously\ncool gizmo: It's a <a xmlns:http=\"urn:x-prefix:http\" http:_=\n\"http:_\" shape=\"rect\" spg.jspcc=\n\"au&amp;lc=en&amp;ver=4000&amp;template=pp4_1_1&amp;zone=pp&amp;lm=pp4_1&amp;pid=10109\"\n www.sonyericsson.com=\"www.sonyericsson.com\">mini RC car</a> that's\ncontrolled by bluetooth. The handheld controller is a midlet\nrunning on a cellphone. It was done by Sony-Ericsson. Apparently,\nthe midlet only runs on their phones.... :-(\n",
+  "images" : [ {
+    "image" : "Image77-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 576
+  } ]
+}

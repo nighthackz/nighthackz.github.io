@@ -1,0 +1,12 @@
+{
+  "date" : 1275807600000,
+  "title" : "Happy birthday GlassFish!",
+  "body" : "<div class=\"floatimage\">\n  Happy Birthday GlassFish!<br>\n  <a href=\n  \"http://duke.kenai.com/glassfish/Glassfish5thBirthday.jpg\">(hires)</a>\n</div>There's another milestone birthday for another fantastic\npiece of technology: <a href=\n\"http://glassfish.dev.java.net\">Glassfish</a> just turned 5!\nEduardo did a \"birthday card\" entry for GlassFish over at <a href=\n\"http://blogs.sun.com/theaquarium/\">the aquarium,</a> but he didn't\ninclude an actual birthday card. So I figured I had to make one up\n:-) If you're wedded to other app servers like JBoss or Tomcat, you\nowe it to yourself to take Glassfish out for a swim. It's another\nsweet piece of work from Sun.\n",
+  "images" : [ {
+    "image" : "Glassfish5thBirthday-Medium.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 800,
+    "height" : 529
+  } ]
+}

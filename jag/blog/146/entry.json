@@ -1,0 +1,12 @@
+{
+  "date" : 1131955200000,
+  "title" : "Kids & Java",
+  "body" : "We've been having lots of fun at home with my favorite \"other\" Java\nIDE: <a href=\"http://bluej.org/index.html\" shape=\"rect\">BlueJ</a>.\nIt's an IDE specifically designed around teaching programming. It's\n<a href=\"http://bluej.org/about/users.html\" shape=\"rect\">used\nextensively</a> in Universities, High Schools and Middle Schools.\nIt takes the rather unusual tack of teaching programming by not\nstarting off with programming: instead they start with objects and\nhave a visual way to enable students to manipulate them directly.\nThis develops intuitions about the nature of objects. They also\nhave a <a href=\"http://www.amazon.com/gp/product/0131249339\" shape=\n\"rect\">great textbook</a> that goes with it. \n\n<p style=\"text-align: left\">My wife (who was a programmer aeons\nago, but in Fortran) has been teaching herself and our 7 year old\nhow to program using BlueJ. They've been real happy with it. The 7\nyear old's biggest problem is that her reading isn't quite good\nenough. Gotta work on that.</p>\n\n<p style=\"text-align: left\">When I was a kid, I was considered a\nfreak, starting to program when I was 13. These days, it's normal.\nCoolness...</p>\n\n",
+  "images" : [ {
+    "image" : "2005_11_14_09-01-24-389_n1.small.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 128,
+    "height" : 128
+  } ]
+}

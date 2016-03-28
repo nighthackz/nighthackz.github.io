@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hotspot performance</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../267/index.html class=button>◀</a><td align=right><a href=../269/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../264/index.html>NetBeans 6.1 Beta is out!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../265/index.html>In the depths of CERN.</a>
+<tr><td><td class=otherRef><a class=otherRef href=../266/index.html>We love MySQL!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../267/index.html>Get it while it's Hot! 6u10 goes beta!</a>
+<tr><td>✓<td class=thisRef>Hotspot performance
+<tr><td><td class=otherRef><a class=otherRef href=../269/index.html>Space Junk</a>
+<tr><td><td class=otherRef><a class=otherRef href=../270/index.html>There's dancing in the streets!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../271/index.html>The madness begins!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../272/index.html>What a day...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../273/index.html>Wednesday at JavaOne: what a ride!</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Hotspot performance</h1>
+<img align=right src='DukeTubbingSmall.png'>A few days ago Kohsuke Kawaguchi posted a really cool blog entry
+titled a "<a href=
+"http://weblogs.java.net/blog/kohsuke/archive/2008/03/deep_dive_into.html">Deep
+dive into assembly code from Java</a>". It's a pile of fascinating
+(if gory) assembly code with commentary. Some things to notice: 
+
+<ul>
+  <li>Really aggressive inlining</li>
+
+  <li>Even storage allocation &amp; initialization gets inlined -
+  new T() really is as efficient as C's alloca() (and it beats the
+  pants off malloc())</li>
+
+  <li>Careful management of cache prefetching</li>
+
+  <li>Deep understanding of variablity between the flavors of x86
+  machines</li>
+
+  <li>Loop unrolling with warmup/cooldown</li>
+
+  <li>"theorum proving away" of array index checks (and many other
+  things)</li>
+
+  <li>much cleverness with locks</li>
+</ul>I've had several run-ins in recent months with crusty C (and a
+few Fortran) programmers who say "you must be faking your
+benchmarks!". Nope. The HotSpot crew has done a truly great piece
+of work.
+
+<table width=100%><tr><td align=right class=date>April 4, 2008</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

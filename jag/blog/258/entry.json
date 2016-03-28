@@ -1,0 +1,12 @@
+{
+  "date" : 1200470400000,
+  "title" : "Jazzed about MySQL",
+  "body" : "I'm at the <a href=\"http://mysql.com\">MySQL</a> company meeting\nwhere we've just announced that Sun is aquiring MySQL. Everyone\nfrom Sun is excited, and everyone from MySQL that I've talked to so\nfar is excited too. There are a lot of interesting things that we\ncan do together. It's amazing how well the companies fit each\nother. Similar cultures, goals and markets.\n",
+  "images" : [ {
+    "image" : "JAGatMYSQL.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 480,
+    "height" : 640
+  } ]
+}

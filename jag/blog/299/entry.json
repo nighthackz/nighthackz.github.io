@@ -1,0 +1,18 @@
+{
+  "date" : 1239606000000,
+  "title" : "Sign up for JavaOne!",
+  "body" : "The Java crew at Sun is once again totally into getting ready for\nthis year's <a href=\"http://java.sun.com/javaone/\">JavaOne</a>\nconference. The papers submitted were awesome: they'll make for a\ngreat lineup of technical sessions. EE6 will be a major feature of\nthe enterprise track, as will RESTful techniques. Swing and JavaFX\nwill be all over the place. The device world continues to get more\ninteresting: among many other cool devices, the <a href=\n\"http://www.lincvolt.com/\">LincVolt</a> will be there. \n\n<p>I know the economy is a mess, and it feels like the world is\nmelting down, but JavaOne is a great opportunity to get your head\nout of all of that and take a geek's vacation. Come join us!</p>\n\n",
+  "images" : [ {
+    "image" : "RockStar_DukewithGuitar_100x85.gif",
+    "href" : "http://java.sun.com/javaone/",
+    "align" : "left",
+    "width" : 100,
+    "height" : 85
+  }, {
+    "image" : "early_bird_98x75.gif",
+    "href" : "http://java.sun.com/javaone/2009/registration.jsp",
+    "align" : "right",
+    "width" : 98,
+    "height" : 75
+  } ]
+}

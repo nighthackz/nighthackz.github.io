@@ -1,0 +1,12 @@
+{
+  "date" : 1298880000000,
+  "title" : "Let go ...",
+  "body" : "<a href=\"http://www.xkcd.com/\">XKCD</a> is always great, but\nsometimes <a href=\"http://www.xkcd.com/about/\">he</a> outdoes\nhimself:\n",
+  "images" : [ {
+    "image" : "let_go.png",
+    "href" : "http://www.xkcd.com/862/",
+    "align" : null,
+    "width" : 740,
+    "height" : 237
+  } ]
+}

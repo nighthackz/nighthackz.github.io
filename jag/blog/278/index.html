@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ZFS boot saves the day...</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../277/index.html class=button>◀</a><td align=right><a href=../279/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../274/index.html>Aiee!!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../275/index.html>Too much fun...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../276/index.html>Happy Birthday, Ivan!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../277/index.html>Opensolaris 2008.05</a>
+<tr><td>✓<td class=thisRef>ZFS boot saves the day...
+<tr><td><td class=otherRef><a class=otherRef href=../279/index.html>Nice realtime Java book</a>
+<tr><td><td class=otherRef><a class=otherRef href=../280/index.html>Happy trails, Randy...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../281/index.html>Come and get it!  Hot off the grill: JavaFX</a>
+<tr><td><td class=otherRef><a class=otherRef href=../282/index.html>Fun at SIGGRAPH</a>
+<tr><td><td class=otherRef><a class=otherRef href=../283/index.html>Current State of Java for HPC</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>ZFS boot saves the day...</h1>
+I installed <a href="http://www.opensolaris.com/get/">Solaris
+2008.05</a> on my laptop a short while ago. Being my usual goofy
+self I was playing around as root in places I shouldn't have been
+and managed to really mess things up and render my machine totally
+unbootable. It was nosediving within a small fraction of a second
+after booting... I only had one kernel image, and that file had
+been overwritten :-( Ending up in an infinite reboot loop. In past
+days, with either Linux or Solaris, I'd have reinstalled the
+system, possibly preceded by ripping the disk out and plugging it
+into another machine so that I could rescue any important files.
+But since 2008.05 uses ZFS for everything - even the root
+filesystem, all I had to do was boot the 2008.05 LiveCD, <a href=
+"http://docs.sun.com/app/docs/doc/816-5166/zfs-1m?a=view">zfs
+rollback</a> the root filesystem, and like magic all my screwing
+around was undone.
+
+<table width=100%><tr><td align=right class=date>June 16, 2008</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

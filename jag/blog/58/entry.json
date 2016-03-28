@@ -1,0 +1,12 @@
+{
+  "date" : 1088665200000,
+  "title" : "Finally, my turn at a keynote",
+  "body" : "This is a picture of folks filing in to the keynote hall for the\nlast keynote of JavaOne, the one where I had to do some real work.\nAfter last nights rehearsals, we (mostly) knew what were were\ndoing, but a lot of the plan was \"Ad Lib\". I'm not real good at\nreading teleprompters.\n\n<p>I didn't do much talking. There were zero slides for the whole\nsession (who has time to prepare?!). Three tool demos followed by\nthree device demos. The collaboration facilities in the upcoming\nversion of Java Studio Enterprise got big cheers from the audience.\nThe realtime demo showed a scaleable fault-tolerant VM that\nbalanced an inverted pendulum despite wild loads on the systems,\nsoftware and hardware failures. PsiNaptics showed a cool\nJINI-on-bluetooth device that was amazingly small. And Simon Ritter\nhad a great wearable rig.</p>\n\n<p>The \"Great Debate\" was pretty entertaining. I won't try to\nrepresent what happened there, I leave that to someone else to\nwrite up, but it surfaced a lot of complex and contradictory\nconcerns.</p>\n\n<p>The E ticket item was, of course, the finals of the T-Shirt\nlaunch. Today's team was the caffeinators with their calibrated\ncrossbow. When we held the vote, which was done with an applause\nmeter, the Cyclists came in first, followed by Team Visicomp (the\nnitro cannon), followed by the Caffeinators. Great fun.</p>\n\n<p>I'd like to thank everyone. The folks in the t-shirt contest.\nThe crew that ran the whole show. All the folks at Sun who have\npoured so much energy into the show. All the partners that joined\nin... And especially all of the attendees: JavaOne and the whole\nJava community are built on your energy and enthusiasm.</p>\n\n<p>Thanks. Now I'm off to a beach!</p>\n\n",
+  "images" : [ {
+    "image" : "Image89-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 576
+  } ]
+}

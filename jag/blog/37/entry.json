@@ -1,0 +1,12 @@
+{
+  "date" : 1086591600000,
+  "title" : "NetBeans Software Day",
+  "body" : "The folks from the NetBeans open source project have put together a\n<a href=\n\"http://www.netbeans.org/community/articles/netbeans-one.html\"\nshape=\"rect\">companion event</a> being held alongside <a href=\n\"http://java.sun.com/javaone/\" shape=\"rect\">JavaOne</a> in San\nFrancisco. They've got quite a pile of cool stuff to talk about and\nshow off. I'll be there, giving a talk in the morning to help kick\nthings off. They've packed the day with a wide range of material,\nincluding all the new stuff in NetBeans 4 and the tools for\ndeveloping mobile applications. It's even better than free, it has\na negative price... Sign up for <a href=\n\"http://www.netbeans.org/community/articles/netbeans-one.html\"\nshape=\"rect\">NetBeans software day</a> and you can get a $300\ndiscount on a JavaOne pass.\n",
+  "images" : [ {
+    "image" : "Image68-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 458,
+    "height" : 114
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1238914800000,
+  "title" : "Tech Days coming to Russia",
+  "body" : "If you're anywhere near <a href=\n\"http://developers.sun.ru/techdays2009/\">St Petersburg</a> (the one\nwith the <a href=\n\"http://www.nevsky-prospekt.com/palaces/pal1.html\">palaces</a>, not\nthe one with <a href=\n\"http://www.clearwater-tours.com/tours/tourDetail.cfm?tour_id=9485\">dolpins</a>)\ncome to the TechDays event we're running next week. My boss (Jeet\nKaul - pronounced \"Cool\", and he is) will be there, along with a\npile of experts on a wide variety of topics from all Sun\ntechnologies. Three intense days of technology deep dives. Always\nfun and educational!\n",
+  "images" : [ {
+    "image" : "170X194_1503.gif",
+    "href" : "http://developers.sun.ru/techdays2009/",
+    "align" : "right",
+    "width" : 180,
+    "height" : 205
+  } ]
+}

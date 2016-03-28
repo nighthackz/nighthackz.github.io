@@ -1,0 +1,12 @@
+{
+  "date" : 1294819200000,
+  "title" : "Hudson is dead, long live Jenkins",
+  "body" : "I was relieved to read that the <a href=\n\"http://www.theregister.co.uk/2010/12/03/oracle_doesnt_own_hudson/\">bizarre\nsaga</a> of Oracle's assertion of their non-rights to the Hudson\ncontinuous integration server has been resolved. In a <a href=\n\"http://hudson-labs.org/content/hudsons-future\">detailed article at\nhudson-labs</a> Andrew Bayer describes the decision to rename\n'Hudson' to 'Jenkins'. Kohsuke and the community were remarkably\npatient in their attempts to resolve this with Oracle. It's sad\nthat it's come to this, but given Oracle's character, it was\ninevitable. Oracle is certainly consistent in maintaining their\nreputation.\n",
+  "images" : [ {
+    "image" : "Jenkins.png",
+    "href" : "http://hudson-labs.org/content/hudsons-future",
+    "align" : "right",
+    "width" : 200,
+    "height" : 100
+  } ]
+}

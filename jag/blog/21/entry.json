@@ -1,0 +1,12 @@
+{
+  "date" : 1073203200000,
+  "title" : "Yahoo!  The latest Mars Rover landed!",
+  "body" : "Great job JPL! I watched the landing on their streaming video feed,\nand it was lovely. I visited them recently and they were all\nimmensely tense. Testing.... Testing... Testing... Even while the\nspacecraft was in flight - they can fix software bugs on the fly.\nIt was great to see a control room full of tense geeks explode with\njoy when they finally got landing confirmation.\n\n<p>Try out the Java-based data browser they built. Drive a\nsimulated dune buggy on mars. It's called <b>Maestro</b> and can be\nfound at <a href=\"http://mars.telascience.org/\" shape=\n\"rect\">http://mars.telascience.org/</a>.</p>\n\n",
+  "images" : [ {
+    "image" : "Image52-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 400,
+    "height" : 321
+  } ]
+}

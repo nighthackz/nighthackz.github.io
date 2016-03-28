@@ -1,0 +1,12 @@
+{
+  "date" : 1100937600000,
+  "title" : "I finaly made it to Prague",
+  "body" : "Unlike my <a href=\"http://today.java.net/jag/page5.html#47\" shape=\n\"rect\">previous attempt</a> getting across the Czech border into\nPrague was easy this time. I came from a couple of days in Munich\nat a pair of Java developer conferences.\n\n<p>The engineering team for NetBeans is mostly here in Prague.\nWe've been having architecture meetings for the past week,\nthrashing out plans for the next version (5.0). It's looking pretty\nexciting. They have a prototype GUI layout editor that looks very\nslick. The prototype that stole the show was the J2ME debugger:\nthey showed debugging a live J2ME application on a Sony/Ericcson\nphone via a bluetooth link - no more emulators!</p>\n\n<p>The building in the backgroud of this picture is the Sun\nengineering building in Prague. It's right next to a park that\ncontains a large number of cool sculptures, including the bronze <a\nhref=\"http://inventors.about.com/library/inventors/blchia.htm\"\nshape=\"rect\">chia</a> head I'm sitting in front of.</p>\n\n",
+  "images" : [ {
+    "image" : "Image104-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 512
+  } ]
+}

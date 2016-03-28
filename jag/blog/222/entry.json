@@ -1,0 +1,12 @@
+{
+  "date" : 1176706800000,
+  "title" : "Contests@JavaOne",
+  "body" : "Just in case you think you're going to be bored at JavaOne, we seem\nto be awash in contests. The <a href=\n\"http://virtualflyingdukes.com\">Virtual Flying Dukes</a> contest is\nall about game programming with the <a href=\n\"http://www.jmonkeyengine.com/\">jMonkeyEngine</a> 3D rendering\nengine. It looks like the <a href=\n\"http://greenfoot.org\">GreenFoot</a> folks will be running a\ncontest. And the realtime crew had such fun with last year's slot\ncar racing demo that they're doing a similar one again: the control\nproblem is noticably tougher this time. And that's just the start\nof the list... \n\n<p>We're going through the last round of demo reviews on Wednesday.\nIt's really going to be tough this year: there's a very strong\ncollection of proposals. It's never been so hard to choose. I keep\nexpecting it to get easier, but no luck. There's a particularly\nstrong showing of desktop GUI and weird device demos. One of my\nfavorite demos this year has to be somewhat constrained because of\n<i>risk of decapitation</i>. If you want to know what I mean by\nthat, you'll just have to come to <a href=\n\"http://java.sun.com/javaone\">JavaOne</a>.</p>\n\n",
+  "images" : [ {
+    "image" : "VirtualFlyingDukes.icon.png",
+    "href" : "http://virtualflyingdukes.com",
+    "align" : "left",
+    "width" : 160,
+    "height" : 108
+  } ]
+}

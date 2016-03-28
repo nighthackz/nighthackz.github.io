@@ -1,0 +1,12 @@
+{
+  "date" : 1075881600000,
+  "title" : "The Tiger is out!",
+  "body" : "The beta release of the next version of Java 2 Standard Edition is\nfinally out. You can find it <a href=\n\"http://java.sun.com/j2se/1.5.0/index.jsp\" shape=\"rect\">here</a>.\nIt's officially known as JDK 1.5, but internally it's referred to\nas Tiger. There are stacks and stacks of new features. It's hard to\nknow where to begin talking about all of the exciting stuff in it.\nFor me, the big one is <a href=\n\"http://java.sun.com/j2se/1.5.0/lang.html\" shape=\n\"rect\">Generics</a>: the ability to parameterize a type. This is\nvaguely like templates in C++, but much cleaner and more\nstraightforward. It dramatically improves working with things like\ncontainer classes, and it has a lovely backwards compatibility\nstory. Go grab a copy. Take it out for a spin. Let us know what you\nthink.\n",
+  "images" : [ {
+    "image" : "Image54-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 330,
+    "height" : 255
+  } ]
+}

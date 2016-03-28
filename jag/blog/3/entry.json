@@ -1,0 +1,6 @@
+{
+  "date" : 1059289200000,
+  "title" : "My latest favorite Java APIs: XML{En,De}coder",
+  "body" : "One of my little quirks is that many of the things I write use\ntheir own private file formats. I tend to not use things like XML\nbecause for the straightforward things I do most often, rolling my\nown reader/writer is often easier than wading through the XML APIs.\nThey're great if you're doing something complicated, but usually\nI'm not. So I recently decided to take <a href=\n\"http://java.sun.com/j2se/1.4.1/docs/api/java/beans/XMLEncoder.html\"\n shape=\"rect\">java.beans.XMLEncoder</a> and XMLDecoder out for a\nspin. What a great experience! They made life <i>so</i> much\neasier. One of the things I had heard from folks as a problem with\nthese APIs is that they don't work well if your objects aren't\nwell-formed beans and can't be completely constructed/examined\nusing bean properties. I decided, after a little pain, that this\nproblem was a feature: after I converted over to use XML??coder,\nnot only could I delete a whole bunch of IO code, but my objects\nwere much better structured.\n\n<p>Take them out for a spin some time.</p>\n\n",
+  "images" : [ ]
+}

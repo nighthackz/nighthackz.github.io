@@ -1,0 +1,12 @@
+{
+  "date" : 1134979200000,
+  "title" : "Safety is Freedom",
+  "body" : "I sure stirred up a pile of flaming with my previous post. The\ninternet flame-before-reading tradition is alive and strong. I've\nalways been a big scripting language fan (the first language I ever\nlearned was a \"scripting\" language called <a href=\n\"http://www.pdp8.net/lang/focal/\" shape=\"rect\">FOCAL</a>). Looking\nat the design tradeoffs between the two language categories has\nalways been fascinating. \n\n<p style=\"text-align: left\">One of the slogans that was brought up\nin the commentary to my previous blog entry was \"freedom vs.\nsafety\". Once upon a time I used to believe that: it has certainly\nbeen conventional wisdom for years. But a lot of the time, the\ntruth is actually that safety <b>is</b> freedom (eg. a good safety\nharness and rope give you the freedom to climb a mountain).</p>\n\n<p style=\"text-align: left\">When I'm writing a function and declare\na parameter to be an Image, I am free to trust that it <b>is</b> an\nImage. I'm free to trust that no one's array access has smashed my\ndata structure. Examples abound.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_12_19_14-48-18-331_n0.large.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 768,
+    "height" : 576
+  } ]
+}

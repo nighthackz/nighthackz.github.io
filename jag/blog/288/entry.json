@@ -1,0 +1,12 @@
+{
+  "date" : 1226217600000,
+  "title" : "We've been cranking!",
+  "body" : "Just in case you hadn't noticed, in the waves of election-mania,\nSun has been cranking out a pile of great software releases\nrecently: \n\n<ul>\n  <li><a href=\n  \"https://cds.sun.com/is-bin/INTERSHOP.enfinity/WFS/CDS-CDS_Developer-Site/en_US/-/USD/ViewProductDetail-Start?ProductRef=jre-6u10-oth-JPR@CDS-CDS_Developer\">JDK\n  6u10</a> with all of it's desktop deployment and performance\n  goodies shipped.</li>\n\n  <li><a href=\"http://dev.mysql.com/downloads/mysql/5.1.html\">MySQL\n  has a release candidate for 5.1!!</a></li>\n\n  <li><a href=\n  \"http://www.sun.com/software/products/glassfishv3_prelude/index.xml\">Glassfish\n  V3</a> has a tasty supported prelude release available.</li>\n\n  <li>The NetBeans crew has put out <a href=\n  \"http://www.netbeans.org/community/releases/65/\">NetBeans\n  6.5RC</a> with enhanced support for RESTful services, C/C++, a\n  pile of scripting languages, and a whole lot more.</li>\n\n  <li>OpenSolaris is really close to the FCS of the <a href=\n  \"http://blogs.sun.com/dminer/entry/opensolaris_2008_11_release_candidate\">2008.11\n  release</a>. I've been running the release candidates, and it's\n  looking great.</li>\n\n  <li>And the JavaFX team is getting real close....</li>\n</ul>And if you haven't yet been totally overwhelmed by Obama-mania\narticles, you might enjoy the one by <a href=\n\"http://www.washingtonpost.com/wp-dyn/content/article/2008/11/07/AR2008110702896.html?hpid=opinionsbox1\">Desmond\nTutu</a>.\n",
+  "images" : [ {
+    "image" : "snoozeSmallFlipped.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 128,
+    "height" : 177
+  } ]
+}

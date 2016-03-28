@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Wandering the UK</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../296/index.html class=button>◀</a><td align=right><a href=../298/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../293/index.html>Merry Christmas Everyone!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../294/index.html>NetBeans rocks the awards!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../295/index.html>At TechDays in Hyderabad</a>
+<tr><td><td class=otherRef><a class=otherRef href=../296/index.html>India is amazing!</a>
+<tr><td>✓<td class=thisRef>Wandering the UK
+<tr><td><td class=otherRef><a class=otherRef href=../298/index.html>Tech Days coming to Russia</a>
+<tr><td><td class=otherRef><a class=otherRef href=../299/index.html>Sign up for JavaOne!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../300/index.html>Java for FIRST Robotics Competition</a>
+<tr><td><td class=otherRef><a class=otherRef href=../301/index.html>Java Me SDK 3.0 launched!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../302/index.html>JavaOne free pass and travel contest</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Wandering the UK</h1>
+<img align=right src='Garbage.png'>I spent last week wandering the UK. Mostly in London, but I spent a
+great day at a developer conference for <a href=
+"http://www.gchq.gov.uk">GCHQ</a> where I gave a keynote and was on
+a panel about agile development. It was a pretty spirited group and
+a lot of fun. 
+
+<p>In London I gave talks at a pile of companies: mostly financial
+institutions, all heavy Java users. I'm always amazed at the cool
+things bankers do: not at all like the stodgy stereotype at all.
+They seemed really happy to get into geekish deep dives, if only to
+distract themselves from everything else that's going on. I ended
+the trip at a developer event at the Royal Geographic Society.</p>
+
+<p>One thing I kept getting asked about was using <a href=
+"http://java.sun.com/javase/technologies/realtime/rts/">real-time</a>
+for transaction servers. The reason they're all interested is
+because the real-time VM has a garbage collector that has
+guaranteed maximum pause times. While this does work very well, it
+is often overkill. One of the cool new pieces of technology on the
+Java landscape is the <a href="">Garbage First (G1)</a> collector.
+It was presented at the last JavaOne, but not available then. For
+details, you should read the <a href=
+"http://research.sun.com/jtech/pubs/04-g1-paper-ismm.pdf">excellent
+paper on it</a>. Continuing our recent habit of sliding major
+functionality into update releases, G1 is going to be in JDK6
+update 14, which is <a href=
+"https://jdk6.dev.java.net/6uNea.html">currently in beta and
+available through the early-access program</a>. If you have issues
+with large heaps, multicore, or pause times, give it a try. We'd
+love to hear your testing feedback.</p>
+
+
+<table width=100%><tr><td align=right class=date>March 24, 2009</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cosine redux</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../154/index.html class=button>◀</a><td align=right><a href=../156/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../151/index.html>Adventures in internationalization</a>
+<tr><td><td class=otherRef><a class=otherRef href=../152/index.html>RADlab, scripting and scale</a>
+<tr><td><td class=otherRef><a class=otherRef href=../153/index.html>Safety is Freedom</a>
+<tr><td><td class=otherRef><a class=otherRef href=../154/index.html>The new Macintoshes</a>
+<tr><td>✓<td class=thisRef>Cosine redux
+<tr><td><td class=otherRef><a class=otherRef href=../156/index.html>Heading off to Bangkok</a>
+<tr><td><td class=otherRef><a class=otherRef href=../157/index.html>Fun in Bangkok</a>
+<tr><td><td class=otherRef><a class=otherRef href=../158/index.html>Improbable engineering</a>
+<tr><td><td class=otherRef><a class=otherRef href=../159/index.html>NetBeans5 & Creator2</a>
+<tr><td><td class=otherRef><a class=otherRef href=../160/index.html>Physics: out of the comfort zone</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=floatbits.png class=fresco data-fresco-group=bovik><img src=floatbits.png height=49></a>
+<a href=cos1.png class=fresco data-fresco-group=bovik><img src=cos1.png height=109></a>
+<p>
+<div class=entry><h1>Cosine redux</h1>
+<blockquote style="font-style: italic">
+  It's been quite a while since my last blog entry: I had a bit of
+  a technology meltdown that I'm not quite done with yet :-(
+</blockquote>
+
+<p>I was doing some recreational hacking over the holidays that
+involved evaluating cosines. I ended up doing (once again!) an
+implementation of cosine (don't ask why). Given the confused
+flamage that my previous posts on cosine generated, I figure that
+showing some code would be useful. I would never have thought that
+cosine would generate so much email traffic. Yes, I know about
+Taylor series. No I wasn't trying to insult centuries of standard
+mathematical practice. Performance is often the art of cheating
+carefully.</p>
+
+<p style="text-align: left">So, here's my <a href=
+"http://blogs.sun.com/roller/resources/jag/CosineFun.java">implementation
+of cosine</a>, with its argument in turns (1 turn == 360
+degrees):</p>
+<pre>
+public static float cost(float f) {
+    int bits = Float.floatToRawIntBits(f);
+    int mantissa = (bits&amp;0x7FFFFF)|(1&lt;&lt;23);
+    int shift = (bits&lt;&lt;1&gt;&gt;&gt;24)-127+9; // exponent, unbiased, with shift
+    if(shift&gt;=32 || shift&lt;=-32) return 1;
+    int fractionBits = shift&gt;=0 ? mantissa&lt;&lt;shift : mantissa&gt;&gt;-shift;
+    int tableIndex = (fractionBits&gt;&gt;&gt;(30-resultPrecision))&amp;tableSizeMask;
+    switch(fractionBits&gt;&gt;&gt;30) { // Quadrant is top two bits
+        case 0: return cosTable[tableIndex];
+        case 1: return -cosTable[tableSizeMask-tableIndex];
+        case 2: return -cosTable[tableIndex];
+        default/*case 3*/: return cosTable[tableSizeMask-tableIndex];
+    }
+}
+</pre>
+Lets go through this slowly: 
+
+<ol>
+  <li><tt>int bits = Float.floatToRawIntBits(f);</tt><br>
+  Get the IEEE 754 bits</li>
+
+  <li><tt>int mantissa =
+  (bits&amp;0x7FFFFF)|(1&lt;&lt;23);</tt><br>
+  The mantissa is the bottom 23 bits - to which the hidden bit must
+  be prepended.</li>
+
+  <li><tt>int shift = (bits&lt;&lt;1&gt;&gt;&gt;24)-127+9;</tt><br>
+  Extract the exponent, correct for the exponent bias, then add a
+  bias to move the binary point to the top of the word.</li>
+
+  <li><tt>if(shift&gt;=32 || shift&lt;=-32) return 1;</tt><br>
+  If the shift is too large, the fraction bits would be zero,
+  therefore the result is 1.</li>
+
+  <li><tt>int fractionBits = shift&gt;=0 ? mantissa&lt;&lt;shirt :
+  mantissa&gt;&gt;-shift;</tt><br>
+  Shift the mantissa so that it's a fixed point number with the
+  binary point at the top of the 32 bit int. The magic is in what's
+  not here: because the argument is in turns, I get to ignore all
+  of the integer bits (range reduction made trivial); and because
+  it's the cosine function, which is symmetric about the origin, I
+  get to ignore the sign.</li>
+
+  <li><tt>int tableIndex =
+  (fractionBits&gt;&gt;&gt;(30-resultPrecision))&amp;tableSizeMask;</tt><br>
+  The top two bits are the quadrant... extract the bits below that
+  to derive a table index.</li>
+
+  <li><tt>switch(fractionBits&gt;&gt;&gt;30) {</tt><br>
+  One case for each quadrant. This switch could be eliminated by
+  making the table 4 times larger.</li>
+
+  <li><tt>case 0: return cosTable[tableIndex];</tt><br>
+  Yes! It's just a table lookup! Truly trivial.</li>
+
+  <li><tt>case 1: return
+  -cosTable[tableSizeMask-tableIndex];</tt><br>
+  ...</li>
+</ol>Since this is just a table lookup, the resulting approximation
+can be pretty jagged if the table is small. But it's easy to tune
+the table size depending on accuracy needs. The smaller the table
+is, the higher the cache hit rate will be, and the more likely it
+is that the whole table will fit in cache. 
+
+<p>Table lookups are a very common way to implement mathematical
+functions, particularly the periodic ones like cosine. There are
+all kinds of elaborations. One of the most common for improving
+accuracy is to do some sort of interpolation between table elements
+(linear or cubic, usually).</p>
+
+
+<table width=100%><tr><td align=right class=date>January 20, 2006</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

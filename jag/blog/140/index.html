@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Only solve the problems you need to solve</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../139/index.html class=button>◀</a><td align=right><a href=../141/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../136/index.html>Back at work again</a>
+<tr><td><td class=otherRef><a class=otherRef href=../137/index.html>Netbeans in Beijing</a>
+<tr><td><td class=otherRef><a class=otherRef href=../138/index.html>JavaChina</a>
+<tr><td><td class=otherRef><a class=otherRef href=../139/index.html>SOA: Buzzworld Whiplash or Real Meat?</a>
+<tr><td>✓<td class=thisRef>Only solve the problems you need to solve
+<tr><td><td class=otherRef><a class=otherRef href=../141/index.html>Java Urban Performance Legends</a>
+<tr><td><td class=otherRef><a class=otherRef href=../142/index.html>Fault Containment: an unsung hero</a>
+<tr><td><td class=otherRef><a class=otherRef href=../143/index.html>Science Fair, Monterrey</a>
+<tr><td><td class=otherRef><a class=otherRef href=../144/index.html>NetBeans tidbits</a>
+<tr><td><td class=otherRef><a class=otherRef href=../145/index.html>Good Night, and Good Luck</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Only solve the problems you need to solve</h1>
+<img align=right src='2005_10_04_20-54-21-852_n3.small.png'>Back when I was a grad student I was spinning out of control trying
+to come up with a thesis topic. My <a href=
+"http://www.computerhistory.org/events/index.php?spkid=2&amp;ssid=1090276799"
+ shape="rect">advisor</a> took me out to lunch one day and asked me
+a simple question: "What is a PhD thesis?" I yattered on for a
+while and he listened patiently. Eventually he said "No: It's just
+a stack of 100 pages with 4 signatures on top". I was falling into
+a common grad student trap of feeling that I needed to do something
+grandiose and solve all of the worlds problems. He was into "keep
+it simple". So I did, and I came up with a pretty straightforward
+thesis proposal. The odd thing was that when I finally finished my
+thesis, I realized that I had only delt with one sentence out of
+the simplified proposal. 
+
+<p style="text-align: left">I got a lot of email about my previous
+post, a lot of it centered on JINI, RMI and CORBA. Not too many
+months ago, during the hypon flux storm [by analogy with <a href=
+"http://catb.org/~esr/jargon/html/B/bogon-flux.html" shape=
+"rect">bogon flux</a>] surrounding SOA and Web Services it was
+worth one's life to mention that folks had been successfully
+implementing SOAs for years. That has calmed down significantly. <a
+href="http://www.jini.org/" shape="rect">JINI</a> is particularly
+interesting since it goes significantly beyond what's possible with
+today's SOA - but it only works in a Java-only universe. The folks
+who developed RMI/JINI had previously worked on CORBA. A big chunk
+of the complexity of CORBA comes from trying to solve the
+cross-language problem. They discovered that if you don't try to
+solve that problem, some very cool things emerge. The poster child
+for building SOAs on JINI is <a href=
+"http://www.jini.org/solutions/Jini_Orbitz_Profile_Final.pdf"
+shape="rect">Orbitz</a>. There are some interesting discussions <a
+href=
+"http://www.jroller.com/page/csterwa?entry=jim_waldo_s_talk_on"
+shape="rect">here</a> and <a href=
+"http://www.jini.org/events/0505NYSIG/index.htm" shape=
+"rect">here</a>.</p>
+
+<p style="text-align: left">In response to the comment about OO and
+granularity: they really are orthogonal axes. OO methodologies work
+well regardless of granularity. But granularity is related to the
+question of whether or not an operation can sensibly involve a
+network transit: it only works well when granularity is high. This
+is a direct corollary of the <a href=
+"http://today.java.net/jag/Fallacies.html" shape="rect">Eight
+Fallicies of Distributed Computing</a>.</p>
+
+
+<table width=100%><tr><td align=right class=date>October 4, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

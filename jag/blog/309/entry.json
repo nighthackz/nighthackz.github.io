@@ -1,0 +1,12 @@
+{
+  "date" : 1251529200000,
+  "title" : "NFS on Snow Leopard",
+  "body" : "I don't know what it is about Apple and NFS, but they keep moving\nthings around. The new UI to NFS mounting is much nicer than it was\nbefore, but it's now in a totally different place: the Disk\nUtility. But if you use a lot of NFS file systems, it's a pain to\nhave to mount them one by one: ignoring the UI and using the /net\nautomount filesystem is far more convenient. Just use the file name\n<tt>/net/</tt><i>hostname</i><tt>/</tt><i>path</i> and you don't\nhave to mess with any mounting, it just happens by automagic. I\nwrote a blog entry about this a long time ago. \n\n<p>However, there is a huge problem with this: OS X does a\nphenominal amount of file locking (some would say, needlessly so)\nand has always been really sensitive to the configuration of\nlocking on the NFS servers. So much so that if you randomly pick an\nNFS server in a large enterprise, true success is pretty unlikely.\nIt'll succeed, but you'll keep getting messages indicating that the\nlock server is down, followed quickly by another message that the\nlock server is back up again. Even if you do get the NFS server\ntuned precisely the way that OS X wants it, performance sucks\nbecause of all the lock/unlock protocol requests that fly across\nthe network. They clearly did something in Snow Leopard to\naggravate this problem: it's now nasty enough to make NFS almost\nuseless for me.</p>\n\n<p>Fortunately, there is a fix: just turn off network locking. You\ncan do it by adding the \"nolocks,locallocks\" options in the\nadvanced options field of the Disk Utility NFS mounting UI, but\nthis is painful if you do a lot of them, and doesn't help at all\nwith /net. You can edit /etc/auto_master to add these options to\nthe /net entry, but it doesn't affect other mounts - however I do\nrecommend deleting the <tt>hidefromfinder</tt> option in\nauto_master. If you want to fix every automount, edit\n/etc/autofs.conf and search for the line that starts with\n<tt>AUTOMOUNTD_MNTOPTS=</tt>. These options get applied on every\nmount. Add <tt>nolocks,locallocks</tt> and your world will be\nfaster and happier after you reboot.</p>\n\n",
+  "images" : [ {
+    "image" : "Gun.jpg.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 128,
+    "height" : 86
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1192172400000,
+  "title" : "Solaris and OS X",
+  "body" : "I loved Tom Yeager's article <i><a href=\n\"http://weblog.infoworld.com/yager/archives/2007/10/\">The next best\nthing to OS X</a></i>. As several people have noticed at my talks\nover the past few months, I no longer carry a Mac laptop. As much\nas I love the Mac's eye candy, it really hasn't been keeping up as\na developer's machine - their attention has clearly been elsewhere.\nMeanwhile, the Solaris folks have made huge strides in Solaris's\nusability on a laptop with recent Nevada builds: the latest Gnome\nis quite lovely. Firefox, Thunderbird and Lightning kick ass. The\nnew installer is totally slick. The nwam (network automagic)\nservice makes network hassles almost totally disappear. And Java,\nNetBeans and Glassfish go like the wind! It's amazing how fast\nthings run. \n\n<p>And then there are all the cool Solaris goodies to take\nadvantage of. I'm totally addicted to Zones and ZFS. For example: I\nhave my laptop set up with ZFS managing the disk. Then I mirror the\nlaptop's disk onto a USB drive. When I'm wandering around with my\nlaptop disconnected, the filesystem runs in \"degraded\" mode - which\nsimply means that the mirror isn't up to date - it's as fast as\never. But when I get back to my desk and the USB drive reconnects,\nZFS magically updates the mirror and I have an incredibly fast\nbackup. If I want to use backups for going back in time, ZFS\nsnapshots are perfect and <i>fast</i>.</p>\n\n<p>There is one area that's a problem: when I close the lid on my\nlaptop, it keeps right on running. It doesn't suspend. I have to\nmanually shut the system down. I've been bugging the Solaris folks\nabout it for a while: they're working on getting there, but it'll\ntake awhile. In typical Solaris fashion, they're going for a \"solve\nworld hunger\" scale solution: last week I was at a talk about <a\nhref=\"http://www.opensolaris.org/os/project/tesla/\">Tesla</a>, the\nupcoming power management system. It'll be great when they're\ndone.</p>\n\n<p>And no, I don't use any of the virtualization/multiboot\nfacilities: They all consume more performance and disk space than\nI'm comfortable with.</p>\n\n",
+  "images" : [ {
+    "image" : "DukeJackJammin.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 2434,
+    "height" : 1394
+  } ]
+}

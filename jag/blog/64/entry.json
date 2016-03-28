@@ -1,0 +1,12 @@
+{
+  "date" : 1093849200000,
+  "title" : "NetBeans 4.0 Rocks!",
+  "body" : "I know I'm biased, but the NetBeans 4 folks have done a great job.\nI've been playing with the Q builds all along, and they just put\nout their <a href=\n\"http://www.netbeans.org/community/releases/40/beta.html\" shape=\n\"rect\">beta1</a> release. Lovely. \n\n<p>What got me excited this time isn't one of the new features\n(like ant-based projects, JDK 5.0 supporty, J2ME support,\nrefactoring or all the rest), it's one of the features that's been\nthere for a while, I had just never tried it out. In my daily life,\nI mostly write client side code. It's been a couple of years since\nI've needed to write a servlet. Writing servlets is easy, but\ndealing with deployment can be rough. So I decided to try the\nservlet development support in NetBeans. Piece of cake! No writing\ndeployment descriptors, no fighting with installing and configuring\na server. Just run the wizard, type in the body of the servlet, and\nclick run. Direct to having fun with the ImageIO libraries...</p>\n\n",
+  "images" : [ {
+    "image" : "Image95-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 423,
+    "height" : 496
+  } ]
+}

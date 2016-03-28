@@ -1,0 +1,12 @@
+{
+  "date" : 1128841200000,
+  "title" : "Java Urban Performance Legends",
+  "body" : "There's a great thread on Slashdot titled <a href=\n\"http://it.slashdot.org/article.pl?sid=05/10/09/1259246&amp;tid=108&amp;tid=8\"\n shape=\"rect\">Java Urban Performance Legends</a>. It's mostly\nthrashing out urban performance legends in garbage collection, but\nyou can find them all over the place. Modern Java VMs really are\nquite fast, often beating C and C++ in all sorts of benchmarks.\nAnother common urban performance legend is that \"Java must be slow\nbecause there's no way to turn off subscript checking\": this one is\ncompletely false because all modern JVMs have optimizers that do a\ngreat job of eliminating subscript checking. \n\n<p style=\"text-align: left\">There was a funny incident at a recent\ndeveloper event where some folks had a booth where they where\ndemo-ing a high end industrial strength C compiler and had a\nbenchmark that they had transliterated into Java. They were\ncomparing their compiler to GCC and Java. GCC was running at about\n2/3 the performance of this high end compiler; the Java version was\nrunning at about 2/3 the performance of the GCC version. Folks were\ngathered around the booth and someone noticed that the script they\nwere using to run the Java version didn't have optimisation turned\non. A few seconds with vi to add the \"-server\" switch and Java's\nperformance jumped up to match the fancy C compiler. This got the\npro-GCC crowd all excited, so a bunch of them started fiddling with\nits command line switches. They got a bit of improvement, but not\nmuch (the original selection had been pretty good).</p>\n\n<p style=\"text-align: left\">The one place where Java does have a\nlegitimate remaining performance issue is startup time. But these\ndays it's down small enough to where anything that runs more than a\nfew seconds has a hard time noticing it. Most startup time in\nmodern Java apps goes to the app itself, not the VM.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_10_09_14-07-58-075_n3.small.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 143,
+    "height" : 150
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1271746800000,
+  "title" : "Hudson's new life",
+  "body" : "I went to a little going away party for <a href=\n\"http://weblogs.java.net/blog/kohsuke/archive/2010/04/05/good-bye-sunoracle\">Kohsuke\nKawaguchi</a>. He's the fellow that started (and has written most\nof the code for) <a href=\"http://hudson-ci.org/\">Hudson</a>, a\nreally great continuous integration server. It's totally extensible\nand can do everything from automating builds, running test suites,\ncollecting benchmarks, monitoring development status/health to\nmonitoring any kind of external execution (like procmail). He\nstarted working on Hudson as a spare-time personal project, then it\nbecame his day job (one of his day jobs, anyway). It's changed the\nway that I and many others do software development. This isn't the\nend of Hudson, it's a new birth: KK's starting a new company around\nHudson. You can contact him at <a href=\"http://kohsuke.org/\">his\npersonal site</a>\n",
+  "images" : [ {
+    "image" : "butler.png",
+    "href" : "http://hudson-ci.org/",
+    "align" : "left",
+    "width" : 140,
+    "height" : 148
+  } ]
+}

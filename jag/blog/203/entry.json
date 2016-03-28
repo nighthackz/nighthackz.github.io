@@ -1,0 +1,6 @@
+{
+  "date" : 1166688000000,
+  "title" : "LookingGlass hits 1.0",
+  "body" : "Just in time for Christmas, the <a href=\n\"https://lg3d.dev.java.net/\">Looking Glass</a> folks have finally\nreleased the 1.0 version of their very cool 3D window system.\nThey've even packaged it up into some easy-to-install <a href=\n\"http://lg3d-core.dev.java.net/binary-builds.html\">binary\nbuilds</a>. If you want to try writing an app that takes advantage\nof all the 3D facilities (rather than just being an X window that\nflies around in 3D), try out <a href=\n\"http://sourceforge.net/projects/auc-plethora\">Plethora</a>, a\nNetBeans module to make it easier.\n",
+  "images" : [ ]
+}

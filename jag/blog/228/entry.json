@@ -1,0 +1,12 @@
+{
+  "date" : 1178694000000,
+  "title" : "Building new worlds",
+  "body" : "<table width=\"100%\" bgcolor=\"black\">\n  <tr>\n    <td style=\"color: white\">This is the image from this year's\n    t-shirt. Yes, I do them myself. I do it with a tool called <a\n    href=\"http://www.newtek.com/lightwave/\" style=\n    \"color: pink\">Lightwave</a>. I'm not very good at it, but as\n    hobbies go, it's a lot of fun.</td>\n\n    <td>\n    </td>\n  </tr>\n</table>\n",
+  "images" : [ {
+    "image" : "WorldBuildersSmall.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 640,
+    "height" : 640
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1200470400000,
+  "title" : "Thank you, Developer.com!",
+  "body" : "Developer.com just published their <i>Product of the Year</i>\nawards, and we did rather well: \n\n<ul>\n  <li>Framework - Java SE 6</li>\n\n  <li>Development Tool - NetBeans IDE</li>\n\n  <li>Wireless/Mobile Development Tool - NetBeans Mobility</li>\n\n  <li>Java Tool - NetBeans IDE</li>\n\n  <li>.NET Tool - Glassfish Web Services Interoperability</li>\n\n  <li>JSR - JSR 223: Scripting for the Java Platform</li>\n</ul>Everyone involved put in a lot of work to put these tools\ntogether. The teams have done great work and we're all very proud\nof the results. Thanks everyone!\n",
+  "images" : [ {
+    "image" : "thumbsup.gif",
+    "href" : "http://www.developer.com/design/article.php/3721761",
+    "align" : "right",
+    "width" : 113,
+    "height" : 90
+  } ]
+}

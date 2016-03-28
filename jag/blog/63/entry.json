@@ -1,0 +1,12 @@
+{
+  "date" : 1092294000000,
+  "title" : "Provenance: a plea",
+  "body" : "I was talking to some friends that run a nonprofit called <a href=\n\"http://c-h-i.org\" shape=\"rect\">Cultural Heritage Imaging</a>. We\nhad one of those <i>wouldn't it be cool if</i> discussions about\none of my favorite words: <a href=\n\"http://dictionary.reference.com/search?q=provenance&amp;r=67\"\nshape=\"rect\">provenance</a>. This usually refers to the history\n(particularly of ownership) of an object. Wouldn't it be cool if\nfile formats of all kinds had provisions for recording the\nprovenance of a file? For example, wouldn't be cool if the EXIF\nheader standard for JPEG (and other) files had a place for\nhistorical information? So that Photoshop and other imaging\napplications could record and least a summary of what was done to\nthe file? This would be vaguely like what happens with mod\nhistories in source control systems like CVS and SCCS, but\nintegrated with the data, supported by the tools that do the\nmodifications, carried with the file as it gets moved from place to\nplace, and more automatic.\n",
+  "images" : [ {
+    "image" : "Image94-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 440,
+    "height" : 294
+  } ]
+}

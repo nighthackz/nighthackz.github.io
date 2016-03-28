@@ -1,0 +1,12 @@
+{
+  "date" : 1280300400000,
+  "title" : "Funniest thing I've read all week",
+  "body" : "Today, Slashdot had <a href=\n\"http://it.slashdot.org/article.pl?sid=10/07/28/2121259\">this</a>: \n\n<blockquote>\n  \"In Java 1.6.0_21, the company field was changed from 'Sun\n  Microsystems, Inc' to 'Oracle.' Apparently not the best idea,\n  because some applications depend on that field to identify the\n  virtual machine. All Eclipse versions since 3.3 (released 2007)\n  until and including the recent Helios release (2010) have been\n  reported to crash with an OutOfMemoryError due to this change.\n  This is particularly funny since the update is deployed through\n  automatic update and suddenly applications cease to work.\"\n</blockquote>I'd love to be able to say that this was a deeply\nembedded conspiracy, but no, it's just silly.\n",
+  "images" : [ {
+    "image" : "ROTFL110x85.gif",
+    "href" : null,
+    "align" : "right",
+    "width" : 110,
+    "height" : 85
+  } ]
+}

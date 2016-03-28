@@ -1,0 +1,18 @@
+{
+  "date" : 1178089200000,
+  "title" : "Contests@JavaOne: a first look",
+  "body" : "There are some programming contests at JavaOne this year that you\nmight want to look at before you come. The details aren't all clear\nyet and the web sites aren't finished, but there's enough to get\nyou started. \n\n<p>The the slot car track was so popular last year that we've <a\nhref=\"http://race.java.sun.com\">brought it back</a>. This year the\nrules are different: it's a rally rather than a race. There are\nwaypoints along the track and you have to reach each one \"on time\".\nYou lose points for being early or late. The rules and code are on\nthe site. The top three contestants get <a href=\n\"http://www.sunspotworld.com/\">SunSpots</a> and assorted other\ngoodies (but you have to be at my keynote on Friday to\ncollect!).</p>\n\n<p>The <a href=\"http://greenfoot.org\">Greenfoot folks</a> are\nrunning a game-writing contest at <a href=\n\"http://mygame.java.sun.com\">MyGame.java.sun.com</a>. Greenfoot is\na specialized IDE for teaching kids to program that uses\ngame-writing as a motivation. It's pretty cool. If you're not\ninterested in entering, you should check out the site anyway\nbecause it contains lots of simple applet games. Right now, it's\nmostly games used to test the framework, many are broken - but\nthat'll change quickly. Like the slot car contest, the top three\ncontestants get SunSpots and assorted other goodies (and you also\nhave to be at my keynote on Friday to collect!). We won't be\nrunning the contest finals during my keynote: there's not enough\ntime do do that and show off all the cool toys...</p>\n\n<p>Then there's the <a href=\n\"http://java.sun.com/javaone/sf/robots.jsp\">RoboSapiens\ncontest</a>. It turns out that the larger models of these <a href=\n\"http://www.wowwee.com/robosapien/robo1/robomain.html\">popular\ntoys</a> have ARM9s in them, for which there exists a JavaVM. The\nones you can buy in the street are sealed programmatically, but the\nWoWee folks will have a couple of hundred for sale at the show that\nare programmable. There will also be a pile in a hands-on lab for\nfolks to play with and use for writing contest code. The supply\nthey're bringing for sale is small and will go fast. There were a\npile of logistical problems in getting more to the show, but they\nsay that they will be making them available for sale (probably\nonline) sometime after JavaOne.</p>\n\n<blockquote style=\"font-style: italic\">\n  I don't know why this is happening, but this year's JavaOne is\n  setting a new high for craziness. So frigging much stuff going\n  on. Piles of folks killing themselves to put demos together. Too\n  much fun. I'll need to sleep for a month.\n</blockquote>\n",
+  "images" : [ {
+    "image" : "DukeWithHelmet.png",
+    "href" : "http://race.java.sun.com",
+    "align" : "right",
+    "width" : 512,
+    "height" : 512
+  }, {
+    "image" : "robosapien1.jpg",
+    "href" : "http://java.sun.com/javaone/sf/robots.jsp",
+    "align" : "right",
+    "width" : 223,
+    "height" : 200
+  } ]
+}

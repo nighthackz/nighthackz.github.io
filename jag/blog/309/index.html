@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NFS on Snow Leopard</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../308/index.html class=button>◀</a><td align=right><a href=../310/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../305/index.html>JavaOne 2009: another amazing experience.</a>
+<tr><td><td class=otherRef><a class=otherRef href=../306/index.html>Jazoon!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../307/index.html>Fun with Duke</a>
+<tr><td><td class=otherRef><a class=otherRef href=../308/index.html>CALL FOR PARTICIPATION: JVM LANGUAGE SUMMIT, September 2009</a>
+<tr><td>✓<td class=thisRef>NFS on Snow Leopard
+<tr><td><td class=otherRef><a class=otherRef href=../310/index.html>OMG - Alan Turing gets an apology!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../311/index.html>Heading to Oracle OpenWorld</a>
+<tr><td><td class=otherRef><a class=otherRef href=../312/index.html>My slides from Oracle Openworld</a>
+<tr><td><td class=otherRef><a class=otherRef href=../313/index.html>Map browser on kenai</a>
+<tr><td><td class=otherRef><a class=otherRef href=../314/index.html>JavaCard 3 hits the streets!</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>NFS on Snow Leopard</h1>
+<img align=right src='Gun.jpg.png'>I don't know what it is about Apple and NFS, but they keep moving
+things around. The new UI to NFS mounting is much nicer than it was
+before, but it's now in a totally different place: the Disk
+Utility. But if you use a lot of NFS file systems, it's a pain to
+have to mount them one by one: ignoring the UI and using the /net
+automount filesystem is far more convenient. Just use the file name
+<tt>/net/</tt><i>hostname</i><tt>/</tt><i>path</i> and you don't
+have to mess with any mounting, it just happens by automagic. I
+wrote a blog entry about this a long time ago. 
+
+<p>However, there is a huge problem with this: OS X does a
+phenominal amount of file locking (some would say, needlessly so)
+and has always been really sensitive to the configuration of
+locking on the NFS servers. So much so that if you randomly pick an
+NFS server in a large enterprise, true success is pretty unlikely.
+It'll succeed, but you'll keep getting messages indicating that the
+lock server is down, followed quickly by another message that the
+lock server is back up again. Even if you do get the NFS server
+tuned precisely the way that OS X wants it, performance sucks
+because of all the lock/unlock protocol requests that fly across
+the network. They clearly did something in Snow Leopard to
+aggravate this problem: it's now nasty enough to make NFS almost
+useless for me.</p>
+
+<p>Fortunately, there is a fix: just turn off network locking. You
+can do it by adding the "nolocks,locallocks" options in the
+advanced options field of the Disk Utility NFS mounting UI, but
+this is painful if you do a lot of them, and doesn't help at all
+with /net. You can edit /etc/auto_master to add these options to
+the /net entry, but it doesn't affect other mounts - however I do
+recommend deleting the <tt>hidefromfinder</tt> option in
+auto_master. If you want to fix every automount, edit
+/etc/autofs.conf and search for the line that starts with
+<tt>AUTOMOUNTD_MNTOPTS=</tt>. These options get applied on every
+mount. Add <tt>nolocks,locallocks</tt> and your world will be
+faster and happier after you reboot.</p>
+
+
+<table width=100%><tr><td align=right class=date>August 29, 2009</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

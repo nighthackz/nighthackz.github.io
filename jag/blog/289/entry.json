@@ -1,0 +1,12 @@
+{
+  "date" : 1226476800000,
+  "title" : "The LincVolt lives!",
+  "body" : "At JavaOne 2007, Neil Young gave an impassioned talk about why\nBluRay matters to artists. He ended the talk with a few comments\nabout a project he was starting to take a classic Detroit monster\n(a 1959 Lincoln Continental) and turn it into an X-Prize capable\nhybrid electric car. There was more than a little scepticism in the\naudience, but he did it, and he calls it the <a href=\n\"http://www.lincvolt.com/\">LincVolt</a>. And he <a href=\n\"http://homepage.mac.com/james.gosling/LincVolt/\">brought it to Sun\nin Menlo Park</a> to show it off. Piles of realtime Java code under\nthe hood.\n",
+  "images" : [ {
+    "image" : "thumb-7.jpg",
+    "href" : "http://homepage.mac.com/james.gosling/LincVolt/",
+    "align" : "right",
+    "width" : 187,
+    "height" : 249
+  } ]
+}

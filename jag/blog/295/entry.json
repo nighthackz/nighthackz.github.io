@@ -1,0 +1,12 @@
+{
+  "date" : 1234684800000,
+  "title" : "At TechDays in Hyderabad",
+  "body" : "I'll be spending this week at <a href=\n\"http://www.sercononline.com/suntechdays09/index.htm\">Tech Days in\nHyderabad</a>. It'll be a grand geekfest with lots of educational\nsessions. If you're anywhere near by, come join in. It promises to\nbe a lot of fun. \n\n<p>The big thrill last week was the launch of <a href=\n\"http://javafx.com/\">JavaFX mobile</a>, which is included in <a\nhref=\"http://javafx.com/launch/\">JavaFX 1.1</a>, which was also\nlaunched last week. Besides officially supporting mobile platforms,\nJavaFX now has richer support of numeric types and a whole pile of\nperformance improvements. JavaFX is getting really nice, really\nfast. Take it out for a spin.</p>\n\n<p>If you happen to be going to Mobile World Congress this week\n(where it seems every mobile developer is going), there will be a\npile of folks from Sun who would love to show you a bunch of cool\nJavaFX apps running on a wide variety of cellphones.</p>\n\n",
+  "images" : [ {
+    "image" : "charminar_hyderabad_india_photo.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 250,
+    "height" : 202
+  } ]
+}

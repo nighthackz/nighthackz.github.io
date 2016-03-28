@@ -1,0 +1,12 @@
+{
+  "date" : 1088233200000,
+  "title" : "Swing on Steroids",
+  "body" : "There are a couple of cool new projects on dev.java.net: <a href=\n\"http://jdnc.dev.java.net\" shape=\"rect\">JDNC</a> and <a href=\n\"http://jdic.dev.java.net\" shape=\"rect\">JDIC</a>.\n\n<p>JDNC, <b>J</b>ava <b>D</b>esktop <b>N</b>etwored\n<b>C</b>omponents is a set of extended versions of the more\nsophisticated Swing components (Table and TextArea) along with an\nXML based markup language to allow webstart and applet clients to\nbe easily constructed.</p>\n\n<p>JDIC, <b>J</b>ava <b>D</b>esktop <b>I</b>ntegration\n<b>C</b>omponents provide more integration into the host desktop\nenvironment: integrating the native web browser, mail, registered\ndocument viewing applications and installation.</p>\n\n<p>Now to revisit some of my old apps and integrate these tasty\nbits of coolness...</p>\n\n",
+  "images" : [ {
+    "image" : "Image74-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 620,
+    "height" : 417
+  } ]
+}

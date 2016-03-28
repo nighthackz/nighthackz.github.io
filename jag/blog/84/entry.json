@@ -1,0 +1,6 @@
+{
+  "date" : 1118991600000,
+  "title" : "What blogging software?",
+  "body" : "One question I've recieved is \"what blogging software are you\nusing, your web pages don't look like anything I'm familiar with\".\nWell... I wrote my own. It's <i>really</i> simple and does just\nwhat I want. With luck (mostly getting time) I'll open source it.\nThe one big feature is that it will publish to a generic ftp-able\nwebsite and it can work offline. My TiBook is often off the net and\nI wanted to be able to write entries whenever. I also frequently\ntake myself off the net just so I can get things done.\n\n<p>[ Update: it is now open sourced at <a href=\n\"http://bloged.dev.java.net/\" shape=\"rect\">java.net</a> ]</p>\n\n",
+  "images" : [ ]
+}

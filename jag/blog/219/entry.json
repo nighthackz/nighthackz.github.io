@@ -1,0 +1,12 @@
+{
+  "date" : 1174892400000,
+  "title" : "Out of the frying pan...",
+  "body" : "<p>...into the fire. I finally got back from the Tech Day events in\nLondon and Paris. Both went very well. Lots of great developers all\nover the place. One of the things I love to do is \"open mic\"\nquestion and answer sessions: I got some really good grillings on\nthis trip. I had promised myself that I would do a lot of blogging\nthis time, but it never happened. Between being booked for too many\nhours a day and an irrational need to sleep, I didn't succeed.</p>\n\n<p>One particularly interesting visit I went on was to the <a href=\n\"http://www.cs.kent.ac.uk\">Computing Laboratory at the University\nof Kent</a>. It (along with <a href=\n\"http://www.deakin.edu.au/\">Deakin University</a>) is the home of\n<a href=\"http://bluej.org\">BlueJ</a>. BlueJ is a great teaching\ntool/methodology/IDE that is used in schools an Universities all\nover the world. They've come up with a new thing called <a href=\n\"http://greenfoot.org/about/whatis.html\">greenfoot</a>, which is a\ncross betwen a framework/API for creating two-dimensional\ngames&amp;simulations and the BlueJ IDE. It's designed to help\nmotivate kids to learn programming by making it easy for them to\nwrite games. Even if you're not a kid, the framework is a lot of\nfun.</p>\n\n",
+  "images" : [ {
+    "image" : "StPauls.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 640,
+    "height" : 204
+  } ]
+}

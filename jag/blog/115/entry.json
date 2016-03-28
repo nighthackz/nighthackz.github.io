@@ -1,0 +1,12 @@
+{
+  "date" : 1119164400000,
+  "title" : "Migrating my blog to roller...",
+  "body" : "I'm migrating my weblog from the simple ftp-based filesystem blog\nthat I had been using on today.java.net to the Roller based\nblogging engine on blogs.sun.com. My original blog got started\nbefore the modern infrastructure got set up. My new blog is at <a\nhref=\"http://blogs.sun.com/roller/page/jag\" shape=\n\"rect\">http://blogs.sun.com/roller/page/jag</a> But the going has\nbeen more than slightly rocky: those wiser than I think I'm\nslightly nuts. The meta weblog / xmlrpc is reputed to be more than\nslightly rocky: images have low performance and entry dates and\ntitles cannot be manipulated. As one of the folks I've been talking\nwith has said: \"if one were of a cynical streak of mind one might\nthink it had been designed to make sure that you could not do\nanything\" through xmlrpc rather than the web page interface. \n\n<p style=\"text-align: left\">But I figure that it'll be a good\nexperiment in seeing how it all hangs together. The simple\nfilesystem based infrastructure that I had been using was very\nsimple and efficient, and gave me total freedom in page layout. But\nit didn't have some of the other stuff that comes with having an\nintelligent server. We'll see.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_06_19_16-18-41-321_n1.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 148
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1264147200000,
+  "title" : "OK, it's time to look forward...",
+  "body" : "Enough of being <a href=\n\"http://en.wiktionary.org/wiki/maudlin\">maudlin</a>, it's time to\nlook forward to being a unified company: \n\n<div style=\"font: 36pt helvetica,sans-serif; text-align: center\">\n  Sun + Oracle = Snorcle ?<br>\n</div>\n\n<div style=\"font: 10pt helvetica,sans-serif; text-align: center\">\n  Where else would Duke need a snorcle, but in an <a href=\n  \"http://blogs.sun.com/theaquarium\">aquarium</a> visiting a <a\n  href=\"https://glassfish.dev.java.net\">glassfish</a>?<br>\n  You'll find all the images <a href=\n  \"http://duke.kenai.com/SunRIP/index.html\">here</a>.<br>\n  Thanks to Rich Green for <a href=\n  \"http://kenai.com/projects/duke\">open sourcing Duke</a>.\n</div>\n",
+  "images" : [ {
+    "image" : "Snorcle.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 2395,
+    "height" : 1660
+  } ]
+}

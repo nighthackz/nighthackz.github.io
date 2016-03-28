@@ -1,0 +1,12 @@
+{
+  "date" : 1118991600000,
+  "title" : "Back on the air!",
+  "body" : "I had a bit of a technology problem with blogging: I've been using\na tool called <a href=\"http://bloged.dev.java.net\" shape=\n\"rect\">BlogEd</a> that I originally created a couple of years ago.\nA while ago <a href=\"http://blogs.sun.com/roller/page/bblfish\"\nshape=\"rect\">Henry Story</a> took it over and has been going to\ntown, transforming it from a simple hack into a sophisticated tool.\nI had been stuck on the old version for a while, but a couple of\nmonths ago I decided to cut over the the new version. It was a bit\nrocky, partly because the new version of BlogEd was a bit ragged,\nbut more because of operator error. I'm mostly past that now.\n",
+  "images" : [ {
+    "image" : "2005_06_16_21-03-52-976_n1.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 48,
+    "height" : 52
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1240815600000,
+  "title" : "Java Me SDK 3.0 launched!",
+  "body" : "The mobile group has just released a lovely new version of what\nused to be called the \"wireless toolkit\", but is now the <a href=\n\"http://java.sun.com/javame/downloads/sdk30.jsp\">Java ME SDK</a>.\nIt includes integration with third-party emulators and Windows\nMobile devices; on-device deployment and on-device debugging;\nCLDC/MIDP, CDC/FP/PBP/AGUI, and BD-J (blue-ray); the new CLDC\nHotSpot Virtual Machine; an optimized MSA 1.1 stack with\nextensions; profiling support; new development environment based on\nNetbeans; the Lightweight UI Toolkit (LWUIT) and device search\ndatabase are integrated; and the JavaFX Mobile Emulator is now\nincluded. \n\n<p>It's a massive release of tasty new stuff for mobile and\nembedded developers. Enjoy!</p>\n\n",
+  "images" : [ {
+    "image" : "l2_javame_duke_sdk3.gif",
+    "href" : "http://java.sun.com/javame/downloads/sdk30.jsp",
+    "align" : "right",
+    "width" : 100,
+    "height" : 88
+  } ]
+}

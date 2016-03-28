@@ -1,0 +1,12 @@
+{
+  "date" : 1141372800000,
+  "title" : "Dukes Choice awards",
+  "body" : "There are only a couple of weeks left to nominate a project for a\n<a href=\"http://java.com/en/dukeszone/dukeschoice.jsp\">Dukes Choice\nAward</a>. It's a great way to show off the cool stuff folks have\nbeen building.\n",
+  "images" : [ {
+    "image" : "awards.jpg",
+    "href" : "http://java.com/en/dukeszone/dukeschoice.jsp",
+    "align" : "right",
+    "width" : 440,
+    "height" : 133
+  } ]
+}

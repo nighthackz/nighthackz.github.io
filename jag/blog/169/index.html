@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Scripting flamewar</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../168/index.html class=button>◀</a><td align=right><a href=../170/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../165/index.html>NetBeans 5.5....  EE5...  BlueJ...  Oh my!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../166/index.html>shar: a blast from the past</a>
+<tr><td><td class=otherRef><a class=otherRef href=../167/index.html>Dukes Choice awards</a>
+<tr><td><td class=otherRef><a class=otherRef href=../168/index.html>The finalists have been chosen!</a>
+<tr><td>✓<td class=thisRef>Scripting flamewar
+<tr><td><td class=otherRef><a class=otherRef href=../170/index.html>Bits and pieces</a>
+<tr><td><td class=otherRef><a class=otherRef href=../171/index.html>JavaOne After Dark</a>
+<tr><td><td class=otherRef><a class=otherRef href=../172/index.html>Enterprise tools open sourced</a>
+<tr><td><td class=otherRef><a class=otherRef href=../173/index.html>Fun in real time</a>
+<tr><td><td class=otherRef><a class=otherRef href=../174/index.html>Java TechDays in Moscow</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Scripting flamewar</h1>
+I made some comments recently about scripting languages that
+generated flame storms in a variety of places. For example, <a
+href="http://jdj.com">JDJ</a> and <a href=
+"http://www.artima.com/forums/flat.jsp?forum=270&amp;thread=151886">Artima</a>.
+Yes, I did say those things. But there's a lot of context missing,
+and they're the flippant soundbite version of what should have been
+a long and careful explanation that could easily mushroom into a
+series of PhD theses. Amongst all the flamage there are all kinds
+of generalizations about "scripting languages" versus "compiled
+languages". My big problem with a lot of it is simply that these
+two polarizing categories are a pretty poor way of capturing the
+distinctions between language designs. The terms are almost as
+goofy as "Republican" versus "Democrat". Taking huge
+multi-dimensional spaces of choices on different issues, then
+combining and simplifying them all down to a brutally simple binary
+choice is goofy. 
+
+<p>Over the years I've built quite a lot of scripting systems. I've
+also built a number of compilers for non-scripting languages. Given
+enough beer I'll even admit to having implemented a Cobol compiler
+for money in the deep dark past. But I've done more scripting
+systems than non-scripting systems.</p>
+
+<p>There are issues in the tradeoffs between the two linguistic
+spaces all over the place. Someday I'd like to write a long tour
+through them, but there just aren't enough hours in a day. I have a
+hard time getting enough time to do even trivial blogging: being
+truly thoughtful takes a lot of time. But I'll try to cover a
+few.... For now, I'll make the generalization that "scripting
+language" means one that is interpreted with dynamic runtime
+typing, and the other camp is languages that are compiled to
+machine code and have static runtime typing. This is a broad
+over-simplifying generalization, but it matches pretty well what
+goes on in common conversations.</p>
+
+<p><b>Raw execution performance:</b> One of the usual arguments for
+scripting languages having acceptable performance is that the
+overhead of interpretation and dynamic typing doesn't matter. The
+performance of the system is dominated by other factors: typically
+IO and the language primitives. For example, PERL apps usually
+spend the majority of their time in file IO and string primitives.
+I've strongly made this argument in the past, and it's quite valid.
+But having observed developers usage patterns, the two most common
+things that happen to erode the argument are:</p>
+
+<ol>
+  <li>Developers start doing things that are outside of what the
+  language primitives are good at. For example, PostScript has
+  great primitives for rendering. So long as you're doing
+  rendering, it flies like the wind. But then someone goes and
+  writes a game that's heavily based on rendering, and a piece of
+  it needs to do collision detection between missiles and targets.
+  Physics in PostScript: a bad idea.</li>
+
+  <li>Developers start clamoring for new primitives. Some are too
+  specialized to be reasonable "I want a fast collision engine",
+  some are rational "object oriented programming has become the
+  dominant style in PostScript, but the OO model is implemented in
+  PostScript as a library and is slow".</li>
+</ol>There are a bunch of ways to respond: 
+
+<ol>
+  <li>"Buzz off". My personal favorite. Don't use a hammer to
+  tighten a bolt.</li>
+
+  <li>Start adding more primitives. This is hopeless: you drown in
+  wave after wave of requests.</li>
+
+  <li>Put in a facility for developers to write their own
+  primitives. eg. link hunks of C code into the interpreter. Can
+  work pretty well, but the linguistic universe schism can be
+  problematic. Not only do developers then need to learn two
+  environments, but because of the cross-language calls each
+  language can impose difficulties on the other (eg. doing a
+  language with a good garbage collector has a hard time
+  interacting well with C's malloc/free regime.</li>
+
+  <li>Make the "scripting language" fast enough to implement
+  primitives. It tends to end up not looking much like a scripting
+  language. This is roughly the road I went down with Java: to see
+  how close to a scripting experience I could get while being able
+  compile obvious statements like "a=b+c" into one instruction in
+  the common case. I could have gone down the road of making
+  declarations optional, but I intentionally didn't.</li>
+</ol><b>Worrying about scale, evolution and testing:</b> strong
+compile-time types dramatically improve the ability of the tools
+(compiler, IDE, ...) to do global checking and manipulation. Some
+people like this. Some don't. There's a fair amount of evidence
+that these sorts of facilities are really helpful in dealing with
+systems that get large, evolve over a long time or require large
+teams. The most-often-cited reason for preferring dynamic typing is
+that it can make the development process easier: no need to bother
+typing all those yucky declarations. 
+
+<p>There are a variety of middle-ground solutions:</p>
+
+<ul>
+  <li>One is to allow, but not require, declarations. This is
+  particularly common in Lisp dialects where you can sprinkle
+  declarations like <tt>(fixnum i j k)</tt> where needed to cause
+  the code generators to generate efficient code. The big problem
+  is figuring out the "where needed" bit. Sometimes it can be dicey
+  to figure out all the places where there are issues. Often there
+  are no real performance hotspots: no loops burning up all the
+  time. Rather, it's a "peanut butter" problem where it's spread
+  everywhere: you have to tune <i>everything</i> to make a
+  difference.</li>
+
+  <li>
+    Another is to make the language be strongly/statically typed,
+    but to make the declaration process more transparent. One
+    extreme point in this space is <b>ML</b> which does extensive
+    type inferencing (leading sometimes to developer confusion
+    because they can't figure out what the type inferencing engine
+    is doing). An operator that I've long wanted to add to Java is
+    "declare and assign": 
+
+    <table>
+      <tr>
+        <td valign="top" nowrap>v:=e</td>
+
+        <td>Declares v to have the same type as e, and assigns e to
+        v. "x:=r*sin(t);" would be roughly equivalent to "double x
+        = r*sin(t)".</td>
+      </tr>
+
+      <tr>
+        <td valign="top" nowrap>v:==e</td>
+
+        <td>Just like :=, except that it makes v final</td>
+      </tr>
+    </table>
+
+    <p>There's a lot more to say, but this is enough for
+    today...</p>
+  </li>
+</ul>
+
+<table width=100%><tr><td align=right class=date>March 23, 2006</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

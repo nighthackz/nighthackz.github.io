@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700,300);
+body { font-family: 'Oxygen', sans-serif; font-weight: 400; background: #BBB;
+	padding: 20px 0; text-align:center; }
+h1 { font-family: 'Oxygen', sans-serif; font-weight: 700; font-size: 200%; }
+div.entry { background: #fff; border: thin solid black; border-radius: 10px;
+    text-align: left; 
+    width: 800px;
+    padding: 5px 20px; }
+div.slick { width: 800px; }
+a.button {
+
+    text-decoration: none;
+    padding: 0px 10px;
+    margin: 3px 4px;
+    background: #888;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+a.button:hover { background: #555; }
+img.banner { margin-bottom: 10px; margin-left: auto; margin-right: auto; }
+img.jag { margin-left: auto; margin-right: auto; padding: 0px 15px }
+td.nav {
+    vertical-align: top;
+    padding: 0 20px;
+}
+td.content {
+    vertical-align: top;
+    padding: 0 20px;
+    test-align: center;
+}
+a.otherRef {
+	font-weight: 300;
+	font-size: 80%;
+	text-decoration: none;
+}
+a.otherRef:hover {
+	background: #eee;
+}
+td.thisRef {
+	font-weight: 700;
+	text-align: left;
+}
+td.otherRef {
+	text-align: left;
+}
+table.dir {
+	background: #eee;
+	border-radius: 5px;
+}
+td.date {
+	    font-style: italic;
+}
+

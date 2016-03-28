@@ -1,0 +1,12 @@
+{
+  "date" : 1240988400000,
+  "title" : "The Developer Cloud: Netbeans 6.7 + Kenai",
+  "body" : "One of the many interesting things we've been working on lately is\nthe <i>Developer Cloud</i>. There are two major components to it.\nOne is the cloud infrastructure itself: <a href=\n\"http://kenai.com\">Kenai</a> a much-more-than-a-forge collection of\ndeveloper facilities that allows you to assemble project areas from\na selection of services that range from several SCM systems, bug\nmanagement systems, wikis and forums. There's a lot more stuff in\nthe pipeline for Kenai, but it's pretty impressive already. The\nother major component is the tool support that is showing up in <a\nhref=\"http://www.netbeans.org/community/releases/67/\">NetBeans\n6.7</a>. The beta was just released. I've been running the\n\"dailies\" for quite a while now. It's real impressive: there's a\nlot more to NB 6.7 than the developer cloud, but the <a href=\n\"http://wiki.netbeans.org/NewAndNoteWorthyNB67#section-NewAndNoteWorthyNB67-ConnectedDeveloperNetBeansIntegrationWithKenai.com\">cloud\nsupport</a> is the standout feature. We're just beginning, but it's\nalready transformed the way I work. \n\n<p>If you're one of those neolithic vi users, clinging to the\nbanging-together of rocks: Stop! Go to NetBeans now!</p>\n\n",
+  "images" : [ {
+    "image" : "DYGYTWT-nb-button.png",
+    "href" : "http://www.netbeans.org/community/releases/67/",
+    "align" : "right",
+    "width" : 145,
+    "height" : 176
+  } ]
+}

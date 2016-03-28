@@ -1,0 +1,12 @@
+{
+  "date" : 1211439600000,
+  "title" : "Happy Birthday, Ivan!",
+  "body" : "I spent the afternoon at the <a href=\n\"http://www.computerhistory.org/\">Computer History Museum</a> at an\nevent celebrating the 70th birthday of <a href=\n\"http://en.wikipedia.org/wiki/Ivan_Sutherland\">Ivan Sutherland</a>.\nHe's famous for a whole lot of things, the earliest being <a href=\n\"http://en.wikipedia.org/wiki/Sketchpad\">Sketchpad</a>, a\n<i>man-machine graphical communication system</i> that he built in\n1962. In a lot of computing fields, and particularly in graphics,\nif you read any paper and follow the bibliography links back,\nyou're almost certain to find something written by Ivan or one of\nhis students. <a href=\n\"http://en.wikipedia.org/wiki/Bob_Sproull\">Bob Sproull</a> MC'd the\nevent and <a href=\"http://en.wikipedia.org/wiki/Alan_Kay\">Alan\nKay</a> (one of Ivan's student's) gave a long talk. The list of\npeople that showed up to honor Ivan was amazing. A couple who's\nnames you might know were Henri Gouraud and John Warnock. \n\n<p>When I was working on my PhD thesis, I noticed that all the\npapers I was reading had backpointers eventually to Sketchpad. When\nI finally read Ivan's thesis, I was totally blown away. I ended up\nwith Ivan on my thesis committee and I think of my thesis as a\nmacro-expansion of about half a page from Sketchpad.</p>\n\n<p>You really should <a href=\n\"http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf\">read his\nthesis</a>. It will blow you away. Among many other things, it can\nbe fairly said that Ivan invented Object Oriented Programming.</p>\n\n<p>For another life-altering experience, you should read one of his\nfew non-technical papers, <a href=\n\"http://research.sun.com/techrep/Perspectives/smli_ps-1.pdf\">Technology\nand Courage</a>. Besides being an outstanding researcher, he's also\nstarted a couple of companies and is a venture capitalist: his\nadvice on courage is mandatory reading.</p>\n\n",
+  "images" : [ {
+    "image" : "Sketchpad-Apple.jpg",
+    "href" : "http://en.wikipedia.org/wiki/Sketchpad",
+    "align" : "right",
+    "width" : 323,
+    "height" : 223
+  } ]
+}

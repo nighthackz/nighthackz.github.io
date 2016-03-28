@@ -1,0 +1,12 @@
+{
+  "date" : 1119855600000,
+  "title" : "Monday's JavaOne keynote",
+  "body" : "Lots and lots of cool stuff... Not nearly enough time to write\nabout it all. The thrills started even before the keynote: the jazz\ngroup that provided the opening music including one of my all time\nfavorite musicians: <a href=\n\"http://www.quillsquotesandnotes.com/wrpaulhorn.htm\" shape=\n\"rect\">Paul Horn</a>. A real treat. \n\n<p style=\"text-align: left\">Then there was all the stuff about open\nsourcing of our app server, a project internally named GlassFish.\nIt's all out there at <a href=\"https://glassfish.dev.java.net/\"\nshape=\"rect\">glassfish.dev.java.net</a>. We've been pricing the\nbinaries at $0 for quite a while, now all of the source is out\nthere for anyone to grab and play with. It'll be the place where we\ndo our work on the evolution of Java EE.</p>\n\n<p style=\"text-align: left\"><a href=\"http://ibm.com/java\" shape=\n\"rect\">IBM</a> being there was wonderful: the contract negotiations\nhad gone on for quite a while, and resolved to everyone's\nsatisfaction. They've been great supporters for years and I'm very\nhappy to have all the details clear once again.</p>\n\n<p style=\"text-align: left\">One of the sleeper activities that has\nbeen going on is the definition of the <a href=\n\"http://www.blu-raydisc.com/\" shape=\"rect\">blu-ray</a> next\ngeneration DVD standard. Java (a relative of the J2ME spec) is how\ndynamic behavior is defined on a DVD disk: every DVD player will\nhave a Java VM and a network connection. There are huge\npossibilities...</p>\n\n<p>Then there was the new stuff in Java Studio Creator...\nParticularly the support for <a href=\n\"http://en.wikipedia.org/wiki/AJAX\" shape=\"rect\">AJAX</a>.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_07_21_14-04-01-327_n5.small.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 83
+  } ]
+}

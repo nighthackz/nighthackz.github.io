@@ -1,0 +1,12 @@
+{
+  "date" : 1311231600000,
+  "title" : "XKCD on standards",
+  "body" : "I'm a huge fan of XKCD, but a recent <a href=\n\"http://xkcd.com/927/\">cartoon on standards</a> didn't quite match\nmy usual experience...\n",
+  "images" : [ {
+    "image" : "xkcdstandards.png",
+    "href" : null,
+    "align" : null,
+    "width" : 664,
+    "height" : 283
+  } ]
+}

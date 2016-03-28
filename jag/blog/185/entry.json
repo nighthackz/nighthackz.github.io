@@ -1,0 +1,12 @@
+{
+  "date" : 1149231600000,
+  "title" : "Kudos to the Ubuntu team!",
+  "body" : "I just installed Ubuntu 6.06 and it was the nicest out-of-the-box\ninstall experience I've ever had with Linux - real competition for\nthe folks at Apple. Thanks for the lovely piece of work!\n",
+  "images" : [ {
+    "image" : "UbuntuStrapLogoSmall.png",
+    "href" : "http://ubuntu.com",
+    "align" : "right",
+    "width" : 188,
+    "height" : 49
+  } ]
+}

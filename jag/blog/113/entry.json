@@ -1,0 +1,12 @@
+{
+  "date" : 1118991600000,
+  "title" : "JavaExpo Madrid",
+  "body" : "I'm in Madrid for a couple of days to participate in their\nJavaExpo. I spent a couple of hours yesterday with a bunch of\ncustomer service engineers who where telling me about what's\nhappening here in Spain. There has generally been an awful lot of\neverything, but it was real clear that the big thing that stood out\nfor them was that this has been the year of enterprise applications\non cell phones. Spain has more than 100% market penetration (i.e.\nmore cell phones than people), of which the vast majority (&gt;80%)\nare Java phones. \n\n<p>A lot of the cool applications have been enabled by the new\ngeneration of MIDP2 phones that have network access. One app that's\nbecome pretty popular amongst professional stock brokers is one\nthat allows them to watch stocks and place trades from their phones\n- very popular over the lunch hour(s) :-)</p>\n\n<p>There's a whole class applications that are for workforce\ncommunication, essentially taking the place of walkie-talkies. Cell\nphones work better than walkie-talkies in these applications\nbecause they're point-to-point, longer range, have better noise\nimmunity, and they are app platforms; and they have better range\nand are much cheaper than WiFi PDAs. One that they discribed to me\nwas a simple to-do list manager whose entries were things like \"go\nto gate X to help unload plane Y at Z o'clock\". It's dynamically\nand instantly updatable (they get updates to the phone in seconds).\nAnother kind of entry is a broadcast like \"Would someone near X do\nY\" which pops up a button that says \"I'll do it\" that when pressed\ncancels the request on all other phones and pops up a button that\nsays \"Done\". Real simple, but if you're running something like an\nairport: it's real powerful.</p>\n\n<p>A note about my previous post: a few people wrote in to say\n\"huh?\" about the title \"1+1=<i>i</i>\". I guess my lame attempt at\ngeek humour was too obscure: I was commenting on people's ability\n(when reading stuff in the press) to add things up and get not just\nthe wrong answer, but a wrong answer that isn't even on the number\nline.</p>\n\n",
+  "images" : [ {
+    "image" : "Image120-small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 97
+  } ]
+}

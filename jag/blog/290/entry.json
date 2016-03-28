@@ -1,0 +1,12 @@
+{
+  "date" : 1227945600000,
+  "title" : "Heading to Tokyo",
+  "body" : "<table>\n  <tr>\n    <td>I'm spending this coming week at <a href=\n    \"http://jp.sun.com/company/events/techdays/\">Tech Days in\n    Tokyo</a> from Tuesday through Thursday. If you're anywhere\n    near Tokyo, come join us. We'll be showing off all the latest\n    and greatest stuff: JDK 6u10, NetBeans 6.5, Glassfish V3,\n    JavaFX, Solaris, and a whole lot more. Three days densely\n    packed with all kinds of geek training.</td>\n\n    <td>\n    </td>\n  </tr>\n</table>\n",
+  "images" : [ {
+    "image" : "EastWest.jpg",
+    "href" : "http://jp.sun.com/company/events/techdays/",
+    "align" : null,
+    "width" : 600,
+    "height" : 377
+  } ]
+}

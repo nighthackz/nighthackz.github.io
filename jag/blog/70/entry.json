@@ -1,0 +1,6 @@
+{
+  "date" : 1096527600000,
+  "title" : "How do I run Tiger?",
+  "body" : "There have been a few questions on various blogs/forums asking how\nI run Tiger (J2SE 5.0), given that I use Mac OS X rather than a PC.\nWell.... I have a linux box and I use the X support on OS X. My\nlinux box is out on the open internet and generally accessible via\nSSH tunnel. It works quite well, given that it's got a very direct\nlink to a very big pipe (It logically sits next to java.sun.com).\nThis trick doesn't work on airplanes, but that's why <a href=\n\"http://www.allgoodsw.com\" shape=\"rect\">solitare</a> was invented\n:-)\n\n<p>Several folks have asked if I get magic code drops from Apple.\nNo. I shiver out in the cold like everyone else.</p>\n\n",
+  "images" : [ ]
+}

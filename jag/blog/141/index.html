@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Java Urban Performance Legends</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../140/index.html class=button>◀</a><td align=right><a href=../142/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../137/index.html>Netbeans in Beijing</a>
+<tr><td><td class=otherRef><a class=otherRef href=../138/index.html>JavaChina</a>
+<tr><td><td class=otherRef><a class=otherRef href=../139/index.html>SOA: Buzzworld Whiplash or Real Meat?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../140/index.html>Only solve the problems you need to solve</a>
+<tr><td>✓<td class=thisRef>Java Urban Performance Legends
+<tr><td><td class=otherRef><a class=otherRef href=../142/index.html>Fault Containment: an unsung hero</a>
+<tr><td><td class=otherRef><a class=otherRef href=../143/index.html>Science Fair, Monterrey</a>
+<tr><td><td class=otherRef><a class=otherRef href=../144/index.html>NetBeans tidbits</a>
+<tr><td><td class=otherRef><a class=otherRef href=../145/index.html>Good Night, and Good Luck</a>
+<tr><td><td class=otherRef><a class=otherRef href=../146/index.html>Kids & Java</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Java Urban Performance Legends</h1>
+<img align=right src='2005_10_09_14-07-58-075_n3.small.png'>There's a great thread on Slashdot titled <a href=
+"http://it.slashdot.org/article.pl?sid=05/10/09/1259246&amp;tid=108&amp;tid=8"
+ shape="rect">Java Urban Performance Legends</a>. It's mostly
+thrashing out urban performance legends in garbage collection, but
+you can find them all over the place. Modern Java VMs really are
+quite fast, often beating C and C++ in all sorts of benchmarks.
+Another common urban performance legend is that "Java must be slow
+because there's no way to turn off subscript checking": this one is
+completely false because all modern JVMs have optimizers that do a
+great job of eliminating subscript checking. 
+
+<p style="text-align: left">There was a funny incident at a recent
+developer event where some folks had a booth where they where
+demo-ing a high end industrial strength C compiler and had a
+benchmark that they had transliterated into Java. They were
+comparing their compiler to GCC and Java. GCC was running at about
+2/3 the performance of this high end compiler; the Java version was
+running at about 2/3 the performance of the GCC version. Folks were
+gathered around the booth and someone noticed that the script they
+were using to run the Java version didn't have optimisation turned
+on. A few seconds with vi to add the "-server" switch and Java's
+performance jumped up to match the fancy C compiler. This got the
+pro-GCC crowd all excited, so a bunch of them started fiddling with
+its command line switches. They got a bit of improvement, but not
+much (the original selection had been pretty good).</p>
+
+<p style="text-align: left">The one place where Java does have a
+legitimate remaining performance issue is startup time. But these
+days it's down small enough to where anything that runs more than a
+few seconds has a hard time noticing it. Most startup time in
+modern Java apps goes to the app itself, not the VM.</p>
+
+
+<table width=100%><tr><td align=right class=date>October 9, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

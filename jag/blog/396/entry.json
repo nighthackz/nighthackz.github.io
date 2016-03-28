@@ -1,0 +1,12 @@
+{
+  "date" : 1337756400000,
+  "title" : "OvG: It's finally (almost) over.",
+  "body" : "The patent part of the case is <a href=\n\"http://www.wired.com/wiredenterprise/2012/05/oracle-google-patent-verdict/\">finally\nover, with Google acquitted on (almost) all counts.</a>. The happy\npart for me is that despite having been on the witness list and\ngone through a bunch of prep work with lawyers, I didn't actually\nhave to testify. Despite all the furor that went into this one, it\nwent out with a wimper. Court cases are never about right and\nwrong, they're about the law and what you can convince a jury of.\nFor those of us at Sun who felt trampled-on and abused by Google's\ncallous self-righteousness, I would have preferred a different\noutcome - not from the court case as much as from events of years\npast.\n",
+  "images" : [ {
+    "image" : "Gun.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 446,
+    "height" : 300
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1221548400000,
+  "title" : "In Germany this week",
+  "body" : "I'll be in Germany this week, mostly at a <a href=\n\"http://www.herbstcampus.de/\">conference in N&#252;rnberg</a>. The\nlist of speakers looks pretty impressive. If you're in the area,\ncome join in.\n",
+  "images" : [ {
+    "image" : "268px-N%25C3%25BCrnberg_Burg_ArM.jpg",
+    "href" : "http://www.herbstcampus.de/",
+    "align" : "right",
+    "width" : 268,
+    "height" : 89
+  } ]
+}

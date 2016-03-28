@@ -1,0 +1,12 @@
+{
+  "date" : 1272870000000,
+  "title" : "NetBeans & FX",
+  "body" : "The netbeans folks are getting pretty far along in the release\ncycle for 6.9, and the FX folks got their 1.3 release out. Between\nthe two they've done a a nice bundle that I've been playing around\nwith for a while. There's a whole <a href=\n\"http://netbeans.org/community/releases/69/\">laundry list of\nimprovements</a>. The biggest thing you'll notice in NetBeans is\nOSGi support and a bunch of improvements in the \"platform\" support\n(using the core of NetBeans as the basis of your own applications).\nIt's getting pretty sweet. \n\n<p>On the FX side, the performance boosts are wonderful; as are all\nthe new UI components and the tooling in NetBeans to support\nit.</p>\n\n",
+  "images" : [ {
+    "image" : "l2_netbeans69.gif",
+    "href" : "http://javafx.com/downloads/all.jsp",
+    "align" : "right",
+    "width" : 300,
+    "height" : 165
+  } ]
+}

@@ -1,0 +1,18 @@
+{
+  "date" : 1138867200000,
+  "title" : "NetBeans5 & Creator2",
+  "body" : "It's been an amazing week for the tools engineering teams. <a href=\n\"http://developers.sun.com/prodtech/javatools/jscreator/index.jsp\">Creator\n2</a> FCSed last week, and <a href=\n\"http://www.netbeans.org/community/releases/50/index.html\">NetBeans\n5</a> went out the door this morning. In my role as kibbitzer and\ntinkerer, I've had a lot of fun playing with both of them. I'm\namazed at how easy and fast it is to slap together web apps with\nCreator. And there are so many things to love in NB5 that I hardly\nknow where to begin (although the build-your-own-extension wizards\nare real high on my list). This afternoon it's time for pizza and\nbeer... Congratulations to everyone on all the teams, they've both\nturned out beautifully.\n",
+  "images" : [ {
+    "image" : "DukeDrinkingBeerSmall.png",
+    "href" : null,
+    "align" : "left",
+    "width" : 128,
+    "height" : 160
+  }, {
+    "image" : "snoozeSmallFlipped.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 128,
+    "height" : 177
+  } ]
+}

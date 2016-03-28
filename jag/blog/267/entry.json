@@ -1,0 +1,6 @@
+{
+  "date" : 1207119600000,
+  "title" : "Get it while it's Hot! 6u10 goes beta!",
+  "body" : "It's been a huge effort, but <a href=\n\"http://java.sun.com/javase/downloads/ea/6u10/6u10beta.jsp\">JDK\n6u10 has finally hit beta</a>. This is a major milestone for us.\nWe've even debated renaming 6u10 to JDK 7 - but it has no API\nchanges and is totally focused on deployment and desktop\nintegration, including coping with the-Joy-that-is-Vista.\nCongratulations to everyone involved. I saw some demos of parts of\nit yesterday (mostly applet stuff), and it was real sweet. Take it\nout for a spin.\n",
+  "images" : [ ]
+}

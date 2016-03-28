@@ -1,0 +1,12 @@
+{
+  "date" : 1165824000000,
+  "title" : "Thanks everyone!",
+  "body" : "JavaSE 6 is finally out in its glorious FCS bits. It's got all\nmanner of cool new features (I particularly love the OpenGL\nintegration that makes <a href=\n\"http://download.java.net/media/jogl/builds/nightly/javadoc_public/javax/media/opengl/GLJPanel.html\">GLJPanel</a>\nfly like the wind). Instead of the usual flag waving and \"what's\ncool in JDK6\" lists, I'd just like to say <i><b>thanks</b></i> to\nall of the folks in the community who have contributed to it. All\nof your error reports, feature requests, bug fixes, code\ncontribtions and spec work are deeply appreciated. We couldn't do\nit without you. This truly is a community effort. \n\n<p>And what a community it is. Large corporations. Academic\ninstitutions. Governments. Private individuals. Organizations. All\npulling together (well, mostly: there's a lot of diplomacy\nrequired). I'd especially like to highlight the folks who are\nmembers of JCP expert groups: working in one takes a tremendous\namount of time and dedication.</p>\n\n",
+  "images" : [ {
+    "image" : "Thanks.png",
+    "href" : "http://java.sun.com/javase/6/",
+    "align" : "right",
+    "width" : 242,
+    "height" : 105
+  } ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>URLs are your friend</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../5/index.html class=button>◀</a><td align=right><a href=../7/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../2/index.html>Duke's family out for a stroll in Brazil</a>
+<tr><td><td class=otherRef><a class=otherRef href=../3/index.html>My latest favorite Java APIs: XML{En,De}coder</a>
+<tr><td><td class=otherRef><a class=otherRef href=../4/index.html>A brutal ending</a>
+<tr><td><td class=otherRef><a class=otherRef href=../5/index.html>Flying at Mach 1</a>
+<tr><td>✓<td class=thisRef>URLs are your friend
+<tr><td><td class=otherRef><a class=otherRef href=../7/index.html>The first rule of debugging</a>
+<tr><td><td class=otherRef><a class=otherRef href=../8/index.html>Is it ever too early to optimize?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../9/index.html>Java in China</a>
+<tr><td><td class=otherRef><a class=otherRef href=../10/index.html>Buy this book...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../11/index.html>Hanging out at JPL</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=Image37-large.jpeg class=fresco data-fresco-group=bovik><img src=Image37-large.jpeg height=300></a>
+<p>
+<div class=entry><h1>URLs are your friend</h1>
+It's amazing how cool URLs are, especially when you think of them
+as more than just web references. If you use them instead of Files,
+you can end up with applications that are much more flexible. I've
+gotten to the point where I hardly use class File at all - I almost
+always use URLs. They can be really cool when you start exploiting
+synergies with other APIs.
+
+<p>For example, drag-and-drop. This seems like an odd one to relate
+to URLs, but it does. Drag-and-drop can be somewhat erratic from
+one system to another. For example, on some systems when you drag
+from a file browser, you never see a file dropped on you, you just
+see a string that contains the name of the file. The same thing can
+happen with a web browser: dragging an image or a link sometimes
+drops a string, or a file. This isn't odd behavior in the D&amp;D
+handling in the Java libraries, it's in the originating
+application. These days, when I write code that deals with strings
+being dropped on me, I will often try to interpret them as other
+types. For example, if new File(s).exists() is true, I convert the
+file to a URL with new File(s).toURL(). If it doesn't look like a
+file, then I try new URL(s).openStream(). If this succeeds, then I
+use that URL as the data source. In either case, the data source
+looks like a URL. This way I can drag from either a file browser or
+a web browser and it all works uniformly.</p>
+
+<p>Another thing to try is to use URLClassLoader as a general
+repository manager, not as a class loader. Say you're doing
+something like a document editor or a presentation tool. The
+document often has associated resources, like images. If you
+reference the images using URLs, then they can reside anywhere: on
+the local file system, across the net, or packaged inside a zip
+file - that's where URLClassLoader comes it. A Jar file is just a
+zipped archive of a bunch of files. Applying getResource to a
+URLClassLoader attached to a zip file returns a URL that, when
+opened, get's you to the file bundled as a component of the zip
+file. So you represent a document as a zip file that contains the
+document data itself, and all the associated external data objects
+(like image files) that you want to bundle with it.</p>
+
+
+<table width=100%><tr><td align=right class=date>August 22, 2003</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "date" : 1187074800000,
+  "title" : "Back from Siggraph",
+  "body" : "Siggraph has been a lot more interesting the last couple of years.\nFor a while there it felt as though there was an algorithm for\ngenerating Siggraph papers: dig through 100 year old physics\npapers, then do the straight-forward brute force numerical\nevaluation. Moore's law creates magic. In Glenn Entis's keynote he\ndid a lot of then/now comparisons of the progression of images in\nSiggraph papers. Exponentials are powerful things. But it's amazing\nhow the complexity of the universe sucks up that performance gain:\njust turn on \"radiosity\" in your favorite renderer, and watch a\ndecade of gains slip away. But hey, it works! A decade ago\nradiosity was a too-expensive curiosity. \n\n<p>I really liked the blend of beauty and cleverness that wove\nthrough a lot of the papers this year. One of my favorites on that\nscale was <a href=\n\"http://www.cs.princeton.edu/~tweyrich/projects/relief/relief.pdf\">Digital\nBas-Relief from 3D Scenes</a> by Weyrich et.al. It's all about the\ngradient field! Throw away Z. Cool... Some, like <a href=\n\"http://gl.ict.usc.edu/research/3DDisplay/\">Rendering for an\nInteractive 360&#186; Light Field Display</a> had a delightfully <a\nhref=\"http://en.wikipedia.org/wiki/Rube_Goldberg_machine\">Rube\nGoldberg</a>esque feel to them: what would you do with a strange\nspinning mirror and a 5000 (yes, five thousand) frame-per-second\ngraphics card and projector?</p>\n\n",
+  "images" : [ {
+    "image" : "bas-relief-dragon.jpg",
+    "href" : "http://www.cs.princeton.edu/~tweyrich/projects/relief/relief.pdf",
+    "align" : "right",
+    "width" : 293,
+    "height" : 253
+  } ]
+}

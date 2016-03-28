@@ -1,0 +1,6 @@
+{
+  "date" : 1228377600000,
+  "title" : "JavaFX 1.0 hits FCS!  Come and get it!",
+  "body" : "After a lot of hard work, JavaFX 1.0 is <a href=\n\"http://javafx.com\">finally out and available for download and\nplay</a>! I've been having a huge amount of fun with it over the\npast few months. Every marketoid and blogger at Sun is going nuts\nwith it. They tend to emphasis using it for building Rich Internet\nApplications - RIA has been one of the big industry buzzwords over\nthe past year. But I've been building regular desktop apps with it,\nand it's great. It's been really easy to build beautiful\nSolaris/Linux desktop tools (<a href=\n\"http://blogs.sun.com/javafx/entry/a_word_on_linux_and\">sorry, the\nSolaris/Linux release of JavaFX isn't ready yet, but you can suffer\nthrough using OS X or even Windows</a>). If you're even slightly\nhandy with Photoshop, you just sketch your UI with it, export to\nJavaFX, then write your own script bits to add behavior. With luck,\na Gimp exporter will happen, although that'll probably have to be a\ncommunity effort. \n\n<p>Take it out for a spin. I'm sure you'll have as much fun with it\nas I have.</p>\n\n",
+  "images" : [ ]
+}

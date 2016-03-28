@@ -1,0 +1,12 @@
+{
+  "date" : 1205478000000,
+  "title" : "Have a little fun, bring a little peace",
+  "body" : "If you've ever wanted to improve your understanding of conflict in\nthe Middle East (or anywhere, really), there's a cool reality-based\ngame called <a href=\"http://peacemakergame.com/\">PeaceMaker</a>\nthat you should try. They've got some interesting videos on <a\nhref=\"http://www.youtube.com/user/ImpactGames\">YouTube</a>. Even\nthough it's a Java game, it's only available for Windows and OS X -\nthey use QuickTime for Java. (we're trying to get our\ncross-platform media story together, but it's tough... [codecs are\neasy, we've got piles of them: it's all about patent royalties on\nfree software :-( ])\n",
+  "images" : [ {
+    "image" : "home.gif",
+    "href" : "http://peacemakergame.com/",
+    "align" : "right",
+    "width" : 178,
+    "height" : 134
+  } ]
+}

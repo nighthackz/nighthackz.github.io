@@ -1,0 +1,12 @@
+{
+  "date" : 1296028800000,
+  "title" : "Elastic Beanstalk",
+  "body" : "I've been doing some web development lately and when Amazon\nannounced their <a href=\n\"http://aws.amazon.com/elasticbeanstalk/\">Elastic Beanstalk</a>\nJava EE <a href=\n\"http://en.wikipedia.org/wiki/Platform_as_a_service\">PAAS</a>, I\ndecided to take it out for a spin. It's a good first release. The\nrestriction to eclipse+tomcat makes me a little grumpy, but since\nI'm just doing servlets, it's OK. The real killer, the one that's\ngot me close to abandoning it, is the development round-trip cycle\ntime. I've gotten totally spoiled by the rapid redeploy feature of\nNetBeans+GlassFish. When the cycle time from edit to run is less\nthan a second, you develop differently. The edit-&gt;run time with\nelastic beanstalk is a couple of minutes, which totally breaks my\nconcentration. The upside is that I'm getting better at Solitaire\n:-)\n",
+  "images" : [ {
+    "image" : "logo_aws.gif",
+    "href" : "http://aws.amazon.com/elasticbeanstalk/",
+    "align" : "right",
+    "width" : 164,
+    "height" : 60
+  } ]
+}

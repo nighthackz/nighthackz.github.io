@@ -1,0 +1,12 @@
+{
+  "date" : 1147590000000,
+  "title" : "Tommy Tailgate",
+  "body" : "Paul Perrone brought his DARPA grand challenge entry <a href=\n\"http://www.teamjefferson.com/\">Tommy</a> to Sun's Menlo Park\ncampus on Saturday. We had a tailgate party in the parking lot\nwhile the beast drove around and got photographed about a zillion\ntimes. It's a pretty cool beast to stick your head into and stare\nat. Tommy is quite a clean piece of engineering, despite the\nslapped-together look. It's mostly off-the-shelf parts, glued\ntogether by three computers running a pile of Java code. Paul and\nTommy will be at JavaOne. Make sure you stop by and take a look.\nThis is definitely where computing meets reality.\n",
+  "images" : [ {
+    "image" : "tommy.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 1024,
+    "height" : 682
+  } ]
+}

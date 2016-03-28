@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Refactoring considered harmful, sometimes</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../361/index.html class=button>◀</a><td align=right><a href=../363/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../358/index.html>RAM is my friend</a>
+<tr><td><td class=otherRef><a class=otherRef href=../359/index.html>Hudson is dead, long live Jenkins</a>
+<tr><td><td class=otherRef><a class=otherRef href=../360/index.html>Elastic Beanstalk</a>
+<tr><td><td class=otherRef><a class=otherRef href=../361/index.html>Equations and Methods</a>
+<tr><td>✓<td class=thisRef>Refactoring considered harmful, sometimes
+<tr><td><td class=otherRef><a class=otherRef href=../363/index.html>Let go ...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../364/index.html>Why US Broadband is So Slow</a>
+<tr><td><td class=otherRef><a class=otherRef href=../365/index.html>Next step on the road...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../366/index.html>Congratulations to Barn2 Robotics!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../367/index.html>Nice job on NetBeans 7!</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Refactoring considered harmful, sometimes</h1>
+<a href=
+"http://en.wikipedia.org/wiki/Code_refactoring">Refactoring</a>
+covers a broad swath of techniques to make code cleaner, more
+reliable, more maintainable, ... But sometimes, these attributes
+fight against each other. The usual attribute that causes trouble
+is "more performance". For example, consider factoring out a
+loop-invarient boolean: 
+<pre>
+for(....) {
+    ...
+    if(b) A;
+    else B;
+    ....
+}
+</pre>
+when b is loop-invarient, this can become: 
+<pre>
+if(b)
+    for(...) {
+        ...
+        A;
+        ...
+    } else
+    for(...) {
+        ...
+        B;
+        ...
+    }
+</pre>
+Depending on a wide variety of factors, this can be faster.
+Although it might be slower. Careful benchmarking is required :-) 
+
+<p>It is certainly less maintainable and less clear. When you see a
+pice of code that is the result of such a transformation, it's
+often difficult to tell that the two loops are related. If a bug is
+found in any of the replicated pieces of code, it has to be fixed
+in *both* places. Testing gets more complicated because the
+replicated code paths have to be independently (and somewhat
+redundantly) tested. To compound the problem, if you have (for
+example) multiple loop-invarient booleans, the code expansion is
+exponential (!!) in the number of factored-out booleans. This can
+get pretty insane pretty fast. I've seen instances where folks have
+tried to be clean about these transformations by clever use of C
+macros, but this can get really messy. And the code explosion can
+be dramatic: I got pulled into this problem years ago when someone
+checked a new line-drawing routine into the SunOS kernel (that's
+what Solaris was called before the SVr4 merge) that was bigger than
+the whole rest of the kernel. But it was fast. I got the job of
+fixing it :-(</p>
+
+<p>For most people, this class of transformations should be avoided
+like the plague they are. But for folks like me who all too often
+need to do intense tuning, they are necessary. Can they be made
+cleaner? It's a pity that refactoring is viewed purely as something
+done in an IDE. Sometimes, you can do cool things if the
+refactoring is expressed in the language. But that's another blog
+entry.</p>
+<hr>
+
+<table>
+  <tr>
+    <td valign="top">PS.</td>
+
+    <td>It's "build season" for the <a href=
+    "http://www.usfirst.org/roboticsprograms/frc/default.aspx?id=966">FIRST
+    Robotics Competition</a>. A couple of years ago Sun worked with
+    FIRST to put a <a href=
+    "http://first.wpi.edu/FRC/frcjava.html">JavaVM on the
+    industrial automation controller that they use</a>. Before
+    this, programming the robots was almost impossible. The contest
+    turned into all-mechanical projects, with very little software.
+    With the JVM (and the ability to debug running robots) they've
+    become much easier to program. This year I'm mentoring the team
+    at my younger daughter's school. I'm having a great time
+    helping these kids write control software that works with a
+    pile of motors and sensors. Can't wait to see it all work.</td>
+  </tr>
+
+  <tr>
+    <td valign="top">PPS.</td>
+
+    <td>The RSA conference is in town, which was fun to wander
+    through. It's hard to believe that so many companies making
+    firewalls can succeed. The hard part for me is that I've become
+    something of a magnet for former sun customers and partners to
+    tell their tales of the <a href=
+    "http://www.merriam-webster.com/dictionary/shenanigans">shenanigans</a>
+    that the Oracle sales force engages in to trap customers. One
+    got caught in a weird shell game where the oracle team was
+    working hard chasing him around town to prevent him from
+    talking to another vendor - physically interposing themselves
+    between the vendor and the customer. As frustrating and
+    pathetic as the stories are, I find them easy to manage by
+    treating them as humor. It is outrageously goofy the stunts
+    that get pulled (although the 5x to 20x price increases often
+    forced on customers are infuriating - talk to anyone
+    "upgrading" from Sun Identity Manager).</td>
+  </tr>
+</table>
+
+<table width=100%><tr><td align=right class=date>February 18, 2011</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

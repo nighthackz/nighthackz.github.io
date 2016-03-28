@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ZFS Rules!</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../148/index.html class=button>◀</a><td align=right><a href=../150/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../145/index.html>Good Night, and Good Luck</a>
+<tr><td><td class=otherRef><a class=otherRef href=../146/index.html>Kids & Java</a>
+<tr><td><td class=otherRef><a class=otherRef href=../147/index.html>Java on OS X</a>
+<tr><td><td class=otherRef><a class=otherRef href=../148/index.html>JavaOne is getting closer...</a>
+<tr><td>✓<td class=thisRef>ZFS Rules!
+<tr><td><td class=otherRef><a class=otherRef href=../150/index.html>Cruising through Toronto</a>
+<tr><td><td class=otherRef><a class=otherRef href=../151/index.html>Adventures in internationalization</a>
+<tr><td><td class=otherRef><a class=otherRef href=../152/index.html>RADlab, scripting and scale</a>
+<tr><td><td class=otherRef><a class=otherRef href=../153/index.html>Safety is Freedom</a>
+<tr><td><td class=otherRef><a class=otherRef href=../154/index.html>The new Macintoshes</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=ZFSsmall.png class=fresco data-fresco-group=bovik><img src=ZFSsmall.png height=184></a>
+<p>
+<div class=entry><h1>ZFS Rules!</h1>
+I downloaded the latest Solaris build from OpenSolaris.org - <a
+href="http://www.opensolaris.org/os/downloads/" shape="rect">Nevada
+build B27</a> - when you boot it, it calls itself Solaris 11. I
+have to admit that I hadn't been paying as much attention to the <a
+href="http://www.opensolaris.org/os/community/zfs/" shape=
+"rect">ZFS</a> filesystem as I should have. I finally read through
+the <a href=
+"http://www.opensolaris.org/os/community/zfs/docs/zfs_last.pdf"
+shape="rect">slides</a> and some of the other <a href=
+"http://www.opensolaris.org/os/community/zfs/docs/" shape=
+"rect">documentation</a>, and I really got jazzed. In past lives I
+have been a Unix SysAdmin, and fussing with filesystems was the #1
+pain in the ass (remember ncheck, dcheck and fsdb?). I couldn't
+believe that ZFS could be as easy and powerful as the documentation
+said it was, so yesterday I scrounged up a couple of extra drives,
+slapped them in my <a href=
+"http://www.sun.com/desktop/workstation/ultra20/" shape=
+"rect">Opteron</a> box, and took it out for a spin. <i>Wow</i>. It
+<i>is</i> that easy. Putting together a raid array is truly a <a
+href="http://www.opensolaris.org/os/community/zfs/intro/" shape=
+"rect">one-liner</a>. Try the experiment yourself. I spent way more
+time plugging in the SATA drives than I did in turning them into a
+<a href="http://blogs.sun.com/roller/page/bonwick/20051118" shape=
+"rect">RAIDZ</a> array. It's got one cool feature after another,
+but if I had to pick a favorite, it would be the ability to
+atomically, at low cost, and transaction-aware, create a file
+system snapshot. Between being an interesting way to do versioning
+and backups of live systems, it's just way too cool for words. Hats
+off to <a href="http://blogs.sun.com/roller/page/bonwick/20051117"
+shape="rect">Jeff Bonwick and the rest of the ZFS team</a>.
+
+<table width=100%><tr><td align=right class=date>November 19, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

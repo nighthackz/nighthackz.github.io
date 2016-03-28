@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Translation segmentation</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../193/index.html class=button>◀</a><td align=right><a href=../195/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../190/index.html>Fly low, fly fast, turn left</a>
+<tr><td><td class=otherRef><a class=otherRef href=../191/index.html>On the Java Road</a>
+<tr><td><td class=otherRef><a class=otherRef href=../192/index.html>Busy Times</a>
+<tr><td><td class=otherRef><a class=otherRef href=../193/index.html>Community translation experiment</a>
+<tr><td>✓<td class=thisRef>Translation segmentation
+<tr><td><td class=otherRef><a class=otherRef href=../195/index.html>Beardless!  Conspiracies!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../196/index.html>RIP: Pink Flamingo, 1957-2006</a>
+<tr><td><td class=otherRef><a class=otherRef href=../197/index.html>doc.java.sun.com</a>
+<tr><td><td class=otherRef><a class=otherRef href=../198/index.html>Is it safe to use doc.java.sun.com?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../199/index.html>Contribution agreements considered "just stupid"</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Translation segmentation</h1>
+I've been hacking furiously on <a href=
+"http://doc.java.sun.com">doc.java.sun.com</a>, the community
+translation site for java documentation (even if you're not
+interested in translation, it's still an interesting way to read
+javadoc). There's been a pile of bug fixing. The biggest change
+that people using the site will notice is that when you volunteer
+to do translations, it breaks large chunks of text down into more
+manageable segments. The isn't the full-up segmentation that
+professional translators need, but it's a step in the right
+direction. I also got a start on a statistics module. And I poured
+all of the JavaEE 5 javax.* sources into it. With all of JavaSE and
+JavaEE in it, it's clear that I need to work on the navigation
+facilities. 
+
+<p>Some folks have looked at the sources and asked "where's the
+database?". I'm a big believer in RAM. If I used a real database,
+some pages would require close to 1000 database lookups to
+construct. Even with all kinds of cacheing, this turns into far too
+much time wasted waiting for a disk to spin. Instead, I just use
+in-memory data structures. Every user action (a translation or a
+vote) adds to the data structure and to a log file. When I reboot
+the server, I just reprocess the logs. Given the statistics and
+semantics of this application, this technique works well. It's
+moderately straightforward to make this work well on clusters. And
+it's fast.</p>
+
+
+<table width=100%><tr><td align=right class=date>October 20, 2006</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

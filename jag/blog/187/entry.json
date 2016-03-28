@@ -1,0 +1,6 @@
+{
+  "date" : 1151305200000,
+  "title" : "IMMUNIZING THE INTERNET, OR: HOW I LEARNED TO STOP WORRYING AND LOVE THE WORM",
+  "body" : "A great <a href=\n\"http://www.harvardlawreview.org/issues/119/june06/note/immunizing_the_internet.pdf\">article\nin the Harvard Law Review</a> just got slashdotted. It argues that\nhackers, worms and viruses are actually good for network security.\nI'm a very strong believer in this, and have been for a long time.\nWhen we first released Java in 1995, we made all of the sources\navailable on the net. Most people just downloaded the binaries and\nused them, but a lot of folks downloaded the sources, and many of\nthem spent many hours trying to figure out how to break the\nsecurity of the system. And several people did: they would publish\ntheir attacks, and we'd fix them. The end result is an\nextraordinarily strong system. Many people in the software industry\nare nervous about such policies because they fear that it will give\nnasty folks an unfair advantage. They somehow believe that\n\"security by obscurity\" is a valid technique. I have always\nbelieved, and experience has shown, that the reverse is true: there\nare many more good smart people than evil smart people, and good\nsmart people let us know about any flaws they discover, so we get\nthings fixed quickly.\n",
+  "images" : [ ]
+}

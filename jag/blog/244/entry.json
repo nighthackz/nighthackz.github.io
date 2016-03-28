@@ -1,0 +1,12 @@
+{
+  "date" : 1190098800000,
+  "title" : "Hanging out with printer engineers",
+  "body" : "I'm spending this week at the <a href=\n\"http://www.ricoh-usa.com/ridpconference/index.asp\">Ricoh\nDevelopers Conference</a>. They have Java VMs in their big printers\nthat enable developers to build applications into the printers.\nThey are often specialized workflow management apps. If you were at\nJavaOne, you saw a simple (but valuable) one: print a document from\nyour laptop, it goes to a master spool server, then walk over to\nany printer, stick in your badge, and out comes your document. When\neverything is on the network, the possibilities for end-to-end\nsynergies are endless [Yuck: on re-reading that sentence, it's\npretty clear that I've been spending too much time with\nmarketoids].\n",
+  "images" : [ {
+    "image" : "CyberGutenbergSmall.png",
+    "href" : "http://www.ricoh-usa.com/ridpconference/index.asp",
+    "align" : "right",
+    "width" : 320,
+    "height" : 316
+  } ]
+}

@@ -1,0 +1,6 @@
+{
+  "date" : 1133596800000,
+  "title" : "Cruising through Toronto",
+  "body" : "I'm spending Monday and Tuesday in Toronto as part of the NetBeans\nworld tour and TechDays events. We've been giving technical talks\nto piles of developers. Toronto is a pretty active place with a lot\nof talent doing interesting things. \n\n<p style=\"text-align: left\">We spent today going through all the\nnew stuff in NetBeans 5, including my current favorite feature: the\nrapid plugin development tools. It's straightforward to build a\n(simple) plugin in 30 seconds, and deploy&amp;test it. Far easier\nthan writing emacs lisp extensions :-)</p>\n\n",
+  "images" : [ ]
+}

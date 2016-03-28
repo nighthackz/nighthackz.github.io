@@ -1,0 +1,12 @@
+{
+  "date" : 1139299200000,
+  "title" : "Physics: out of the comfort zone",
+  "body" : "There's only about a week left to get entries submitted for the\nt-shirt hurling contest, and they entries are coming in. But a\ntraditional problem continues to plague many of the submissions:\nthey're just not going to work! One of the goals of the T-Shirt\nhurling contest is to get software geeks out of their technical\ncomfort zone and thinking about a totally different area. Building\nan entry for the contest requires a decent grasp of basic physics,\nmechanics and materials. Please, when you're working on your\nentries (and please enter!) think hard about the mechanics. It's\noften pretty subtle. \n\n<p>For example, Ron Smith, <a href=\n\"http://blogs.sun.com/roller/page/jag?entry=the_t_shirt_hurling_contest\">last\nyears winner</a> ended up abandoning his original plan and building\nsomething completely different. His original plan seemed really\nsimple and pretty plausible: build a large L shaped structure out\nof a couple of beams with a pivot where the horizontal and vertical\nparts join. The horizontal was 4-ish feet long, the vertical was\n6-ish feet long. At the top of the vertical was a holder that the\nt-shirt was placed in. To launch, take a sledgehammer and whack the\nhorizontal. Ought to work, right? It probably could, but it's\nchallenging to get the right materials. The key problem is that\nwhen the sledgehammer hits there's an instantaneous force impulse\nthat puts huge stress at the joint between the horizontal and\nvertical pieces. The device doesn't launch the shirt, it gets torn\napart, usually around the pivot. He tried all kinds of materials\njoints and braces (at F), but none worked well enough.</p>\n\n<p>He gave up on that plan, because the beast just kept ripping\nitself apart. So he built a Trebuchet. He knew what he was doing\n(unlike me, when I built one a couple of years before), so his\nworked like a charm. In this case, his replan worked... But it\nwould still be interesting to see if someone could make it\nwork...</p>\n\n<p>In contrast, the other two entries last year replanned to be\nmore cool... Their original plans were pretty solid, but they\nfeature-creeped into things that were pretty shakey.</p>\n\n",
+  "images" : [ {
+    "image" : "Sledgehammer.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 315,
+    "height" : 150
+  } ]
+}

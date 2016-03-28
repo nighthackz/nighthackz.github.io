@@ -1,0 +1,18 @@
+{
+  "date" : 1145343600000,
+  "title" : "Fun in real time",
+  "body" : "<a href=\n\"http://java.sun.com/developer/technicalArticles/Interviews/Bollella_qa2.html\">Greg\nBollella</a>, the real-time lead at Sun has convinced a few of us\nto help him out with his <i>Slot Car Programming Challenge</i> for\nJavaOne this year. This is a picture of him assembling a slot car\ntrack on an 8'x16' table. The cars that run on track are absolutely\nstandard 1/24 scale cars. No mods. The track has 80 sensors spread\nalong its length. Instead of a manual control, the power supply is\ncontrolled by an A/D converter driven from a workstation. The\nchallenge is to write software to control the car and get around\nthe track as fast as possible. This is a pretty tricky problem\nsince entries will have to get the timing of the power changes\nexactly right. It's doubly tricky because the sensors are fairly\nprimitive (which is very common in actual realtime systems). These\nsensors are simple photocell gates (the kind used to detect paper\nmoving through a printer) placed along the slot. They give a simple\n0/1 indication of whether or not the car is passing by the sensor.\nTo make life harder, all of the sensors are <i>or</i>ed together.\nThere's only 1 bit of input - two, actually - one sensor gets's a\nseperate bit: it's the start/finish line. So you have to count.\nAccuratly. No missing sensor pulses. A map of the course will be\nprovided. One of the bonus features is that the power supply can\nswing it's voltage pretty quickly - even going into reverse. So\nthere are lots of tricks to be done involving rapid braking, or\npulsing. It's remarkably easy to send the car flying off the\ncorners.\n",
+  "images" : [ {
+    "image" : "IMG_2930.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 640,
+    "height" : 426
+  }, {
+    "image" : "IMG_2931.jpg",
+    "href" : null,
+    "align" : "left",
+    "width" : 640,
+    "height" : 426
+  } ]
+}

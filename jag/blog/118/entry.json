@@ -1,0 +1,12 @@
+{
+  "date" : 1119337200000,
+  "title" : "Real Time != Real Fast",
+  "body" : "Since I've been involved in real time programming and the Real Time\nSpecification for Java (<a href=\"https://rtsj.dev.java.net/\" shape=\n\"rect\">JSR1</a>) work, I've had a lot of people ask me about where\nreal time can be used. There's more than a little confusion: many\nfolks who've asked for \"real time\" actually want \"real fast\"\n(throughput computing). In real time computing, meeting a very\nprecise deadline is of paramount importance. In throughput\ncomputing, the goal is to get as much done as possible as soon as\npossible. \n\n<p style=\"text-align: left\">I hate to use sports analogies, but\nthis a a situation where one works well. Consider baseball: how\nfast you swing the bat is less important than that the bat be in\nthe right place at the right time in order to connect with the\nball. Real time programming is kind of like being a batter where\nthe pitcher throws the balls continuously. And instead of a catcher\nbehind the home plane you have a sleeping troll who will eat you if\na ball gets through and hits him.</p>\n\n<p style=\"text-align: left\">A good way to think of throughput\ncomputing is the old <a href=\"http://c2.com/cgi/wiki?SharpenTheSaw\"\nshape=\"rect\">Sharpen the Axe</a> principle:</p>\n\n<div class=\"indent\">\n  <p style=\"margin-left: 0.5in\"><i>If I had eight hours to chop\n  down a tree, I'd spend six sharpening my axe. -- <b>Abraham\n  Lincoln</b></i></p>\n  Many activities done in standard programming can be thought of\n  this way: they're things you do now that are not directly useful,\n  but later on they make life better. This is everything from JIT\n  compilers and garbage collectors down to simple things like hash\n  tables. (Hash tables? Yes! That \"re-hashing\" phase that happens\n  when tables overflow adds a bump of cpu cost; hashtables that\n  chain instead of rehashing have non-linear [unpredictable] lookup\n  costs). \n\n  <p style=\"text-align: left\">The number of developers who truly\n  need to do realtime is very small. But the stuff they do affects\n  us all. Planes, trains and automobiles: all need realtime.</p>\n</div>\n",
+  "images" : [ {
+    "image" : "2005_06_21_16-24-57-386_n3.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 69
+  } ]
+}

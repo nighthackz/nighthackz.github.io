@@ -1,0 +1,12 @@
+{
+  "date" : 1314687600000,
+  "title" : "I've moved again",
+  "body" : "I've surprised myself and made another career change. I had a great\ntime at Google, met lots of interesting people, but I met some\nfolks outside doing something completely outrageous, and after much\nanguish decided to leave Google. \n\n<p>I'm now at a small startup called <a href=\n\"http://liquidr.com\">Liquid Robotics</a> They have a growing fleet\nof autonomous vehicles that rove the ocean collecting data from a\nvariety of onboard sensors and uploading it to the cloud. The\nrobots have a pile of satellite uplink/GSM/WiMax communication gear\nand redundant GPS units. They have a bunch of deployments. For\nexample, one is a set of robots patrolling the ocean around the\nMacondo well in the Gulf of Mexico monitoring water chemistry.\nThese craft harvest energy from the waves for propulsion and can\nstay at sea for a very long time. The longest that one craft has\nbeen out is 2.5(ish) years. They can cross oceans.... Slowly. They\nonly move at 1-2 knots, which is a great speed for data\ncollection.</p>\n\n<p>I'm their new chief software architect. I'll be involved in both\nthe onboard software - sensing, navigation and autonomy - and in\nthe datacenter, dealing with the in-rush of data. The current\nsystems work well, but they have a variety of issues that I look\nforward to working on. This is going to be a lot of fun.</p>\n\n",
+  "images" : [ {
+    "image" : "img_gallery_6.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 6000,
+    "height" : 4000
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1316588400000,
+  "title" : "Pacific Crossing (PacX) Challenge",
+  "body" : "Liquid Robotics' wave gliders are amazingly robust and capable of\ntraveling long distances and staying at sea for a long time. Mostly\nfor the fun of it, we're sending four robots across the Pacific to\nattempt to travel the longest distance at sea ever completed by an\nunmanned marine vehicle. They're all going together towards Hawaii\nand then two are heading to Japan and two are heading to Australia.\nThey'll all be outfitted with a pile of interesting sensors. We're\nrunning a <a href=\n\"http://liquidr.com/pacx/pacx-information/\">contest</a> for marine\nscientists and students to come up with interesting science that we\ncan do along the way. If you're interested, we'd love to see your\nentry.\n",
+  "images" : [ {
+    "image" : "LiquidRoboticsLogoSmall.png",
+    "href" : "http://liquidr.com/pacx",
+    "align" : "right",
+    "width" : 246,
+    "height" : 94
+  } ]
+}

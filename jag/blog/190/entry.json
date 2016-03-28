@@ -1,0 +1,24 @@
+{
+  "date" : 1158476400000,
+  "title" : "Fly low, fly fast, turn left",
+  "body" : "I'm a big fan of engineering on the wrong side of the edge. I've\nbeen taking a couple of days of vacation to hang out at the <a\nhref=\"http://airrace.org\">Reno Air Races</a>. People take airplanes\nof all sorts, hot-rod them, and get crazy in the air. Lots of wierd\ngeeky engineering to slap together amazing craft. People race all\nkinds of craft: little Pitts Special biplanes, <a href=\n\"http://www.l39.com/about.html\">Czech L39s</a>, homebuilts, and\neveryone's favorite, the \"unlimited\" class. In the unlimited class,\nthere is one limit: it must use pistons. Anything else is fair\ngame. Most of the planes are hot-rodded WWII era craft, and to have\nany hope of the big trophy, you have to be able to hit at least 500\nmiles an hour. \n\n<p><br clear=\"both\">\n There's something particularly insane about hot-rodding a <a href=\n\"http://www.spitfiresociety.demon.co.uk/engines.htm\">Rolls Royce\nMerlin</a> engine (which is a pretty common thing to do at these\nraces). At these kinds of excessive abuse, they frequently come to\nbad ends. About half a dozen have bit the dust this week. The\npicture on the left is one that broke a piston rod on Wednesday.\nThe picture on the right is a close up (click on the picture for a\nlarge version). The broken piston rod spun around and almost sawed\nthe engine in half. This happened in flight. It takes a good pilot\nto land one of these things with no engine. Ouch.</p>\n\n",
+  "images" : [ {
+    "image" : "0553.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 1024,
+    "height" : 682
+  }, {
+    "image" : "0554.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 682,
+    "height" : 1024
+  }, {
+    "image" : "0555.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 1024,
+    "height" : 682
+  } ]
+}

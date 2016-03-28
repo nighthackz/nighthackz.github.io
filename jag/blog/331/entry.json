@@ -1,0 +1,18 @@
+{
+  "date" : 1274770800000,
+  "title" : "Happy 15th!",
+  "body" : "<div class=\"floatimageleft\">\n  A Tempest in a Teapot<br>\n  <a href=\n  \"http://duke.kenai.com/tshirts/TShirt2010/TShirt2010Blarge.jpg\">(hires)</a>\n</div>\n\n<div class=\"floatimage\">\n  Cyberspace Needs Trees<br>\n  <a href=\n  \"http://duke.kenai.com/tshirts/TShirt2010/TShirt2010large.jpg\">(hires)</a>\n</div>A comment on my previous blog entry pointed out that Java's\n15th birthday is right about now. It's been quite a roller coaster.\nSeeing what people have done with Java over the years has been\ntotally awe-inspiring. \n\n<p>Now is also roughly the time when JavaOne would have been\nhappening. Mostly because it's fun (and great therapy), I whipped\nup a <a href=\n\"http://duke.kenai.com/tshirts/TShirt2010/index.html\">couple of\nimages</a> that Oracle could use for t-shirts if they'd like. I'd\nlike to think that they'll pull a <span title=\n\"But my experience with them says that their hat is mostly filled with spiders. I'd love to be wrong\">rabbit\nout of a hat</span> when they do their version of JavaOne in the\nfall, and end up with something cool and interesting.</p>\n\n<p>Thanks to those who \"liked\" me on the <a href=\n\"http://25yearsof.com\">25 years of .com</a> site. I'm not quite 10x\nOracle's score, but I'm pretty comfortably ahead.</p>\n\n",
+  "images" : [ {
+    "image" : "TShirt2010Bmedium.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 800,
+    "height" : 800
+  }, {
+    "image" : "TShirt2010medium.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 700,
+    "height" : 525
+  } ]
+}

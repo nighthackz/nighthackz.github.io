@@ -1,0 +1,6 @@
+{
+  "date" : 1217487600000,
+  "title" : "Come and get it!  Hot off the grill: JavaFX",
+  "body" : "The <a href=\"http://www.javafx.com/\">preview release of JavaFX</a>\nis now available, along with libraries, samples, documentation and\nsome early tools. If you like to make pretty things fly around on\nthe screen, this is a pretty tasty piece of work. It really shows\nwhat Swing and Java2D can do. A pile of folks have been working\nhard on it for quite a while and have done a lovely job. Try it out\nand let us know what you think. \n\n<p>One of the cooler tricks is the approach to integration with\nAdobe Photoshop and Illustrator. These two popular tools have\nproprietary (deep dark secret) file formats, so importing them is\nproblematic, but they do have extensive SDKs. So rather than\nbuilding import filters into NetBeans we built export filters for\nthe Adobe tools that generate JavaFX code (!) from the\nillustrations. It's then a clean process in NetBeans to add\nbehavior to them.</p>\n\n<p>Enjoy!</p>\n\n",
+  "images" : [ ]
+}

@@ -1,0 +1,12 @@
+{
+  "date" : 1147849200000,
+  "title" : "JavaOne, day 1.75",
+  "body" : "I had intended to do a pile of blogging during day 1 of JavaOne,\nbut things got way too crazy. Then I wandered through parties and\nbars until the last bar I was in threw everyone out at 3am. JavaOne\nhasn't been this packed and frantic since the top of the dotcom\ninsanity. The opening keynote went through a pile of important\ntopics, including all of the new stuff in JavaEE 5, and the\n\"Project Tango\" interoperability work that we're doing with\nMicrosoft. The coolest looking demo was <a href=\n\"https://aerith.dev.java.net/\">Aerith</a>, an app built to showcase\nall of the neat new things you can do in Swing and OpenGL, along\nwith integrating several web services. \n\n<p>Despite my panics over the infrastructure of the <a href=\n\"http://race.java.sun.com\">slot car race programming challenge</a>,\nit's running nicely and has a continuous crowd of people around it.\nNo one has broken the 25 second barrier yet, and most folks end up\nsending their cars off into space. In the pre-runs we did at Sun in\nthe weeks before JavaOne, some folks were getting down to around 23\nseconds. You have to be quite tricky. The prototype app just\nadjusts the voltage in simple ways when the car passes over a\nsensor. But you need to be making changes between sensors and doing\nodd acceleration profiles -- like high acceleration followed by\nmomemtary hard braking; or graduated acceleration going through\ncurves. Loads of fun.</p>\n\n<p>The JSR209 phone from <a href=\n\"http://www.savaje.com/\">SavaJe</a> sold out almost instantly,\nthey're hoping to get more in.</p>\n\n<p>*sigh* I have to head off to the next meeting...</p>\n\n",
+  "images" : [ {
+    "image" : "JeffDescribesTango.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 1024,
+    "height" : 682
+  } ]
+}

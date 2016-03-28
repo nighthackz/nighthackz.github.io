@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RADlab, scripting and scale</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../151/index.html class=button>◀</a><td align=right><a href=../153/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../148/index.html>JavaOne is getting closer...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../149/index.html>ZFS Rules!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../150/index.html>Cruising through Toronto</a>
+<tr><td><td class=otherRef><a class=otherRef href=../151/index.html>Adventures in internationalization</a>
+<tr><td>✓<td class=thisRef>RADlab, scripting and scale
+<tr><td><td class=otherRef><a class=otherRef href=../153/index.html>Safety is Freedom</a>
+<tr><td><td class=otherRef><a class=otherRef href=../154/index.html>The new Macintoshes</a>
+<tr><td><td class=otherRef><a class=otherRef href=../155/index.html>Cosine redux</a>
+<tr><td><td class=otherRef><a class=otherRef href=../156/index.html>Heading off to Bangkok</a>
+<tr><td><td class=otherRef><a class=otherRef href=../157/index.html>Fun in Bangkok</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=2005_12_16_09-03-35-531_n2.large.png class=fresco data-fresco-group=bovik><img src=2005_12_16_09-03-35-531_n2.large.png height=300></a>
+<p>
+<div class=entry><h1>RADlab, scripting and scale</h1>
+I had a long and fascinating Wednesday with a couple of folks from
+Berkeley's new RAD Lab (<a href=
+"http://biz.yahoo.com/ap/051215/internet_lab.html?.v=2" shape=
+"rect">press</a>, <a href="http://radlab.cs.berkeley.edu/" shape=
+"rect">home</a>). While their public decoding of the acronym RAD is
+"Reliable Adaptive Distributed", they also care deeply about the
+more common decoding: "Rapid Application Development". The
+conversation was all over the map, but a major thread was about the
+design tension between <a href=
+"http://en.wikipedia.org/wiki/Scripting_language" shape=
+"rect">scripting languages</a> and <a href=
+"http://en.wikipedia.org/wiki/Programming_language" shape=
+"rect">strongly typed</a> <a href=
+"http://en.wikipedia.org/wiki/General-purpose_programming_language"
+shape="rect">general purpose</a> languages. 
+
+<p style="text-align: left">Over the years I've used and created a
+wide variety of scripting languages, and in general, I'm a big fan
+of them. When the project that Java came out of first started, I
+was originally planning to do a scripting language. But a number of
+forces pushed me away from that.</p>
+
+<p style="text-align: left">The biggest was concerns about
+performance and the inevitability of scale. I can't remember how
+often I've had experiences where someone has proudly shown me some
+system they've put together using the scripting-language-du-jour:
+things like an Adobe Illustrator clone written entirely in
+PostScript; a satellite groundstation diagnostic system written as
+TECO macros; a BASIC compiler written as Emacs macros; fourier
+transform algorithms in PostScript... This list is endless. They
+always ended with "this is so cool, but I'd like it to be as fast
+as {C,Assembler,whatever}". People get into scripting to quickly
+build small quick things, but they often grow far beyond where the
+initial concept started.</p>
+
+<p style="text-align: left">Another was about testing, reliability
+and maintainability. One of the common properties of scripting
+languages is brevity. This tends to lead to omitting declarations,
+weak typing and ignoring errors. Generally a great thing if you're
+quickly putting something together; not so great if you want checks
+and balances that crosscheck correctness.</p>
+
+<p style="text-align: left">Another is generality. Many scripting
+languages get a good part of their coolness from being specialized
+- by having key functionality wired into their hearts. A good
+example is perl, with it's great regular expressions and hash
+tables. But this drags in a number of issues, chief among them
+being: what if you want to do something outside the language's area
+of specialization? Many modern apps need to do exactly that, so one
+of two things happen: languages get used for wildly inappropriate
+things (fourier transforms in PostScript), or a collection of
+languages get used together (which can make it very hard for any
+one person to understand them, and interconnections can be a
+nightmare).</p>
+
+<p style="text-align: left">The list of interesting questions is
+really long, this blog entry could easily be a book (that I'll
+never have time to write). This hardly scratches the surface. The
+number of potential PhD thesis topics is huge.</p>
+
+
+<table width=100%><tr><td align=right class=date>December 15, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

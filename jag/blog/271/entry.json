@@ -1,0 +1,12 @@
+{
+  "date" : 1209970800000,
+  "title" : "The madness begins!",
+  "body" : "On Friday, <a href=\"http://www.teamjefferson.com/\">Tommy</a> came\nto visit Sun's offices in Menlo Park, and then did some driving\naround Sun's campus on Saturday. It's a new generation DARPA Urban\nGrand Challenge car that uses Solaris and realtime Java. He and his\nparents will be at JavaOne. \n\n<p>Spent the weekend doing last minute prep. The most fun part was\nre-engineering a t-shirt slingshot - yes, there will be a tshirt\nshoot Tuesday morning at the beginning of the opening keynote while\nthe walk-in music is playing. The t-shirt design turned out\nespecially well this year.</p>\n\n<p>Today will mostly be taken up by <a href=\n\"http://developers.sun.com/events/communityone/\">CommunityOne</a>,\n<a href=\n\"http://www.netbeans.org/community/articles/javaone/2008/nb-day.html\">NetBeans\nDay</a>, some customer visits and rehearsals...</p>\n\n<p>I'm really looking forward to my keynote on Friday. There's a\nfantastic lineup of outrageously cool toys to play with.</p>\n\n",
+  "images" : [ {
+    "image" : "Tommy-MPK.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 996,
+    "height" : 806
+  } ]
+}

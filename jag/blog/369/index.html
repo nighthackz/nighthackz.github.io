@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ACE revisited</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../368/index.html class=button>◀</a><td align=right><a href=../370/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../365/index.html>Next step on the road...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../366/index.html>Congratulations to Barn2 Robotics!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../367/index.html>Nice job on NetBeans 7!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../368/index.html>Read this now</a>
+<tr><td>✓<td class=thisRef>ACE revisited
+<tr><td><td class=otherRef><a class=otherRef href=../370/index.html>Greenfoot rocks!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../371/index.html>XKCD on standards</a>
+<tr><td><td class=otherRef><a class=otherRef href=../372/index.html>Steve Jobs Resigns as Apple CEO</a>
+<tr><td><td class=otherRef><a class=otherRef href=../373/index.html>I've moved again</a>
+<tr><td><td class=otherRef><a class=otherRef href=../374/index.html>The Art of Video Games</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>ACE revisited</h1>
+Quite a few years ago I built a system called <a href=
+"resource/ace.pdf">ACE - the Algorithm Composition Engine</a>. It
+was both a success and a failure that contains a pile of ideas that
+have nagged me ever since. It was roughly a macro preprocessor like
+CPP, except that it delt in parse trees instead of characters. 
+
+<p>Ace's equivalent of a macro was based on a pattern match in a
+parse tree rather than a token match in a characters stream. So one
+could write:</p>
+<pre>
+$replace $0*2; $with $0&lt;&lt;1;
+</pre>
+The most powerful function in ACE was <tt>$tradeoff(a,b)</tt> which
+took as parameters two code fragments that were assumed to perform
+the same computation. Tradeoff would compute time and space
+estimates for each code fragment, then choose one or the other
+based on the probability of reaching that point. ACE was fed branch
+probabilities and loop lap-counts to compute an expected execution
+count for each point in the program. For tradeoff, if one code
+fragment was large and slow, and the other was small and fast, the
+choice is clear. More commonly one is large and fast, the other is
+small and slow. If the expected execution count was low, the small
+and slow version would be picked, otherwise the large and fast
+version would be picked. ACE essentially had a dial that let the
+developer say "give me the fastest version of this function that
+fit in N bytes". 
+
+<p>The parameters to tradeoff were usually based on different <a
+href=
+"entry/refactoring_considered_harmful_sometimes.html">performance
+motivated refactorings.</a> These could usually be done cleanly
+using ACE, as described in <a href="resource/ace.pdf">the
+paper</a>.</p>
+
+<p>ACE was very successful in that it made it possible for us to
+write simple clean code for high performance algorithms that was
+robust and flexible. The downside was that very few developers
+could figure out how to use it. It was a very different way to
+think about coding. I came to think of ACE as a complete failure
+when I visited the group again to answer some questions about old
+pieces of code and I discovered that instead of fixing problems in
+the input to ACE, they had taken the output from ACE (which was
+just plain C code) and checked it into the source repository,
+throwing away the preprocessor and it's input files.</p>
+
+<p>In later years I wrote yet another rule engine as a part of what
+became the Jackpot plugin for NetBeans. It's syntax was a little
+more humane and a lot more powerful:</p>
+<pre>
+$a/2 =&gt; $a&gt;&gt;1 :  $a instanceof int &amp;&amp; $a&gt;=0
+</pre>
+Read "=&gt;" as "becomes" and ":" as "where". The "where" clause
+allowed boolean predicates based on type and value inferencing. The
+predicates used a three state logic: true/false/maybe. For every
+point in a program Jackpot maintained a set of
+things-known-to-be-true. This most commonly came from <b>if</b>
+statements. Following <tt>if(b)</tt> b was known-to-be-true in the
+<b>then</b> clause, and !b was known-to-be-true in the <b>else</b>
+clause. It wasn't good enough for anyone in the theorem-proving
+community to find respectable, but it was good enough to be
+remarkably useful (I'm a huge fan of "good enough"). 
+
+<p>The parser in both ACE and Jackpot was somewhat lenient.
+Particularly in ACE, this was used in a manner similar to how
+closures are used in languages like Scala and Ruby to create what
+look like new statements. But they were much more powerful because
+it was possible to introspect on the body in a very detailed way.
+Writing a set of transformation rules that would construct a <a
+href="entry/equations_and_methods.html">Newton's-method
+function</a> from an equation was possible in ACE.</p>
+
+<p>Food for thought.</p>
+
+<p><b>Update:</b> One reader commented:</p>
+
+<blockquote>
+  These map precisely to Scala pattern-match expressions: $replace
+  $0*2; $with $0&lt;&lt;1; could look like: case Mul(a,Num(2))
+  =&gt; LeftShift(a, 1) and $a/2 =&gt; $a&gt;&gt;1 : $a instanceof
+  int &amp;&amp; $a&gt;=0 would be case Div(a,2) if
+  a.isInstanceOf[Int] &amp;&amp; a &gt;= 0 except that it seems
+  like the predicate in ACE could be evaluated lazily on a
+  per-execution basis if I understand correctly.
+</blockquote>This is roughly correct, but the "could be evaluated
+lazily" point is crucial. The really hard part in these systems is
+getting them to perform. Jackpot would take thousands of rules and
+compile them down to optimized inline code that was extremely fast.
+To understand how this worked, read up on database query
+optimization and the constructive equivalence of deterministic and
+non-deterministic finite state automata. In jackpot the rule
+matcher's performance was (almost) independent of the number of
+rules or their complexity. Applying thousands of rules to millions
+of lines of code worked remarkably well. 
+
+<p>Also, both exploited algebraic transformations in matching. For
+example, !(a&lt;b) was matched by the same patterns as a&gt;=b</p>
+
+
+<table width=100%><tr><td align=right class=date>May 27, 2011</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

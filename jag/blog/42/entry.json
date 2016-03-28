@@ -1,0 +1,12 @@
+{
+  "date" : 1088060400000,
+  "title" : "The coolest talk at JavaOne",
+  "body" : "My vote for the coolest talk at JavaOne is the one titled <a href=\n\"http://www.javaone04.com/catalog/catalog/sessionDetail.jsp?hd=true&amp;SESSION_ID=1105&amp;form=searchform\"\n shape=\"rect\"><i>Mars Exploration Rover Operations with the Science\nActivity Planner</i></a>. A release of this software, known as <a\nhref=\"http://mars.telascience.org\" shape=\"rect\"><b>Maestro</b></a>,\nwas made publically available shortly after the first rover landed.\nBesides talking about the software in detail, they'll also have\npiles of cool images and will talk about the mission itself.\n",
+  "images" : [ {
+    "image" : "Image73-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 400,
+    "height" : 321
+  } ]
+}

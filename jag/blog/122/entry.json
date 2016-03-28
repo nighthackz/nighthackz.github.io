@@ -1,0 +1,12 @@
+{
+  "date" : 1119769200000,
+  "title" : "At last: intelligent UI layout",
+  "body" : "One of the cool things being shown off today at NetBeans day is <a\nhref=\"http://www.netbeans.org/kb/articles/matisse.html\" shape=\n\"rect\">Matisse</a>, an open-source plugin that does intelligent\nlayout of user interfaces. As you drag and drop components, it\nautomatically derives constraints (which you can tune) between the\ncomponents in the new UI. This gives a developer experience that\nhas the ease of use of a simple absolute/matrix positioning UI\nlayout system (which is what almost all UI editors do) and yet\nproduces layouts that have the ability to respond to dynamic\nbehavior like resizing windows or internationalization (ever try to\nput German labels on buttons sized for Japanese?) \n\n<p style=\"text-align: left\">This works particularly well with the\nadvanced components from <a href=\"https://jdnc.dev.java.net/\"\nshape=\"rect\">JDNC</a>, like the intelligent table that allows you\nto easily connect data sources to table cells. With the drag and\ndrop layout and wiring, this gives you an incredible ability to\nbuild desktop apps very quickly.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_06_26_10-31-03-908_n1.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 113,
+    "height" : 150
+  } ]
+}

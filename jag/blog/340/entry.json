@@ -1,0 +1,12 @@
+{
+  "date" : 1281596400000,
+  "title" : "The shit finally hits the fan....",
+  "body" : "Oracle finally <a href=\n\"http://news.cnet.com/8301-30684_3-20013546-265.html\">filed a\npatent lawsuit against Google</a>. Not a big surprise. During the\nintegration meetings between Sun and Oracle where we were being\ngrilled about the patent situation between Sun and Google, we could\nsee the Oracle lawyer's eyes sparkle. Filing patent suits was never\nin Sun's genetic code. Alas.... \n\n<p>I hope to avoid getting dragged into the fray: they only picked\none of my patents (<a href=\n\"http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&amp;Sect2=HITOFF&amp;p=1&amp;u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&amp;r=8&amp;f=G&amp;l=50&amp;co1=AND&amp;d=PTXT&amp;s1=%22gosling,+james%22.INNM.&amp;OS=IN/%22gosling,+james%22&amp;RS=IN/%22gosling,+james%22\">RE38,104</a>)\nto sue over.</p>\n\n",
+  "images" : [ {
+    "image" : "ShitHitsFanMediumT.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 603,
+    "height" : 408
+  } ]
+}

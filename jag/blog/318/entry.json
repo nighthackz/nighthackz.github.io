@@ -1,0 +1,12 @@
+{
+  "date" : 1260172800000,
+  "title" : "Hello, Brazil!",
+  "body" : "This week I'm in Sao Paulo, Brazil for <a href=\n\"http://www.suntechdays.com.br/\">Tech Days</a>. If you're in the\nneighborhood, come join us. We've got lots of great speakers who\nwill be covering a wide range of topics. \n\n<p>High on the exciting list are the joint FCS releases of <a href=\n\"http://blogs.sun.com/theaquarium/\">GlassFish V3</a> and <a href=\n\"http://netbeans.org/community/articles/suntechdays-brazil09_pt_BR.html\">NetBeans\n6.8</a> (probably on the 10th, depending on how the Release Gods\nsmile). These are both hot after the <a href=\n\"http://jcp.org/en/jsr/results?id=5025\">approval of the EE 6\nballot</a>. The spec is done, the implementation is done, and the\ntools are done. Things of beauty! Enjoy!!</p>\n\n<p>Fantastic job, everyone!</p>\n\n",
+  "images" : [ {
+    "image" : "150px-Flag_of_Brazil.svg.png",
+    "href" : "http://www.suntechdays.com.br/",
+    "align" : "right",
+    "width" : 150,
+    "height" : 105
+  } ]
+}

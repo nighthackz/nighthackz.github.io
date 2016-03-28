@@ -1,0 +1,12 @@
+{
+  "date" : 1173682800000,
+  "title" : "Kuala Lumpur",
+  "body" : "I spent last week in Kuala Lumpur where we did a Tech Days event in\nthe convention center next to the Petronas Towers. KL is quite a\ncity, and Malaysia is quite a country. A great turnout (definatly\nabove plan!). I met a lot of great developers working on\ninteresting projects. I visited some government ministries: they\nhave a strong open-source commitment and they're applying it all\nover the place. \n\n<p>Great food too...</p>\n\n<p>This week: London!</p>\n\n",
+  "images" : [ {
+    "image" : "KLConferenceLarge.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 1024,
+    "height" : 682
+  } ]
+}

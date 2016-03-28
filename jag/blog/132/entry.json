@@ -1,0 +1,12 @@
+{
+  "date" : 1121410800000,
+  "title" : "Moore's Law meets Pricing",
+  "body" : "There's a great <a href=\n\"http://www.economist.com/research/articlesBySubject/displayStory.cfm?story_id=4173652&amp;subjectID=348909&amp;fsrc=nwl&amp;emailauth=%2527%25290%253A0I%252ECYS1%25264%250A\"\n shape=\"rect\">article in the Economist</a> this month about the\ncurrent mess that's happening in software pricing. <a href=\n\"http://en.wikipedia.org/wiki/Moore's_law\" shape=\"rect\">Moore's\nlaw</a>'s predictions about the number of transistors on a chip\nlook like they'll continue to hold for quite a while, but we're\nquickly losing the ability to translate that into clock rate. This\nis driving every chip manufacturer to create multicore systems.\nProbably the most extreme is Sun's <a href=\n\"http://www.aceshardware.com/read.jsp?id=65000292\" shape=\n\"rect\">Niagra</a>, with (effectively) 32 CPUs. Software vendors\nlike Oracle havn't been cranking up their prices while Moore's law\nhas been expressed in the clock rate, but now that it's being\nexpressed in CPU cores, their pricing is set to track Moore's law\n(IT managers: panic now). It seems to me that this whole flap can\nbe fixed by a bit of spin doctoring, weasel wording, marketing:\nthere's no such thing as a multicore chip - they're single CPUs\nthat do a great job of supporting multithreading. (wink)\n",
+  "images" : [ {
+    "image" : "2005_07_15_09-04-28-620_n1.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 90
+  } ]
+}

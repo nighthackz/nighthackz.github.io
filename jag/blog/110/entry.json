@@ -1,0 +1,18 @@
+{
+  "date" : 1118991600000,
+  "title" : "Fun in Brazil",
+  "body" : "This week I'm in Brazil, visiting with developers. We're doing a\ncouple of days of technical seminars today and tomorrow in Sao\nPaulo, then a couple more in Brasilia. The Brazilian developer\ncommunity is large, talented and enthusiastic. At the end of the\nday today we had a little 10th birthday party for Java that got a\nlittle out of control and turned into a <a href=\n\"http://nighthacks.com/roller/jag/BrazilGlitter.jpg\" shape=\n\"rect\">version of Carnival</a>, complete with serious dancing,\nmusic, costumes and confetti. They take their technology\n<i>very</i> seriously; <a href=\"http://www.ray.system.nom.br/\"\nshape=\"rect\">Ray da Costa</a> even had the Java Logo <a href=\n\"http://nighthacks.com/roller/jag/BrazilJames_TattooGuy2.jpg\"\nshape=\"rect\">tattooed</a> onto his arm. \n\n<p>I got to spend some time with the folks responsible for software\nfor their national medical system. They're deploying the second\ngeneration of their system in Sao Paulo. It has some great new\nfeatures. One is a realtime surveilance system which allows them to\nhave diagnosis cause realtime triggers. For example, if a doctor\nenters a diagnosis of menigitis, she is automatically prompted for\nextra information and it all appears in realtime on maps in their\ncontageous disease center. They've got a great extended integrated\nscheduling system that allows them to do non-local scheduling: for\nexample, if a patient needs to have a particular procedure or test\ndone, and the clinic they're at can't handle it right away, they\ncan schedule it in some nearby clinic. Very cool stuff.</p>\n\n<p>Just saw a demo from the Brazilian tax service. Normally tax\nagencies are pretty boring, but these folks have been doing very\ncool stuff. For the last couple of years they've been using a Java\ntax submission system and are running almost entirely paperless.\nTheir new thing for this year is that they've got a J2ME\napplication that runs on all the cell phones in Brazil (and they\nhave twice as many cellphones in the country as they have\nhouseholds). This app allows folks to submit their tax forms from\ntheir cell phone - no computer required. Quite a sophisticated\npiece of cellphone hacking.</p>\n\n",
+  "images" : [ {
+    "image" : "Image116-small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 150
+  }, {
+    "image" : "DukeSaltimbanqueLarge.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 2148,
+    "height" : 2368
+  } ]
+}

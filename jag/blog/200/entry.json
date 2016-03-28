@@ -1,0 +1,12 @@
+{
+  "date" : 1163404800000,
+  "title" : "GPL V2 wins!",
+  "body" : "I'm really happy that after months of arguing and analysis, we\nfinally agreed on using the GPL version 2 with the classpath\nexception as the license for JavaSE. We're also taking the first\ncouple of baby steps in getting actual source code relicensed. All\nof it will follow, eventually. But there's a lot of work to do,\nlike migrating millions of lines of code from TeamWare to\nMercurial. \n\n<p>For extra bonus fun, we're <a href=\n\"https://duke.dev.java.net\">open sourcing Duke</a>. You'll find a\npile of images along with a few animations and 3D models. We'll be\nadding to it over time. Duke has been a lot of fun. I hope you can\nhave fun with him too. Figuring that some folks would like\nt-shirts, we've set some images up at <a href=\n\"http://cafepress.com/duketoss\">CafePress</a>.</p>\n\n<p>Being \"out sick\" for a long time is horrible. I'm missing all\nthe fun. First I miss the NetBeans 5.5 launch (I'm deeply in love\nwith the profiler.. It is soooo sweet); then I miss JDK6 going\nfinal. Now I'm missing out on this. Email may be great, but it's no\nsubstitute for physical presence. Bummer. But I'm healing well.</p>\n\n",
+  "images" : [ {
+    "image" : "Duke3DprogressionSmall.jpg",
+    "href" : "http://duke.dev.java.net",
+    "align" : null,
+    "width" : 602,
+    "height" : 192
+  } ]
+}

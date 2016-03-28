@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Compiler fun</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../205/index.html class=button>◀</a><td align=right><a href=../207/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../202/index.html>Thanks everyone!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../203/index.html>LookingGlass hits 1.0</a>
+<tr><td><td class=otherRef><a class=otherRef href=../204/index.html>A Book for Christmas</a>
+<tr><td><td class=otherRef><a class=otherRef href=../205/index.html>Back in the saddle</a>
+<tr><td>✓<td class=thisRef>Compiler fun
+<tr><td><td class=otherRef><a class=otherRef href=../207/index.html>The language debate</a>
+<tr><td><td class=otherRef><a class=otherRef href=../208/index.html>No T-Shirt hurling contest this year</a>
+<tr><td><td class=otherRef><a class=otherRef href=../209/index.html>Danger & the fire marshal</a>
+<tr><td><td class=otherRef><a class=otherRef href=../210/index.html>doc.java.sun.com is alive! (again)</a>
+<tr><td><td class=otherRef><a class=otherRef href=../211/index.html>Five things you probably don't know about me</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Compiler fun</h1>
+There's lots of fun to be had playing around with javac. I've never
+been real happy with debates about language features, I'd much
+rather implement them and try them out. For example, over
+christmas, <a href=
+"http://weblogs.java.net/blog/forax/archive/2006/12/call_me_santa.html">R&#233;mi
+Forax</a> did an implementation of the ":=" declaration syntax,
+along with some other type inferencing touches. [I used to give
+myself an annual christmas present: I'd do a "Christmas hack" that
+was just for fun... That ended when children entered the picture.
+My Christmas hack was fun, but children are better] 
+
+<p>For years I've wanted to set up a "<a href=
+"http://ksl.dev.java.net">Kitchen Sink Language</a>" website for
+experimentation. A place where people could throw language
+features, no matter how absurd, just so that folks could play
+around. Now that javac has been open-sourced, it's easy. Peter von
+der Ah&#233; beat me to it and built the site, but he hasn't quite
+got it ready yet.</p>
+
+<p>Playing with javac is particularly easy since it got repackaged
+as a NetBeans extension. It's an odd but slick way to make it
+easily available: when running NetBeans 5.5, go to the update
+center. You'll find a javac project tool... Download it and create
+a javac project. It gets pre-populated with all the sources of
+javac. Lots of fun.</p>
+
+<p>Even if you don't want to create a new language extension,
+installing the javac sources is interesting if you like studying
+compilers. It's a particularly nicely written one. No, I didn't
+write it: I wrote the original java compiler, which was a C
+program. It has thankfully been dead for years.</p>
+
+<p>If you're into extreme sillyness, you can rewack the parser
+completely so that it will compile other languages. Several years
+ago I actually wrote a Fortran parser on top of javac - it was good
+enough to compile LINPACK, but not much else. I did eventually come
+to my senses and throw it away.</p>
+
+<p>Another thing you can use javac for is dropping code into it
+that studies the parse tree. I like to do that when analysing
+language features: come up with a tree walker that looks for things
+that could be rewritten to use a proposed new feature. Rather than
+using javac, you can play with Jackpot in NetBeans to get the same
+capabilities (Jackpot is really just a UI for the AST). It's pretty
+depressing how few new language features improve more that a thin
+sliver of code. One of the reasons I like ":=" and operator
+overloading for [] to map to container classes is that they
+simplify visual clutter all over the place.</p>
+
+
+<table width=100%><tr><td align=right class=date>January 8, 2007</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

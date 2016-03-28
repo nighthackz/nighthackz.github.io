@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Is it ever too early to optimize?</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../7/index.html class=button>◀</a><td align=right><a href=../9/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../4/index.html>A brutal ending</a>
+<tr><td><td class=otherRef><a class=otherRef href=../5/index.html>Flying at Mach 1</a>
+<tr><td><td class=otherRef><a class=otherRef href=../6/index.html>URLs are your friend</a>
+<tr><td><td class=otherRef><a class=otherRef href=../7/index.html>The first rule of debugging</a>
+<tr><td>✓<td class=thisRef>Is it ever too early to optimize?
+<tr><td><td class=otherRef><a class=otherRef href=../9/index.html>Java in China</a>
+<tr><td><td class=otherRef><a class=otherRef href=../10/index.html>Buy this book...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../11/index.html>Hanging out at JPL</a>
+<tr><td><td class=otherRef><a class=otherRef href=../12/index.html>Yes, I've got a real job again</a>
+<tr><td><td class=otherRef><a class=otherRef href=../13/index.html>Syntax coloring is Evil</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Is it ever too early to optimize?</h1>
+One of the general principles that is commonly followed is avoiding
+premature optimization. In general, I agree with this, although I
+find it personally difficult: I learned to progam on a machine with
+only 4K of RAM. These days, with RAM at $200/Gigabyte and multi-GHz
+machines, we have the luxury of giving priority to issues like
+cleanliness, modularity and development time. On the whole, this is
+wonderful. But all too often I see this taken to an unhealthy
+extreme and slow bloated software results.
+
+<p>In the "no premature optimization" model of the world, you
+ignore performance and build your system as cleanly as possible.
+Then you measure and tune. But after the tuning is done you can
+still find that the system is slow, but there's no real performance
+problem that you can localize. It's just a generalized, diffused
+slowness. A lot of small things spread everywhere that add up. One
+of the common categories is things that lead to a lot of wasted
+memory traffic. For example, if you're doing a lot of text
+generation it's often easy to write code that uses string
+concatenation a lot. I've seen code that uses <tt>String+</tt>char=
+all over the place. This does a huge amount of copying and is much
+less efficient than using StringBuffer. If you're doing heavy text
+generation, consider designing APIs that append to StringBuffer
+parameters, rather than returning Strings.</p>
+
+<p>Another thorny area is data structure design. Whenever possible,
+systems should be designed so that as much as possible of the data
+structures is encapsulated. A great example of this is the
+container classes. There are many different kinds of containers
+with different performance characteristics but which all implement
+the Map interface. If your application uses the Map interface to
+declare all containers, then the constructor invocations can be
+changed the accomodate different performance demands.</p>
+
+<p>But this breaks down in applications where there is some data
+structure that pervades everything. For example, if you were
+building an editor for 3D models, almost all parts of the
+application interact with the model data structure. You can do a
+lot to hide the details, but there's only so much you can hide. If
+you don't think hard about the data structure right at the
+beginning of building the application, you're likely to end up with
+big problems. In this situation, a "clean" design might involve
+representing points as objects, and meshes as arrays of points. But
+when the meshes get very large, this breaks down. A better
+performing representation would be one or more arrays of floating
+point values and <i>no</i> explicit point object.</p>
+
+<p>It's all a matter of balance and forethought.</p>
+
+
+<table width=100%><tr><td align=right class=date>October 14, 2003</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

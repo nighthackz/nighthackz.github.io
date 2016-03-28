@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Netbeans as a platform</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../29/index.html class=button>◀</a><td align=right><a href=../31/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../26/index.html>It's so easy to be annoying</a>
+<tr><td><td class=otherRef><a class=otherRef href=../27/index.html>It talks!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../28/index.html>The Sun/Microsoft settlement</a>
+<tr><td><td class=otherRef><a class=otherRef href=../29/index.html>More on Sun & Microsoft</a>
+<tr><td>✓<td class=thisRef>Netbeans as a platform
+<tr><td><td class=otherRef><a class=otherRef href=../31/index.html>Open sourcing Java</a>
+<tr><td><td class=otherRef><a class=otherRef href=../32/index.html>The world needs more crazy people</a>
+<tr><td><td class=otherRef><a class=otherRef href=../33/index.html>Bubble?  What bubble?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../34/index.html>Home at last, for a while</a>
+<tr><td><td class=otherRef><a class=otherRef href=../35/index.html>Go Flames!  Go!</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=Image61-large.jpeg class=fresco data-fresco-group=bovik><img src=Image61-large.jpeg height=114></a>
+<p>
+<div class=entry><h1>Netbeans as a platform</h1>
+One of the cooler aspects of NetBeans is that it can be used as a
+<i>platform</i> for building applications, not just as an IDE. By
+this I mean that if you look under the hood at the implementation
+of NetBeans, you'll find that, just like any other Java
+application, it is a large collection of classes. These classes can
+be used outside of NetBeans to provide a framework for general
+desktop applications. For more information, look <a href=
+"http://www.netbeans.org/kb/articles/docList.html" shape=
+"rect">here</a>.
+
+<p>The platform APIs include extensive facilities built on top of
+Swing to do window, action, toolbar and menu management. There is
+also an abstract file system that allows things like CVS
+repositories and FTP sites to be viewed as file systems. There's a
+whole framework for wizards, and a facility for managing and
+storing settings. My personal favorite is the AutoUpdate module
+that allows applications (at the direction of users through plugin
+manager UI) to be extended by installing plugins, and to handle
+automatic updating when new versions appear.</p>
+
+<p>Taken together these dramatically simplify the construction of
+sophisticated desktop applications. Take them out for a spin!</p>
+
+
+<table width=100%><tr><td align=right class=date>April 23, 2004</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

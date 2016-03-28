@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Steve Jobs Comments on Apple's Java Discontinuation</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../351/index.html class=button>◀</a><td align=right><a href=../353/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../348/index.html>The conference formerly known as JAOO</a>
+<tr><td><td class=otherRef><a class=otherRef href=../349/index.html>Peace breaks out?!?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../350/index.html>Desktop Linux: The Dream Is Dead</a>
+<tr><td><td class=otherRef><a class=otherRef href=../351/index.html>Sorry, but I have to drop out of tonight's SVJUG meeting</a>
+<tr><td>✓<td class=thisRef>Steve Jobs Comments on Apple's Java Discontinuation
+<tr><td><td class=otherRef><a class=otherRef href=../353/index.html>"Dear Oracle, Get a Clue"</a>
+<tr><td><td class=otherRef><a class=otherRef href=../354/index.html>It's never been easier to meet friendly people</a>
+<tr><td><td class=otherRef><a class=otherRef href=../355/index.html>Back from the Sanity Rally</a>
+<tr><td><td class=otherRef><a class=otherRef href=../356/index.html>Oracle and Apple Announce OpenJDK Project for Mac OS X</a>
+<tr><td><td class=otherRef><a class=otherRef href=../357/index.html>Merry Christmas Everyone!</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Steve Jobs Comments on Apple's Java Discontinuation</h1>
+<img align=right src='110033-java_cup.jpg'>Macrumors has an article on <a href=
+"http://www.macrumors.com/2010/10/22/steve-jobs-comments-on-apples-java-discontinuation/">the
+fuss about Java on the Mac</a>. They quote Jobs as saying: 
+
+<blockquote>
+  Sun (now Oracle) supplies Java for all other platforms. They have
+  their own release schedules, which are almost always different
+  than ours, so the Java we ship is always a version behind. This
+  may not be the best way to do it.
+</blockquote>It simply isn't true that "Sun (now Oracle) supplies
+Java for all other platforms". IBM supplies Java for IBM's
+platforms, HP for HP's, even Azul systems does the JVM for their
+systems (admittedly, these all start with code from Snorcle - but
+then, so does Apple). In the beginning, Microsoft provided Java for
+Windows - but Sun took over when Microsoft violated their contract
+and made Java code written on Windows unable to run on other
+systems. Sun also provided the VM for Linux because there was no
+one else to do it. In all the other cases, the platform owners
+wanted to do the ports themselves so that they could put a lot of
+energy into it, and because they knew the platforms better than
+anyone else. Apple was the same: in the early days, they were
+insistent on doing the port themselves. They put terrific energy
+into it. They did a good job. But then, as OS X took hold and Apple
+was able to convince developers to target their
+non-portable/proprietary environment, Apple's fundamental
+control-freak tendency took over and they put less and less energy
+into Java. It also didn't help that the early ports that they did
+were heavily customized - far more than they needed to be. This
+made upgrading to subsequent releases very hard, and for quite a
+while Apple's JVM lagged behind all other platforms. But they
+eventually got their act together and their JVM upgrade pipeline
+got streamlined and they kept up very well in recent years. 
+
+<p>None the less, there were recurring discussions about having Sun
+or <a href="http://landonf.bikemonkey.org/static/soylatte/">the
+community</a> shoulder the burden. There were lots of obstacles.
+One was that a lot of Apple's web sites (MobileMe, iTunes, the app
+store) were Java apps and they were nervous about not doing the QA
+themselves. The point became somewhat moot because Apple ended up
+using a lot of Sun hardware (yes!). But the biggest obstacle was
+their use of <a href=
+"http://arstechnica.com/apple/news/2008/02/finding-a-worm-in-the-apple-secret-apis-in-mac-os-x.ars">secret
+APIs</a>. Yes, OS X has piles of secret APIs. Just like the ones
+that Microsoft had that contributed to their antitrust problems.
+The big area (that I'm aware of) where these are used is in
+graphics rendering.</p>
+
+<p>A particularly ironic area was in aliased versus antialiased
+rendering: Apple's graphics pipeline is well designed: they do
+antialiasing beautifully throughout. The Java graphics spec has
+some careful wording to allow Apple-style antialiased-only
+pipelines to be used. Code that works well with this style of
+rendering is easy to write. Unfortunately, old Microsoft platforms
+only supported aliased rendering, and some (this was rare)
+applications would have rendering artifacts if antialiasing was
+turned on. These applications were broken according to the spec,
+and most authors fixed their apps so that they worked in both
+cases. But one developer took a serious "fuck you" attitude on this
+issue and forced Apple to implement aliased rendering - which they
+kept secret because it was such an awful thing to have to do. The
+"one developer"? Oracle, of course...</p>
+
+
+<table width=100%><tr><td align=right class=date>October 22, 2010</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

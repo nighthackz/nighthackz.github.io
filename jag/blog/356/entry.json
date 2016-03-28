@@ -1,0 +1,12 @@
+{
+  "date" : 1289548800000,
+  "title" : "Oracle and Apple Announce OpenJDK Project for Mac OS X",
+  "body" : "Wow. This morning's <a href=\n\"http://www.apple.com/pr/library/2010/11/12openjdk.html\">press\nrelease</a> from Apple &amp; Oracle is incredibly encouraging.\nTalks with Apple on this topic have gone on for many years, it's\ngreat to see a positive move actually happen. The two questions\nthat only time can answer are: will both parties actually deliver?\nand how will this work with Apple's software update center? (That\nhad been one of the sticking points in the past: they didn't want\nto have Java auto-update from some mechanism outside their software\nupdate center, and they didn't want an outsider delivering code via\ntheir update center).\n",
+  "images" : [ {
+    "image" : "apple-logo.thumbnail.jpg",
+    "href" : "http://www.apple.com/pr/library/2010/11/12openjdk.html",
+    "align" : "right",
+    "width" : 128,
+    "height" : 128
+  } ]
+}

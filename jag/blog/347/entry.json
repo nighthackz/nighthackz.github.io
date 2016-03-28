@@ -1,0 +1,30 @@
+{
+  "date" : 1286175600000,
+  "title" : "Engineering tradeoffs",
+  "body" : "I've been going to the <a href=\"http://airrace.org\">Reno Air\nRaces</a> for quite a few years. While I'm not a pilot, I get quite\na kick out of the extreme engineering that the competitors engage\nin. This year, there was an exciting twist: a new entrant that made\na very surprising tradeoff. At the right is a picture I took of a\nstock P51 mustang during a race. These are planes that one would\nnormally think of as museum pieces, but they get rolled out and\nflown at speed. There's something of a dichotomy in the group of\npeople that own these old planes: there's the crowd that goes for\nauthenticity, and there's the crowd that says \"to hell with\nauthenticity, I want to go fast\". This plane is pretty authentic.\nOne of the most visible features of the P51 is the lump hanging\ndown underneath the belly: this is the radiator and the airscoop\nfor it. As in so many areas of engineering, one of the biggest\nproblems in racing airplanes is dealing with heat. The normal\ncooling system is meant to cope with a stock Rolls-Royce Merlin\nengine that generates around 2000HP. \n\n<p>It isn't just mustangs that are raced. All kinds of planes\ncompete. One of the more exciting types of plane are the <a href=\n\"resource/AirshowLarge6.jpg\" rel=\"lightbox\" title=\n\"Grumman F7F Tigercat\">Grumman F7F Tigercats</a> that have two huge\nengines. At speed, these beasts make quite a thunder.</p>\n\n<p><br clear=\"both\">\n This airplane is <a href=\"http://www.strega.com/\">Strega</a>, a\nvery highly modified P51 that has won many times (for a cooler\npaint job, take a look at <a href=\"resource/AirshowLarge3.jpg\" rel=\n\"lightbox\" title=\"\">VooDoo</a>). These are very highly modified\nplanes with chopped wings and somewhere in the neighborhood of 4000\nhp coming from their hot-rodded engines. The cooling system is\nhighly modified too. One of the most interesting modifications that\nis often done is to reshape the interior of the radiator chamber.\nTheses engines generate a <i>lot</i> of heat. This gets dumped out\nthrough the radiator, which causes the air passing through it to\nheat up and expand. The chamber is often reshaped to act like the\nbell in a rocket engine: Yes, they generate thrust from the waste\nheat. Pretty clever.</p>\n\n<p><br clear=\"both\">\n This year a surprise entrant showed up named <a href=\n\"http://www.leewardairranch.com/racing\">Galloping Ghost</a>. It was\na newly modified plane that had sat alone in a hanger somewhere for\nmany years. They really went to town modifying this plane. Chopped\nwings, seriously hot-rodded engine, and a shockingly cool piece of\nlateral thinking in the modification to the cooling system. If you\nlook at the photo, you'll see that they sawed off the radiator.\nThis is aesthetic sacrilege and (one would think) engineering\nsuicide. What happens to the phenomenal amount of heat that the\nengine generates? Traditionally a cooling system is a closed loop\nwith heat generated in the engine and transported by a fluid\nrunning through it to the radiator, where the heat is dumped and\nthe fluid recirculates. In this beast, they left out the radiator\nand they just vent the fluid (mostly water). They've got a small\ntank of water that's big enough to let the plane fly the race\nbefore the water runs out. In this plane, water is a consumable,\njust like fuel. It's a steam-powered airplane. There's one\ninteresting subtlety: in a normal heat exchanger, it's important\nthat the fluid not boil. This would create a lot of pressure and\nprobably blow a hole in something. So the fluid is usually\nsomething more interesting than water. But in galloping ghost,\nsince the cooling system isn't a closed loop, they can let the\nwater boil. If you remember your physics lessons, the heat required\nto do the liquid-to-gas phase change is immense. This means that\nthe cooling system uses less water than you'd expect.</p>\n\n<p>Galloping Ghost was doing surprisingly well in the preliminary\nraces. Everyone was keyed up for the final race where all the top\ncontenders would race together and drive their planes to the limit.\nThis freakishly weird piece of upstart engineering had a shot. But\nno, at the last moment the final race was cancelled because the\nwinds got too high and it was pretty clear that they weren't going\nto die down. In the second-to-last race, which was also affected by\nhigh winds, one of the planes had to declare a mayday and land\nwithout an engine. But when it tried to land, the wind caused it to\nroll and the plane was <a href=\n\"http://www.examiner.com/lake-tahoe-travel-in-reno/safety-first-reno-air-races-photos-picture\">totalled\n(read the article, the picture is cool)</a>. So the folks running\nthe race exercised some caution :-) Oh well, next year....</p>\n\n<p><br clear=\"both\">\n It isn't all about racing. They have the usual air show stuff.\nLots of performers doing tricks with airplanes. This year the <a\nhref=\"http://www.snowbirds.dnd.ca/\">Snowbirds</a> came.</p>\n\n<p>I'm all psyched for next year. I'm having fun on my time off. As\nI type this I'm at the <a href=\n\"http://gotocon.com/aarhus-2010/\">JAOO</a> conference in Aarhus\n(It's been renamed \"GOTO\" for next year). More geek fun with a good\ncrowd of interesting smart people.</p>\n\n",
+  "images" : [ {
+    "image" : "AirshowLarge2.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 1024,
+    "height" : 683
+  }, {
+    "image" : "AirshowLarge4.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 1024,
+    "height" : 683
+  }, {
+    "image" : "AirshowLarge5.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 1024,
+    "height" : 684
+  }, {
+    "image" : "AirshowLarge1.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 1024,
+    "height" : 683
+  } ]
+}

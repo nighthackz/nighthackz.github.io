@@ -1,0 +1,6 @@
+{
+  "date" : 1092121200000,
+  "title" : "Siggraph & Window Systems",
+  "body" : "I'm spending the week at <a href=\"http://siggraph.org/s2004/\"\nshape=\"rect\">Siggraph</a>, which is always fun. This is the one\nconference a year that I can attend and just sit in paper sessions\nand listen and learn. I've been going to Siggraph for an\nembarrassing number of years. In the distant past, I used to do a\nlot of graphics work and my first project at Sun was to build a\nPostScript-based window system called \"NeWS\" (the Networked,\nextensible, Window System). It died years ago for a variety of\nreasons, but lots of folks loved it. I keep getting questions about\nit, particularly since Apple's window system bears some resemblance\nto it. Just a few minutes ago I ran into an old friend who asked\nthe inevitable \"<i>Whatever happened to... Could you get Sun to\nrelease the source so we could resurrect it?</i>\". I probably could\nget the source released, but it would be a bad idea. A couple of\nyears ago I wrote a paper about what I'd do if I were asked to\ndesign a window system today. I never published it other than to\nhand it around to a few friends. So now, it's <a href=\n\"http://nighthacks.com/roller/jag/wsd.pdf\" shape=\"rect\">here</a>.\n",
+  "images" : [ ]
+}

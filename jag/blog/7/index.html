@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The first rule of debugging</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../6/index.html class=button>◀</a><td align=right><a href=../8/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../3/index.html>My latest favorite Java APIs: XML{En,De}coder</a>
+<tr><td><td class=otherRef><a class=otherRef href=../4/index.html>A brutal ending</a>
+<tr><td><td class=otherRef><a class=otherRef href=../5/index.html>Flying at Mach 1</a>
+<tr><td><td class=otherRef><a class=otherRef href=../6/index.html>URLs are your friend</a>
+<tr><td>✓<td class=thisRef>The first rule of debugging
+<tr><td><td class=otherRef><a class=otherRef href=../8/index.html>Is it ever too early to optimize?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../9/index.html>Java in China</a>
+<tr><td><td class=otherRef><a class=otherRef href=../10/index.html>Buy this book...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../11/index.html>Hanging out at JPL</a>
+<tr><td><td class=otherRef><a class=otherRef href=../12/index.html>Yes, I've got a real job again</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>The first rule of debugging</h1>
+<b>If the bug isn't where you're looking, you're probably looking
+in the wrong place</b> Seems pretty obvious, but I get nailed by it
+all the time: I get some preconcieved notion of where the problem
+is, and then I focus there to the exclusion of looking at other
+possibilities.
+
+<p>Readers of this blog may be wondering why It's been so long
+since I last added an entry. I write this blog using my own tool,
+which you can find at bloged.dev.java.net. It recently developed a
+problem that took me a long time to resolve - and it was a classic
+case of looking in the wrong place. Of course, the real reason that
+it took a long time to resolve is that I tried to write a blog
+entry with the new version, but that failed; then I couldn't look
+at the problem right away because there was other stuff I had to
+rush off to. It's a real problem when you have to debug things in
+15 minute sessions, once a week.</p>
+
+<p>Atsuhiko Yamanaka had been doing some excellent work adding
+security features to the ssh web site access facilities. He did a
+putback, I brought it over, rebuilt... <b>boom</b> it didn't work.
+And it didn't work in a perplexingly silent way. I was pretty
+surprised since Atsuhiko has done flawless work and I totally
+expected his stuff to fly. But this didn't - the problem was
+<i>clearly</i> in the code he had put back so that's where I was
+looking. But look as I might, I couldn't find the problem. I'll
+spare you the intervening gory details about the stupidly fruitless
+search for a problem in his perfect code. In the end it turned out
+to be totally elsewhere: I had leapt from the bringover/build/boom
+correllation to believing I knew where the bug was. But there were
+other things going on in the world. In this case, it was a
+configuration change in another part of the universe. I only found
+out about it when I <tt>ssh</tt>ed to the server, and that failed
+too..... A few minutes later, problem solved.  <i>Duh</i></p>
+
+
+<table width=100%><tr><td align=right class=date>September 13, 2003</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "date" : 1189148400000,
+  "title" : "Heading for Beantown",
+  "body" : "The <a href=\"http://developers.sun.com/events/techdays/\">Tech\nDays</a> tour kicks off next week in <a href=\n\"http://developers.sun.com/events/techdays/2007/US_BOS.jsp\">Boston</a>.\nI'll be there, along with a pile of folks who actually know what\nthey're taking about. We'll be spending a couple of days doing\npresentations on topics from the latest SE, EE &amp; ME techniques,\nthrough desktop, SOA, web, scripting, NetBeans and a pile of other\ntopics. There will also be sessions covering Solaris.\n",
+  "images" : [ {
+    "image" : "bbb_bean-pot.png",
+    "href" : "http://developers.sun.com/events/techdays/2007/US_BOS.jsp",
+    "align" : "right",
+    "width" : 121,
+    "height" : 128
+  } ]
+}

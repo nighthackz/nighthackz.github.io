@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Solaris, NFS & OS X</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../284/index.html class=button>◀</a><td align=right><a href=../286/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../281/index.html>Come and get it!  Hot off the grill: JavaFX</a>
+<tr><td><td class=otherRef><a class=otherRef href=../282/index.html>Fun at SIGGRAPH</a>
+<tr><td><td class=otherRef><a class=otherRef href=../283/index.html>Current State of Java for HPC</a>
+<tr><td><td class=otherRef><a class=otherRef href=../284/index.html>In Germany this week</a>
+<tr><td>✓<td class=thisRef>Solaris, NFS & OS X
+<tr><td><td class=otherRef><a class=otherRef href=../286/index.html>Get off your butt and...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../287/index.html>Sanity returns to the US: Thanks Everyone!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../288/index.html>We've been cranking!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../289/index.html>The LincVolt lives!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../290/index.html>Heading to Tokyo</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Solaris, NFS & OS X</h1>
+At home I use ZFS+NFS on a Solaris box to make a file server that
+provides disk space to all the other machines at home, which are
+mostly MACs. I use NFS to access the files instead of AFS because
+it's so much faster. A friend and I were talking about this over
+the weekend and he was surprised: OS X is notoriously tricky to
+configure to use NFS. They have a nonstandard way to manage
+automount maps and, unusual for Apple: no easy-to-use front end. So
+lots of folks stay away from using NFS on OSX. It turns out that
+there's a trick that not many folks know about that makes it easy:
+(almost) no configuration required. The default NFS configuration
+contains a default automount map based on hostnames:
+/net/<i>hostname</i>/<i>filepath</i>. The tricky bit is that the
+finder suppresses the "/net" directory so you can only see it from
+the Unix shell. From the shell on OS X, /net references work with
+no effort: 
+<pre>
+ls /net/10.0.0.123/tank/photos
+</pre>
+Lists all the files in /tank/photos on the host with IP address
+10.0.0.123 (if you're feeling adventurous, you can associate a name
+with the address by appropriate configuration of the naming
+environment, but that can be a pain, so I often just use naked
+static addresses). To make this work with finder in OS X, just do
+this from the shell: 
+<pre>
+sudo ln -s /net/10.0.0.123 /tank
+</pre>
+Then "tank" will show up on the root filesystem, and "photos" will
+be visible within it. The only configuration I do is this one
+symlink, then all the filesystems on the server appear. Easy.
+
+<table width=100%><tr><td align=right class=date>October 6, 2008</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "date" : 1245049200000,
+  "title" : "Jazoon!",
+  "body" : "I'll be spending next week in Zurich at <a href=\n\"http://jazoon.com\">Jazoon'09</a>. They've got a <a href=\n\"http://jazoon.com/en/conference/schedule.html\">great lineup of\ntechnical sessions</a> to pump your head full of all the latest\neverything. The lineup of speakers is pretty impressive. \n\n<p>PS. Several folks have asked why I disappeared from JavaOne so\nquickly after my <a href=\n\"http://java.sun.com/javaone/2009/general_sessions.jsp?pid=24589760001\">Toy\nShow</a> keynote: my youngest daughter's school was holding a\ntalent show at noon, and I had to be there. Work is not at the top\nof life's priority list :-)</p>\n\n",
+  "images" : [ {
+    "image" : "jazoon-logo.gif",
+    "href" : "http://jazoon.com",
+    "align" : "right",
+    "width" : 402,
+    "height" : 83
+  } ]
+}

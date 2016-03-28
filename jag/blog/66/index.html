@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>What's happening with Huckster?</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../65/index.html class=button>◀</a><td align=right><a href=../67/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../62/index.html>Siggraph & Window Systems</a>
+<tr><td><td class=otherRef><a class=otherRef href=../63/index.html>Provenance: a plea</a>
+<tr><td><td class=otherRef><a class=otherRef href=../64/index.html>NetBeans 4.0 Rocks!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../65/index.html>Dissent  is not un-American</a>
+<tr><td>✓<td class=thisRef>What's happening with Huckster?
+<tr><td><td class=otherRef><a class=otherRef href=../67/index.html>Geek toys of all sorts...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../68/index.html>Design your t-shirt launcher now!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../69/index.html>The Tiger is out!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../70/index.html>How do I run Tiger?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../71/index.html>What's happened to my blog?</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=Image97-large.jpeg class=fresco data-fresco-group=bovik><img src=Image97-large.jpeg height=256></a>
+<p>
+<div class=entry><h1>What's happening with Huckster?</h1>
+A bunch of people have been downloading <a href=
+"http://huckster.dev.java.net" shape="rect">Huckster</a> and
+joining the community. The question I keep getting is "why hasn't
+anything new been checked in recently". It's a combination of
+factors: one is that (sadly) I have a day job. The big one is that
+I got this goofy idea: could I do something cool by integrating 3D
+(JOGL+Xith) into Huckster? The answer was <i>yes</i>, but there was
+a problem: I needed to go between the 3D world, and 2D. I wanted to
+render 2D into texture maps, and then get them to fly around on the
+screen. This actually works fine on my OSX machine. With one big
+problem: performance. OpenGL/JOGL/Xith are quite particular about
+how their pixels are laid out. Java2D has these great ColorModel
+objects that allow it to handle any pixel layout you might want to
+use, so it's possible to specify the OpenGL preferred pixel layout
+-- but only a few of them are optimized, and the one OpenGL likes
+doesn't have an optimized rendering pipeline. I've tried lots of
+combinations: mostly variations on either rendering directly to
+texture maps or rendering to a {Volatile,Buffered}Image then
+<tt>drawImage</tt>ing it into a texture map. I still havn't found
+one with performance that makes me happy. I did do an experiment
+with Java3D and got much better performance for 2D-&gt;3D, but I'd
+like to stick with JOGL. So now I'm off, in my copious spare time,
+trying to figure out how to accelerate JOGL imaging. 
+
+<p>One of the annoying side problems is that OpenGL requires that
+texture maps have power-of-two sizes, which forces me into all
+sorts of contortions, since slides and slide fragments don't fit
+well into power-of-two sizes. I was really happy when the <a href=
+"http://www.opengl.org/documentation/opengl_current_version.html"
+shape="rect">OpenGL 2.0</a> spec got rid of this restriction. I can
+hardly wait for this to percolate out into deployed OpenGL
+implementations.</p>
+
+
+<table width=100%><tr><td align=right class=date>September 15, 2004</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

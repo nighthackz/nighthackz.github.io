@@ -1,0 +1,12 @@
+{
+  "date" : 1120114800000,
+  "title" : "The last day of JavaOne...",
+  "body" : "My keynote was this morning, followed by a panel session and a blur\nof conversations with the press, customers and developers. I could\nwrite a book on what's gone on today, but I'm so tired after 4\nincredible days that I'm not going to be able to do it all justice.\n\n\n<p style=\"text-align: left\">My keynote was essentially all toy\nshow. The first two demos were about developers tools, the third\nwas on sensor nets, and the fourth was the Boeing ScanEagle\nexperimental navigation system.</p>\n\n<p style=\"text-align: left\">The first tool demo was about the\ncombination of some new GUI layout stuff we've put out in a project\nthat we call <a href=\n\"http://www.netbeans.org/kb/articles/matisse.html\" shape=\n\"rect\">Matisse</a>, together with advanced components from Swing\nLabs, to show how easy it is to create desktop applications in this\nnew world. The app we showed the creation of was a music\nplayer.</p>\n\n<p style=\"text-align: left\">The second tool demo was s howing how\neasy it has become to develope sophisticated apps for cellphones\nusing the <a href=\n\"http://www.netbeans.org/kb/articles/mobility.html\" shape=\n\"rect\">NetBeans mobility support</a>. My favorite part came at the\nvery end where we downloaded the app to a cellphone and did the\ndebugging live (including hitting breakpoints and examining\nvariables) on a real handset - not in an emulator.</p>\n\n<p style=\"text-align: left\">The third demo was some cool <a href=\n\"http://netbeams.org/\" shape=\"rect\">sensor net stuff</a> that\ncombined the work of folks at Agilent, SFSU and Sun to put very\npowerful and flexible sensors into San Francisco Bay. They use cell\nphones to communicate from the sensor to the network, JXTA to deal\nwith organization, and data publishing via RSS (yes: the sensors\nare technically bloggers).</p>\n\n<p style=\"text-align: left\">The fourth demo was navigation software\nfor the Boeing <a href=\n\"http://www.boeing.com/defense-space/military/unmanned/scaneagle.html\"\n shape=\"rect\">ScanEagle</a> automous aircraft. It's a realtime java\napplication that essentially acts as the pilot of the aircraft, it\ngets told what to observe with its camera, and it goes there and\nflies an observation pattern. No human pilot onboard or on the\nground.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_06_30_13-53-08-124_n13.small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 200,
+    "height" : 50
+  } ]
+}

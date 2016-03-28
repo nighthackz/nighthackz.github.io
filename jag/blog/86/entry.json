@@ -1,0 +1,6 @@
+{
+  "date" : 1118991600000,
+  "title" : "What's happening with Jackpot?",
+  "body" : "The research project at Sun that I spend the most time on these\ndays is called <i>Jackpot</i>. A good way to think of it is that\nit's a framework for building tools to do things like refactoring,\nlint checking, system analysis, ... and a broad range of large\nsystem manipulations. It's been getting really interesting.\n\n<p>I spent a recent couple of months working on moving methods from\none class to another. This turns out to be a really hard problem.\nFor example, say you had the following method:</p>\n<pre>\nstatic void f(T p) { if(p!=null) p.x++; }\n</pre>\nAnd you wanted to move this into class T. The natural thing is to\nhave what was parameter \"p\" become the new \"this\". The dumb\ntransformation would be: \n<pre>\nvoid f() { if(this!=null) x++; }\n</pre>\nBut \"this\" can never be null, so this should simplify to: \n<pre>\nvoid f() { x++; }\n</pre>\nThe behavior with respect to null is now broken: f(a) is not the\nsame as a.f() in the case where a is null.\n\n<p>Handling this correctly, along with many other cases, has\nprovided lots of geek entertainment. Unfortunatly, it has also\nmeant that it's still too shakey to release.</p>\n\n",
+  "images" : [ ]
+}

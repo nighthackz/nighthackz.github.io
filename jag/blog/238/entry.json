@@ -1,0 +1,6 @@
+{
+  "date" : 1188457200000,
+  "title" : "The Green UI",
+  "body" : "<object align=\"right\" width=\"425\" height=\"350\">\n  <param name=\"movie\" value=\"http://www.youtube.com/v/1CsTH9S79qI\">\n  <param name=\"wmode\" value=\"transparent\">\n  <embed src=\"http://www.youtube.com/v/1CsTH9S79qI\" type=\n  \"application/x-shockwave-flash\" wmode=\"transparent\" width=\"425\"\n  height=\"350\">\n</object>I was having a conversation the other day with someone\nabout touch screens, gesture languages, physics in UI actuators,\ntransition animations, and all sorts of other cool stuff in the\niPhone UI. It got me cranked up about a project we had done at Sun\nyears ago. <a href=\n\"http://mediacast.sun.com/share/jag/green.mpeg\">Fortunately, we had\nmade a video of it in 1992 that I managed to find a copy of.</a>\nIt's really badly done (it was done for a UI conference\npresentation), but it shows a lot of interesting points (for\nexample, the grid-style TV schedule browser). You can tell it's\npretty old from my hair color.\n",
+  "images" : [ ]
+}

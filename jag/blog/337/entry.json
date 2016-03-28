@@ -1,0 +1,12 @@
+{
+  "date" : 1280041200000,
+  "title" : "Hanging out at SIGGRAPH",
+  "body" : "I'm spending this week hanging out at my favorite Geek+Artist Fest:\nSIGGRAPH. The folks from Weta did a great presentation today on the\nwork they did on Avatar. Between their fascinating simulation of\nmuscle dynamics for accurate skin deformations, the many ways they\nused deep alpha maps &amp; abused the immense size of their disk\nfarm, to the studly tricks they did with <a href=\n\"http://graphics.stanford.edu/papers/envmap/\">spherical\nharmonics</a> to fake out global illumination, I'm impressed. Huge\nfun.\n",
+  "images" : [ {
+    "image" : "AvatarSession.jpg",
+    "href" : null,
+    "align" : null,
+    "width" : 677,
+    "height" : 180
+  } ]
+}

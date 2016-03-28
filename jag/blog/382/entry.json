@@ -1,0 +1,12 @@
+{
+  "date" : 1318489200000,
+  "title" : "I've run out of adjectives",
+  "body" : "The news of Dennis Ritchie's passing hit hard. <a href=\n\"http://www.bbc.co.uk/news/technology-15287391\">So much</a> <a\nhref=\n\"http://www.wired.com/wiredenterprise/2011/10/thedennisritchieeffect/\">has\nbeen written</a> in the past day. His impact was enormous, and\noutside the tech world, mostly unknown - but very much felt. C\nunderpins everything. My whole career has grown out of C and Unix.\nWow. \n\n<p>For most engineers working today, it's hard to understand the\neuphoria I felt in the 70s when a programming language finally came\nalong that I (and everyone else) could use to move up from writing\nin assembler to a real programming language. We could do everything\nwe needed to do to write all the low-level bits of systems. Before\nC, programming languages just weren't up to the task: the overheads\nwere just too large. The sophistication of systems was really held\nback by the difficulty of writing large pieces of software in\nassembler. C was like <a href=\n\"http://en.wikipedia.org/wiki/JATO\">JATO</a> for code.</p>\n\n",
+  "images" : [ {
+    "image" : "1997_dennis_ritchie.jpg",
+    "href" : "http://en.wikipedia.org/wiki/Dennis_Ritchie",
+    "align" : "left",
+    "width" : 309,
+    "height" : 400
+  } ]
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Transcendental Meditation</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../133/index.html class=button>◀</a><td align=right><a href=../135/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../130/index.html>T Shirt Contest Trivia</a>
+<tr><td><td class=otherRef><a class=otherRef href=../131/index.html>Leonardo thought of it first...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../132/index.html>Moore's Law meets Pricing</a>
+<tr><td><td class=otherRef><a class=otherRef href=../133/index.html>Happily Subversive?</a>
+<tr><td>✓<td class=thisRef>Transcendental Meditation
+<tr><td><td class=otherRef><a class=otherRef href=../135/index.html>Transcendental Two [updated]</a>
+<tr><td><td class=otherRef><a class=otherRef href=../136/index.html>Back at work again</a>
+<tr><td><td class=otherRef><a class=otherRef href=../137/index.html>Netbeans in Beijing</a>
+<tr><td><td class=otherRef><a class=otherRef href=../138/index.html>JavaChina</a>
+<tr><td><td class=otherRef><a class=otherRef href=../139/index.html>SOA: Buzzworld Whiplash or Real Meat?</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Transcendental Meditation</h1>
+<img align=right src='2005_07_27_10-42-09-387_n1.small.png'>I got into a conversation with some folks who've been moving a
+large sophisticated image processing application to Java. They've
+been getting great performance numbers, much to the surprise of the
+C crowd in their shop. 
+
+<p style="text-align: left">With one exception: code that invokes
+sin() and cos() heavily is somewhat slower. They asked me why this
+was happening. I had a pretty good idea, but I checked with Joe
+Darcy, our local Floating Point God, and he had this to say:</p>
+
+<p style="text-align: left"><i>For many years, the JDK on x86
+platforms has used the hardware fsin/fcos x87 instructions in the
+range [-</i>pi<i>/4,</i> pi<i>/4], a range which encompasses about
+half of all representable floating-point values. Therefore, in that
+range the performance of the JDK's transcendental functions should
+be nearly the same as the performance of the transcendental
+functions in C, C++, etc. that are using those same fsin/fcos
+instructions. Benchmarks which focus on testing the trig
+performance of large values, such as almabench, present a skewed
+portrait of Java's trigonometric performance. The next question is
+why don't we just use fsin/fcos over the entire floating-point
+range? The simple answer is that fsin/fcos can deliver answers that
+are arbitrarily wrong for the most straightforward way of measuring
+error in the result.</i></p>
+
+<p style="text-align: left"><i>Every finite real number, no matter
+how large, has a well-defined value for sin/cos. Ideally, the
+floating-point result returned for sin/cos would be the
+representable floating-point number closest to the mathematically
+defined result for the floating-point input. A floating-point
+library having this property is called correctly rounded, which is
+equivalent to saying the library has an error bound less than or
+equal to 1/2 an ulp (unit in the last place). For sin/cos, writing
+a correctly rounding implementation that runs at a reasonable speed
+is still something of a research problem so in practice platforms
+often use a library with a 1 ulp error bound instead, which means
+either of the floating-point numbers adjacent to the true result
+can be returned. This is the implementation criteria the Java Math
+library has to meet. The implementation challenge is that sin/cos
+are implemented using argument reduction whereby any input is
+mapped into a corresponding input in the [-</i>pi<i>/4,</i>
+pi<i>/4] range. Since the period of sin/cos is</i> pi <i>and</i> pi
+<i>is transcendental, this amounts to having to compute a remainder
+from the division by a transcendental number, which is non-obvious.
+A few years after the x87 was designed, people figured out how to
+do this division as if by an exact value of</i> pi<i>. Instead the
+x87 fsin/fcos use a particular approximation to</i> pi<i>, which
+effectively means the period of the function is changed, which can
+lead to large errors outside [-</i>pi<i>/4,</i> pi<i>/4]. For
+example the value of sine for the floating-point number Math.PI is
+around</i></p>
+
+<p style="margin-left: 30.0; text-align: left">
+<i>1.2246467991473532E-16</i></p>
+
+<p style="text-align: left"><i>while the computed value from fsin
+is</i></p>
+
+<p style="margin-left: 30.0; text-align: left"><i>1.2246<span
+style="color: #CC0000">063538223773E-16</span></i></p>
+
+<p style="text-align: left"><i>In other words, instead of getting
+the full 15-17 digit accuracy of double, the returned result is
+only correct to about 5 decimal digits. In terms of ulps, the error
+is about 1.64e11 ulps, over *ten billion* ulps. With some effort,
+I'm confident I could find results with the wrong sign, etc. There
+is a rationale which can justify this behavior; however, it was
+much more compelling before the argument reduction problem was
+solved.</i></p>
+
+<p style="text-align: left">This error has tragically become
+un-fixable because of the compatibility requirements from one
+generation to the next. The fix for this problem was figured out
+quite a long time ago. In the excellent paper <i><a href=
+"http://doi.ieeecomputersociety.org/10.1109/ARITH.1995.465368"
+shape="rect">The K5 transcendental functions</a></i> by T. Lynch,
+A. Ahmed, M. Schulte, T. Callaway, and R. Tisdale a technique is
+described for doing argument reduction as if you had an infinitely
+precise value for pi. As far as I know, the K5 is the only x86
+family CPU that did sin/cos accurately. AMD went back to being
+bit-for-bit compatibile with the old x87 behavior, assumably
+because too many applications broke. Oddly enough, this is fixed in
+Itanium.</p>
+
+<p style="text-align: left">What we do in the JVM on x86 is
+moderately obvious: we range check the argument, and if it's
+outside the range [-<i>pi</i>/4, <i>pi</i>/4]we do the precise
+range reduction by hand, and then call fsin.</p>
+
+<p style="text-align: left">So Java is accurate, but slower. I've
+never been a fan of "fast, but wrong" when "wrong" is roughly
+random(). Benchmarks rarely test accuracy. "double sin(double
+theta) { return 0; }" would be a great benchmark-compatible
+implementation of sin(). For large values of theta, 0 would be
+arguably more accurate since the absolute error is never greater
+than 1. fsin/fcos can have absolute errors as large as 2 (correct
+answer=1; returned result=-1).</p>
+
+<p style="text-align: left">This is one of those area where no
+matter what we do, we're screwed.</p>
+
+
+<table width=100%><tr><td align=right class=date>July 27, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "date" : 1212303600000,
+  "title" : "Opensolaris 2008.05",
+  "body" : "I just installed <a href=\n\"http://www.opensolaris.com/get/index.html\">OpenSolaris 2008.05</a>\nfrom the <a href=\"http://www.opensolaris.com/\">OpenSolaris.com</a>\nsite. It's pretty sweet. They've had the installer nailed for quite\na while, the big thing in this release (for me, anyway) is that it\ninstalls ZFS on the root device, and sets the system up to boot\nfrom ZFS. No more disk partioning! One big happy pool-o-pages! No\nmore UFS! \n\n<p>(but I'm *still* waiting for power management)</p>\n\n",
+  "images" : [ {
+    "image" : "ZFSsmall.png",
+    "href" : "http://www.opensolaris.com/get/index.html",
+    "align" : "right",
+    "width" : 250,
+    "height" : 184
+  } ]
+}

@@ -1,0 +1,18 @@
+{
+  "date" : 1275462000000,
+  "title" : "The BlueJ folks have been busy!",
+  "body" : "I've been a huge fan of <a href=\"http://bluej.org\">BlueJ</a> for\nyears. It's an organization, teaching methodology, curriculum, text\nbook and methodology for teaching programming to folks who have\nnever programmed before. BlueJ has been around for quite a while,\nand has been hugely successful. They've just put out a <a href=\n\"http://blogs.kent.ac.uk/mik/2010/05/30/bluej-3-0-whats-new/\">major\nnew release, 3.0</a> of the IDE that's got a pile of great\nenhancements. Coupled with the fourth edition of the textbook <a\nhref=\n\"http://www.amazon.com/gp/product/0136060862?ie=UTF8&amp;tag=onthjaro-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0136060862\">Objects\nFirst With Java: A Practical Introduction Using BlueJ (4th\nEdition)</a> , BlueJ is a great way to teach. It's been effective\nwith students from about 7th grade through college. \n\n<p>For extra fun, the NetBeans folks have been busy too: they're up\nto <a href=\"http://netbeans.org/community/releases/69/\">6.9\nRC2</a>. The FX editor is getting interesting!</p>\n\n",
+  "images" : [ {
+    "image" : "bluej-84-toned.jpg",
+    "href" : "http://bluej.org",
+    "align" : "right",
+    "width" : 84,
+    "height" : 84
+  }, {
+    "image" : "ir?t=onthjaro-20&l=as2&o=1&a=0136060862",
+    "href" : null,
+    "align" : null,
+    "width" : 1,
+    "height" : 1
+  } ]
+}

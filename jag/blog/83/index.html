@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Brazialian National Healthcare</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../82/index.html class=button>◀</a><td align=right><a href=../84/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../79/index.html>Getting Rolling...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../80/index.html>JavaOne madness begins</a>
+<tr><td><td class=otherRef><a class=otherRef href=../81/index.html>KidPix Rules</a>
+<tr><td><td class=otherRef><a class=otherRef href=../82/index.html>JavaOne Demos</a>
+<tr><td>✓<td class=thisRef>Brazialian National Healthcare
+<tr><td><td class=otherRef><a class=otherRef href=../84/index.html>What blogging software?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../85/index.html>What's with norquay.com redirecting to cloudline.org?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../86/index.html>What's happening with Jackpot?</a>
+<tr><td><td class=otherRef><a class=otherRef href=../87/index.html>Octavo.com and Albrect Durer</a>
+<tr><td><td class=otherRef><a class=otherRef href=../88/index.html>Not enough sleep...</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Brazialian National Healthcare</h1>
+Late last year I went on a trip to Brazil to talk at a Java
+conference. While I was there I got taken on a customer visit to
+see the new software infrastructure for the Brazialian National
+Healthcare sytem. I keep getting asked about it, so I thought it
+would be good to post a note here, even though the visit happened
+months ago. The system hasn't been fully deployed yet, they've just
+done a test deployment, but they're very happy with it. Their test
+deployment was 12 million (12,000,000!) people in 44 cities. 
+
+<p>It's the "operating system" for Brazilian National Healthcare.
+It's huge bags of J2EE and J2SE code. In the center, they have some
+serious servers (E10Ks &amp;c) with large amounts of storage. This
+is actually physically in 5 sites with serious security. These are
+fed through a hierarchy of regional servers from hospitals, clinics
+and pharmacies.</p>
+
+<p>Every interaction between a health care professional and a
+patient is recorded in the system. Every patient has a national
+medical system card. Every scrap of data is in the database.
+X-rays. EKGs. Video recordings from endoscopic exams. Some of these
+are entered/scanned manually, but many are streamed directly from
+the instruments. You can even remotely examine data as it is being
+streamed into the database, giving you live access to the
+instruments in an in-progress encounter. The person who was showing
+the system to me was a cardiac surgeon. As she was giving me the
+walkthrough on all of this, she hopped (in the cyberspace sense)
+into an in-progress heart transplant and took me on a tour through
+all the instruments. I also got the required video tour through a
+rectal exam, which seemed to be standard surgeon humor :-)</p>
+
+<p>These folks use every Java API you can imagine. They're
+critically dependent on many of the ones that we (in a corporate
+sense) frequently denigrate like Advanced Imaging and Media. After
+all, what good is it to record video if you can't view it?</p>
+
+<p>This system has already paid for itself several times over, just
+in cutting out drug fraud: when you go to a doctor they can see
+every other doctors visit you've been in for, every test result,
+and every prescription. This helps them enormously in getting a
+clear picture of what has been going on with a patient. For
+example, if a patient just got a prescription for Prozac from one
+doctor yesterday, they can't get a new one from another doctor
+today. Then when they go into the Pharmacy, they don't hand the
+druggist a scrap of paper, they had them their medical ID card, and
+the doctor gets the prescription out of the database, and marks it
+in the database as having been filled.</p>
+
+<p>They even have specialized terminals for clinics in the Amazon
+jungle. This led to a discussion of one of their more amusing
+problems: they don't know the names of many of their patients
+because in many indigenous religions, disclosing your name is the
+same as handing over your soul. (I feel that way myself a lot of
+the time). So they teach the indians that the medical ID card is
+roughly a magic talisman that helps the people in the clinic do
+their medicine. The medical system doesn't need to know the
+identity of its patients, it merely has to correlate people to
+medical records.</p>
+
+<p>Right now, the ID card is a traditional magstripe card, but
+JavaCards have recently gotten cheap enough for them to consider.
+The current deployments don't use much J2ME, but they likely will
+soon. This is motivated by the fact that J2ME cell phones &amp;
+wireless PDAs now work in all sorts of obscure areas, and will
+allow them to get rid of their current generation of rather clumsy
+non-desktop terminals.</p>
+
+<p>I wish the medical system I use here in the Bay Area was this
+coordinated.</p>
+
+<p>Don't miss <a href=
+"http://servlet.java.sun.com/javaone/sf2003/conf/sessions/display-2680.en.jsp"
+ shape="rect">their talk at JavaOne</a></p>
+
+
+<table width=100%><tr><td align=right class=date>June 17, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

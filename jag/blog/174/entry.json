@@ -1,0 +1,18 @@
+{
+  "date" : 1145602800000,
+  "title" : "Java TechDays in Moscow",
+  "body" : "I'm just finishing up two great (but tiring!) days in Moscow. We've\nhad a crew of evangelists and engineers doing non-stop detailed\ntechnical presentations. There are a lot of great bright engineers\nhere. The event was held in the headquarters of the Russian Academy\nof Sciences - a building with the <a href=\n\"resource/RussianAcademyOfScience.jpg\">world's coolest clock</a> on\ntop. I had to go for the ritual wander through Red Square and get a\ntypical tourist photo. Lots of fun. It's a great place. The psycho\nthing is that we're doing another one of these in Johannesburg in\ntwo weeks... <br clear=\"both\">\n\n",
+  "images" : [ {
+    "image" : "MoscowDevelopers.jpg",
+    "href" : null,
+    "align" : "right",
+    "width" : 640,
+    "height" : 426
+  }, {
+    "image" : "JagInRedSquare.jpg",
+    "href" : null,
+    "align" : "left",
+    "width" : 426,
+    "height" : 640
+  } ]
+}

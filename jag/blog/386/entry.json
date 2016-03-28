@@ -1,0 +1,6 @@
+{
+  "date" : 1321862400000,
+  "title" : "Surfing big waves",
+  "body" : "One of the interesting sensors is the <a href=\n\"http://www.datawell.nl/inhoud.php?id=6\">Datawell MOSE-G</a> wave\nsensor, which calculates, among other things, the height of the\nwaves that the robot is traveling through. The image shows the\nlatest data from the shakedown cruise. There are some data dropouts\n(don't ask!) but if you look closely at the <a href=\n\"http://data.liquidr.com/erddap/tabledap/DatawellMOSE.graph\">data</a>\nyou'll see some 6 meter (20ish feet!) waves on the way down to\nMonterey. Their course through the ocean didn't even wiggle. There\nare supposed to be some storms coming up this week, should be\nentertaining. The 'bots will probably just say \"<a href=\n\"http://www.merriam-webster.com/dictionary/yippee\">Yippee!</a>\"\n",
+  "images" : [ ]
+}

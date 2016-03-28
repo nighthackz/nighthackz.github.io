@@ -1,0 +1,12 @@
+{
+  "date" : 1122879600000,
+  "title" : "Transcendental Two [updated]",
+  "body" : "There's a piece of historical baggage in the definition of\n<i>sin/cos</i> that is much older than just \"whatever the 8087 chip\nhappened to do\": why are the <i>sin</i> and <i>cos</i> functions\ndefined based on parameters that are periodic in a transcendental\nnumber? Having the period be 2*<i>pi</i> is based on decades\n(centuries!) of mathematical standard practice. This whole problem\nwith <i>sin</i> and <i>cos</i> would go away if only the period had\na nice clean representation in floating point. For example, either\ndegrees or turns (1 turn == 360 degrees) would be great. In\nparticular, if the parameter to <i>sin/cos</i> were turns then\nargument reduction would be easy: just throw away the integer bits.\nThen you could do a table lookup based on extracting mantissa bits.\n\n\n<p style=\"text-align: left\">What is especially ironic is that if\nyou grep through piles of source code you'll find a huge number of\ncalls that look roughly like <i>sin(angle*(2*Math.PI/360))</i>.\nThis has a necessarily slightly inaccurate value of <i>pi</i>,\nwhich is likely to be exactly the same value as the one in the\n8087's <i>sin/cos</i> implementation - the two errors come pretty\nclose to canceling since the argument is divided by the value of\n<i>pi</i> used in the implementation of <i>sin/cos</i>.</p>\n\n<p style=\"text-align: left\"><i>Update:</i> Yes, I understand that\nthere are lots of deep, important mathematical reasons that\n<i>sin</i> &amp; <i>cos</i> are defined in terms of 2*<i>pi</i>.\nThe point I was trying to make is that if you peel open the covers\nof an implementation of <i>sin/cos</i>, 2*<i>pi</i> is a very\ndifficult period to cope with. At the same time, if you look at\nsoftware that uses <i>sin/cos</i>, you'll find that a huge fraction\nof them use something other than 2*<i>pi</i> (degrees are real\ncommon), and convert when invoking <i>sin/cos</i>.</p>\n\n",
+  "images" : [ {
+    "image" : "2005_08_01_09-12-14-835_n1.small.png",
+    "href" : null,
+    "align" : "right",
+    "width" : 170,
+    "height" : 130
+  } ]
+}

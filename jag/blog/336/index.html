@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>At the mercy of suppliers.</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../335/index.html class=button>◀</a><td align=right><a href=../337/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../332/index.html>The BlueJ folks have been busy!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../333/index.html>Happy birthday GlassFish!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../334/index.html>Escaped from Reality</a>
+<tr><td><td class=otherRef><a class=otherRef href=../335/index.html>JavaZone rocks!</a>
+<tr><td>✓<td class=thisRef>At the mercy of suppliers.
+<tr><td><td class=otherRef><a class=otherRef href=../337/index.html>Hanging out at SIGGRAPH</a>
+<tr><td><td class=otherRef><a class=otherRef href=../338/index.html>Funniest thing I've read all week</a>
+<tr><td><td class=otherRef><a class=otherRef href=../339/index.html>Cynical chuckles</a>
+<tr><td><td class=otherRef><a class=otherRef href=../340/index.html>The shit finally hits the fan....</a>
+<tr><td><td class=otherRef><a class=otherRef href=../341/index.html>Quite the firestorm</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=220px-Alphadecay.png class=fresco data-fresco-group=bovik><img src=220px-Alphadecay.png height=179></a>
+<a href=Icon_External_Link.png class=fresco data-fresco-group=bovik><img src=Icon_External_Link.png height=12></a>
+<a href=Icon_External_Link.png class=fresco data-fresco-group=bovik><img src=Icon_External_Link.png height=12></a>
+<p>
+<div class=entry><h1>At the mercy of suppliers.</h1>
+An interesting article came out in the New York Times about <a
+href=
+"http://www.nytimes.com/2010/06/29/technology/29dell.html?hp=&amp;pagewanted=all">Dell's
+problems with capacitors from one of its suppliers . It really is
+amazing the extent to which a company is at the mercy of its
+suppliers. Despite all the effort that folks put into qualifying
+their parts, there remains an unavoidable element of faith and
+risk.</a>
+
+<p>Sun had a series of such mishaps. The first I was involved in
+involved CRT monitors that burst into flame. The deflection coils
+of heavily used machines would overheat, the insulation would melt,
+smoke, and for the truly unlucky, burst into flame. Paying to fix
+all of the affected machines was hideously expensive. And even
+though the monitor manufacturer shouldered a lot of the expense, it
+was a near-death experience. But we got past it.</p>
+
+<p>When Sun folks get together and bullshit about their theories of
+why Sun died, the one that comes up most often is another one of
+these supplier disasters. Towards the end of the DotCom bubble, we
+introduced the UltraSPARC-II. Total killer product for large
+datacenters. We sold lots. But then reports started coming in of
+odd failures. Systems would crash strangely. We'd get crashes in
+applications. All applications. Crashes in the kernel. Not very
+often, but often enough to be problems for customers. Sun customers
+were used to uptimes of years. The US-II was giving uptimes of
+weeks. We couldn't even figure out if it was a hardware problem or
+a software problem - Solaris had to be updated for the new machine,
+so it could have been a kernel problem. But nothing was
+reproducible. We'd get core dumps and spend hours pouring over
+them. Some were just crazy, showing values in registers that were
+simply impossible given the preceeding instructions. We tried
+everything. Replacing processor boards. Replacing backplanes. It
+was <i>deeply</i> random. It's very randomness suggested that maybe
+it was a physics problem: maybe it was alpha particles or cosmic
+rays. Maybe it was machines close to nuclear power plants. One site
+experiencing problems was near Fermilab. We actually mapped out
+failures geographically to see if they correlated to such particle
+sources. Nope. In desperation, a bright hardware engineer decided
+to measure the radioactivity of the systems themselves. Bingo!
+Particles! But from where? Much detailed scanning and it turned out
+that the packaging of the cache ram chips we were using was
+noticeably radioactive. <a href=
+"http://web.archive.org/web/20020202013942/http://www.computerworld.com/storyba/0,4125,NAV47_STO66102,00.html">We
+switched suppliers and the problem totally went away . After two
+years of tearing out hair out, we had a solution.</a></p>
+
+<p>But it was too late. We had spent <i>billions</i> of dollars
+keeping our customers running. Swapping out all of that hardware
+was cripplingly expensive. But even worse, it severely damaged our
+customers trust in our products. Our biggest customers had been
+burned and were reluctant to buy again. It took quite a few years
+to rebuild that trust. At about the time that it felt like we had
+rebuilt trust and put the debacle behind us, the Financial Crisis
+hit...</p>
+
+<p>Boom.</p>
+
+<p>I sure hope that Apple's iPhone4 antenna problem isn't another
+such defining moment :-(</p>
+
+
+<table width=100%><tr><td align=right class=date>June 29, 2010</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

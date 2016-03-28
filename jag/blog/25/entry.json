@@ -1,0 +1,12 @@
+{
+  "date" : 1079424000000,
+  "title" : "JNN: the Juicy News Network",
+  "body" : "It's been a log time since I last wrote a blog entry: I'll try to\npick up the pace and be more regular. I did a little \"weekend hack\"\nand did an <b>RSS</b> feed reader that goes by the rather goofy\nname of JNN, the \"Juicy News Network\". If you'd like to try it out,\nit's available via <b>JNLP</b> <a href=\n\"http://jnn.dev.java.net/jnn.jnlp\" shape=\"rect\">here</a>. It's an\nopen source project on java.net, it's home is <a href=\n\"http://jnn.dev.java.net/\" shape=\n\"rect\">http://jnn.dev.java.net</a>. All the sources are there, as\nwell as a JAR file that works on any platform, and a Mac OS X\ninstallation. I comes with a preset list of subscriptions. You can\nunsubscribe to news feeds by using the \"unsubscribe\" menu entry.\nYou can subscribe to feeds by using drag-and-drop of RSS URLs or\nHTML pages with rss+xml links. There's a \"Help\" page that explains\nit all. The application itself is pretty straightforward. The most\ninteresting thing is what it does to be fast at startup: all news\nfeed reading is done by a swarm of low priority threads, one for\neach feed. So all feeds get fetched in parallel. This is very easy\nto do in Java: the threading API and networking support made it all\nstraightforward.\n",
+  "images" : [ {
+    "image" : "Image56-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 512,
+    "height" : 512
+  } ]
+}

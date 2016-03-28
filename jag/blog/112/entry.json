@@ -1,0 +1,12 @@
+{
+  "date" : 1118991600000,
+  "title" : "1+1 = <i>i</i>",
+  "body" : "I need to stop talking to reporters. It's so easy for what results\nto get misunderstood. I was <i>not</i> trying to say that all open\nsource projects are chaotic: there is a spectrum. Apache is at the\nvery high end of the scale, on average exhibiting excellent\nbehaviour. Their governence rules are very effective. Apache and\nthe Linux kernel set the Gold Standard. But they aren't all of the\nopen source universe, and there's some decidedly oddball behaviour\nthat goes on. The problem is that it's often the crazy behavior\nthat becomes publicly visible and it tarnishes everything. When I\nmade the comment that got so misunderstood I was talking about the\n<i>perception</i> of the open source community by outsiders. \n\n<p>Even at the Gold Standard end of the scale there are problems.\nTake a recent event: the blowup between Linus and the Bitkeeper\nfolks: while I'd bet real money that Linus did the Right Thing, the\nway it played out in the press looked pretty bad. It may have been\nimpossible to play it out at any lower flame temperature, but\nsomehow the community needs to come to grips with how it is\npercieved</p>\n\n",
+  "images" : [ {
+    "image" : "Image119-small.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 183,
+    "height" : 150
+  } ]
+}

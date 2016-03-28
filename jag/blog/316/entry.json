@@ -1,0 +1,12 @@
+{
+  "date" : 1257235200000,
+  "title" : "Java Store Beta: payment and a new client",
+  "body" : "Put an accountant, a lawyer, an MBA and a software engineer\ntogether into a room... Sounds like the lead-in to a bad joke, but\nit's the exercise that the <a href=\"http://store.java.com\">Java\nStore</a> team has been living through for the past several months.\nAt the PayPal conference today <a href=\n\"https://www.paypal-communications.com/innovate2009/gensessions.html#klein\">Eric\nKlein</a> did an <a href=\n\"http://www.sun.com/aboutsun/pr/2009-11/sunflash.20091103.2.xml\">announcement</a>\nand demo of the next phase in the Java Store's development. We've\nbeen working with PayPal on this for some time, using their new <a\nhref=\"https://www.x.com/index.jspa\">PayPal X</a> platform. It\nalways amazes me how complex it is to deal with all the details of\nglobal finance. And even so, the store today only handles US\nissues. But the framework is in place to go global as fast as the\nlawyers and accountants can work through the details - but it'll\ntake a while. There's a new <a href=\n\"https://dct.sun.com/dct/forms/reg_us_2310_156_0.jsp\">client\napplication for shopping in the store</a>, and a new <a href=\n\"https://store.java.com/warehouse\">warehouse site for developers to\nupload products</a>. \n\n<p>Even with the current US-only restriction, that's about 65\nmillion desktops for a target market. Please check it out, kick the\ntires, let us know what you think: we'd like to get it out of beta\nand do a real large scale consumer launch as soon as we can.</p>\n\n",
+  "images" : [ {
+    "image" : "Store1small.png",
+    "href" : "https://dct.sun.com/dct/forms/reg_us_2310_156_0.jsp",
+    "align" : "right",
+    "width" : 465,
+    "height" : 275
+  } ]
+}

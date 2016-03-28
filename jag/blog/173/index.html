@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fun in real time</title>
+<link rel=stylesheet type=text/css href='../../res/fresco.css'>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../172/index.html class=button>◀</a><td align=right><a href=../174/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../169/index.html>Scripting flamewar</a>
+<tr><td><td class=otherRef><a class=otherRef href=../170/index.html>Bits and pieces</a>
+<tr><td><td class=otherRef><a class=otherRef href=../171/index.html>JavaOne After Dark</a>
+<tr><td><td class=otherRef><a class=otherRef href=../172/index.html>Enterprise tools open sourced</a>
+<tr><td>✓<td class=thisRef>Fun in real time
+<tr><td><td class=otherRef><a class=otherRef href=../174/index.html>Java TechDays in Moscow</a>
+<tr><td><td class=otherRef><a class=otherRef href=../175/index.html>MacBook power-sucking woes</a>
+<tr><td><td class=otherRef><a class=otherRef href=../176/index.html>More slot car hacking</a>
+<tr><td><td class=otherRef><a class=otherRef href=../177/index.html>Tech Days, Johannesburg</a>
+<tr><td><td class=otherRef><a class=otherRef href=../178/index.html>Out of Africa; into the Fire</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<a href=IMG_2930.jpg class=fresco data-fresco-group=bovik><img src=IMG_2930.jpg height=300></a>
+<a href=IMG_2931.jpg class=fresco data-fresco-group=bovik><img src=IMG_2931.jpg height=300></a>
+<p>
+<div class=entry><h1>Fun in real time</h1>
+<a href=
+"http://java.sun.com/developer/technicalArticles/Interviews/Bollella_qa2.html">Greg
+Bollella</a>, the real-time lead at Sun has convinced a few of us
+to help him out with his <i>Slot Car Programming Challenge</i> for
+JavaOne this year. This is a picture of him assembling a slot car
+track on an 8'x16' table. The cars that run on track are absolutely
+standard 1/24 scale cars. No mods. The track has 80 sensors spread
+along its length. Instead of a manual control, the power supply is
+controlled by an A/D converter driven from a workstation. The
+challenge is to write software to control the car and get around
+the track as fast as possible. This is a pretty tricky problem
+since entries will have to get the timing of the power changes
+exactly right. It's doubly tricky because the sensors are fairly
+primitive (which is very common in actual realtime systems). These
+sensors are simple photocell gates (the kind used to detect paper
+moving through a printer) placed along the slot. They give a simple
+0/1 indication of whether or not the car is passing by the sensor.
+To make life harder, all of the sensors are <i>or</i>ed together.
+There's only 1 bit of input - two, actually - one sensor gets's a
+seperate bit: it's the start/finish line. So you have to count.
+Accuratly. No missing sensor pulses. A map of the course will be
+provided. One of the bonus features is that the power supply can
+swing it's voltage pretty quickly - even going into reverse. So
+there are lots of tricks to be done involving rapid braking, or
+pulsing. It's remarkably easy to send the car flying off the
+corners.
+
+<table width=100%><tr><td align=right class=date>April 18, 2006</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script type=text/javascript src='../../res/fresco.js'></script>
+</div>
+</table>
+</body>
+</html>

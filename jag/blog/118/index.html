@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Real Time != Real Fast</title>
+<link rel=stylesheet type=text/css href='../../res/blog.css'>
+</head>
+<body>
+<table class=body><tr>
+<td valign=top class=nav><img class=jag src=../../res/SouthParkJAG-small.png align=center><br>
+<table width=100%><td align=left><a href=../0/index.html class=button>⇤</a><a href=../117/index.html class=button>◀</a><td align=right><a href=../119/index.html class=button>▶</a><a href=../399/index.html class=button>⇥</a></table>
+<table width=100%><td align=left><a href=../../bio/index.html class=button>Bio</a><td align=Center><a href=../../res/Fallacies.html class=button>8&nbsp;Fallacies</a><td align=right><a href=../../StandardsPhases/StandardsPhases.html class=button>Standards</a></table>
+<table class=dir width=100%>
+<tr><td><td class=otherRef><a class=otherRef href=../114/index.html>Back on the air!</a>
+<tr><td><td class=otherRef><a class=otherRef href=../115/index.html>Migrating my blog to roller...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../116/index.html>A BlogEd feature I hadn't realized existed...</a>
+<tr><td><td class=otherRef><a class=otherRef href=../117/index.html>Victory!  Accurate times!</a>
+<tr><td>✓<td class=thisRef>Real Time != Real Fast
+<tr><td><td class=otherRef><a class=otherRef href=../119/index.html>Advanced Sleep Deprivation</a>
+<tr><td><td class=otherRef><a class=otherRef href=../120/index.html>JavaOne sponsors</a>
+<tr><td><td class=otherRef><a class=otherRef href=../121/index.html>NetBeans day is officially out of control</a>
+<tr><td><td class=otherRef><a class=otherRef href=../122/index.html>At last: intelligent UI layout</a>
+<tr><td><td class=otherRef><a class=otherRef href=../123/index.html>The real Matisse</a>
+</table>
+<td valign=top class=content><img class=banner src=../../res/BlogHead.jpg align=center><br>
+<div class=entry><h1>Real Time != Real Fast</h1>
+<img align=right src='2005_06_21_16-24-57-386_n3.small.jpeg'>Since I've been involved in real time programming and the Real Time
+Specification for Java (<a href="https://rtsj.dev.java.net/" shape=
+"rect">JSR1</a>) work, I've had a lot of people ask me about where
+real time can be used. There's more than a little confusion: many
+folks who've asked for "real time" actually want "real fast"
+(throughput computing). In real time computing, meeting a very
+precise deadline is of paramount importance. In throughput
+computing, the goal is to get as much done as possible as soon as
+possible. 
+
+<p style="text-align: left">I hate to use sports analogies, but
+this a a situation where one works well. Consider baseball: how
+fast you swing the bat is less important than that the bat be in
+the right place at the right time in order to connect with the
+ball. Real time programming is kind of like being a batter where
+the pitcher throws the balls continuously. And instead of a catcher
+behind the home plane you have a sleeping troll who will eat you if
+a ball gets through and hits him.</p>
+
+<p style="text-align: left">A good way to think of throughput
+computing is the old <a href="http://c2.com/cgi/wiki?SharpenTheSaw"
+shape="rect">Sharpen the Axe</a> principle:</p>
+
+<div class="indent">
+  <p style="margin-left: 0.5in"><i>If I had eight hours to chop
+  down a tree, I'd spend six sharpening my axe. -- <b>Abraham
+  Lincoln</b></i></p>
+  Many activities done in standard programming can be thought of
+  this way: they're things you do now that are not directly useful,
+  but later on they make life better. This is everything from JIT
+  compilers and garbage collectors down to simple things like hash
+  tables. (Hash tables? Yes! That "re-hashing" phase that happens
+  when tables overflow adds a bump of cpu cost; hashtables that
+  chain instead of rehashing have non-linear [unpredictable] lookup
+  costs). 
+
+  <p style="text-align: left">The number of developers who truly
+  need to do realtime is very small. But the stuff they do affects
+  us all. Planes, trains and automobiles: all need realtime.</p>
+</div>
+
+<table width=100%><tr><td align=right class=date>June 21, 2005</table>
+<script type=text/javascript src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script type=text/javascript src='http://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+</div>
+</table>
+</body>
+</html>

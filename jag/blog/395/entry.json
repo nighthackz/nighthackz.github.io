@@ -1,0 +1,12 @@
+{
+  "date" : 1336719600000,
+  "title" : "ForgeRock is hiring",
+  "body" : "The folks at <a href=\"http://forgerock.com/\">ForgeRock</a> are <a\nhref=\"http://forgerock.com/content/were-hiring\">hiring</a>. They do\ndevelopment and support of the OpenDS/OpenAM/OpenIDM open source\nidentity management products that had been the latest versions of\nthe Sun Identity Manager. It's heavily ex-Sun folks. They've been\naround since Sun disappeared, but they just recently got funding to\nallow them to expand. The current employees are distributed all\nover the place. They have a new office in San Francisco, near the\nball park, where they're headquartering the company. They have all\nsorts of jobs: engineering, sales, support.... A great group of\npeople to work with.\n",
+  "images" : [ {
+    "image" : "forgerock_logo.png",
+    "href" : "http://forgerock.com/",
+    "align" : "right",
+    "width" : 577,
+    "height" : 123
+  } ]
+}

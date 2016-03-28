@@ -1,0 +1,6 @@
+{
+  "date" : 1170144000000,
+  "title" : "doc.java.sun.com is alive! (again)",
+  "body" : "<a href=\"http://doc.java.sun.com/DocWeb\">doc.java.sun.com</a> (the\njavadoc website designed for communal collaborative translation) is\nfinally back up again after a couple of days being dead. It took so\nlong because (tragically) I have a Real Job. It went down because\nof a small bug, which I then componded by having a guess about what\nwas wrong, that turned out to be totally incorrect. I was once\nagain reminded by brutal reality of one of the most important\nprinciples of debugging: \n\n<blockquote style=\"font-style: italic\">\n  If you don't see the bug where you're looking, perhaps you're\n  looking in the wrong place\n</blockquote>Long story, all boring. One silver lining is that some\nnice indexing improvements contributed by Charles Liu got\nincorporated into the production server. Thanks!\n",
+  "images" : [ ]
+}

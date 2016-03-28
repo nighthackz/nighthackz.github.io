@@ -1,0 +1,6 @@
+{
+  "date" : 1213599600000,
+  "title" : "ZFS boot saves the day...",
+  "body" : "I installed <a href=\"http://www.opensolaris.com/get/\">Solaris\n2008.05</a> on my laptop a short while ago. Being my usual goofy\nself I was playing around as root in places I shouldn't have been\nand managed to really mess things up and render my machine totally\nunbootable. It was nosediving within a small fraction of a second\nafter booting... I only had one kernel image, and that file had\nbeen overwritten :-( Ending up in an infinite reboot loop. In past\ndays, with either Linux or Solaris, I'd have reinstalled the\nsystem, possibly preceded by ripping the disk out and plugging it\ninto another machine so that I could rescue any important files.\nBut since 2008.05 uses ZFS for everything - even the root\nfilesystem, all I had to do was boot the 2008.05 LiveCD, <a href=\n\"http://docs.sun.com/app/docs/doc/816-5166/zfs-1m?a=view\">zfs\nrollback</a> the root filesystem, and like magic all my screwing\naround was undone.\n",
+  "images" : [ ]
+}

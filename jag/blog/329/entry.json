@@ -1,0 +1,12 @@
+{
+  "date" : 1273734000000,
+  "title" : "ForgeRock",
+  "body" : "I had dinner recently with <a href=\n\"http://no.linkedin.com/pub/lasse-andresen/0/111/953\">Lasse\nAndresen</a> and <a href=\"http://www.webmink.net/\">Simon\nPhipps</a>. They're two of the folks behind a new company: <a href=\n\"http://forgerock.com\">ForgeRock</a>. They're another great little\ncompany spinning out of the rubble that Oracle created out of Sun.\nThey do service, support and development on what used to be called\nOpenSSO (among other things). While Sun had open-sourced the code,\nOracle still owns the name, so the ForgeRock folks picked a new\nname: OpenAM (Open Access Manager). OpenSSO is another case where\nOracle EOL-d the superior product and then sent salesdroids to\nOpenSSO customers with term sheets that were truly frightening.\nThey did a great job of creating a business for ForgeRock. \n\n<p>If you're still reading, head over to <a href=\n\"http://www.25yearsof.com/thedotcom25/index.php\">25yearsof.com</a>\nand \"like\" me. Help me beat Oracle. :-)</p>\n\n",
+  "images" : [ {
+    "image" : "ForgeRock-226x60.png",
+    "href" : "http://forgerock.com",
+    "align" : "right",
+    "width" : 577,
+    "height" : 123
+  } ]
+}

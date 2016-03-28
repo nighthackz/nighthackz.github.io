@@ -1,0 +1,12 @@
+{
+  "date" : 1108368000000,
+  "title" : "Thank you developers!",
+  "body" : "Developer.com just announced the winners of their <a href=\n\"http://developer.com/java/ent/article.php/3483116\" shape=\n\"rect\">Product of the Year 2005</a> contest. Sun won 6 out of 10\nawards, and were runner-up on a 7th! Thanks for the huge vote of\nconfidence!\n\n<p><b>Technology of the Year</b><br clear=\"none\">\nJava 2 Standard Edition<sup style=\"font-size: 80%\">TM</sup> 5.0\nFrom Sun Microsystems Inc.</p>\n\n<p><b>Development Tool of the Year</b><br clear=\"none\">\n Runner Up: Sun Java<sup style=\"font-size: 80%\">TM</sup> Studio\nCreator From Sun Microsystems Inc.</p>\n\n<p><b>Enterprise Development Tool of the Year</b><br clear=\"none\">\nJava J2EE<sup style=\"font-size: 80%\">TM</sup> From Sun Microsystems\nInc.</p>\n\n<p><b>Wireless/Mobile Development Product of the Year</b><br clear=\n\"none\">\nJ2ME<sup style=\"font-size: 80%\">TM</sup> Wireless Toolkit 2.2 From\nSun Microsystems Inc.</p>\n\n<p><b>Web Service or Related Tool of the Year</b><br clear=\"none\">\nJava Web Service Developer Pack From Sun Microsystems Inc.</p>\n\n<p><b>Java Tool of the Year</b><br clear=\"none\">\nSun Java<sup style=\"font-size: 80%\">TM</sup> Studio Creator From\nSun Microsystems Inc.</p>\n\n<p><b>Open Source Tool of the Year</b><br clear=\"none\">\nNetBeans IDE From NetBean.org</p>\n\n",
+  "images" : [ {
+    "image" : "Image109-large.jpeg",
+    "href" : null,
+    "align" : "right",
+    "width" : 295,
+    "height" : 82
+  } ]
+}

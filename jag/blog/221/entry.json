@@ -1,0 +1,6 @@
+{
+  "date" : 1176015600000,
+  "title" : "Fun with widgets",
+  "body" : "I've been having a lot of fun with Rob Cooper and <a href=\n\"http://weblogs.java.net/blog/joshy/\">Joshua Marinacci's</a> <a\nhref=\"http://www.ab5k.org/\">AB5k</a> <i>Widgets for the World</i>\nsystem. It's vaguely like Mac OS X's Dashboard, Vista's Sidebar,\nand Yahoo's Widgets, except that it works everywhere: OS X,\nSolaris, Linux, Windows (Vista, XP, 2000, ...). Anywhere Java runs.\nIt also lets you use all the Java APIs: 3D, networking, all of\nit... Very cool.\n",
+  "images" : [ ]
+}

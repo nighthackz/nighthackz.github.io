@@ -1,0 +1,12 @@
+{
+  "date" : 1139558400000,
+  "title" : "So long, Mansour",
+  "body" : "Yesterday, <a href=\n\"http://blogs.borland.com/davidi/archive/2006/02/09/23161.aspx\">Mansour\nSafai</a> (and <a href=\"http://www.theopenforce.com/\">here</a>)\npassed away, far too young. He led the development of Symantec\nCafe, the first Java IDE. His list of accomplishments is long, and\nhis impact was large. He will be missed. My condolences to the\nfamily.\n",
+  "images" : [ {
+    "image" : "SymantecCafeLogoSmall.png",
+    "href" : "http://www.symantec.com/press/1996/n961216a.html",
+    "align" : "right",
+    "width" : 239,
+    "height" : 207
+  } ]
+}
