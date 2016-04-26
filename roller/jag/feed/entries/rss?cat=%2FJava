@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.nighthacks.net/roller/roller-ui/styles/rss.xsl" media="screen"?><rss version="2.0" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom" >
+<channel>
+  <title>On a New Road</title>
+  <link>http://www.nighthacks.net/roller/jag/</link>
+      <atom:link rel="self" type="application/rss+xml" href="http://www.nighthacks.net/roller/jag/feed/entries/rss?cat=%2FJava" />
+    <description></description>
+  <language>en-us</language>
+  <copyright>Copyright 2013</copyright>
+  <lastBuildDate>Mon, 21 Oct 2013 12:23:08 -0700</lastBuildDate>
+  <generator>Apache Roller (incubating) 4.0.1 (20090102102238:dave)</generator>
+        <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/long_days_in_hawaii</guid>
+    <title>Long days in Hawaii</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/long_days_in_hawaii</link>
+        <pubDate>Mon, 21 Oct 2013 12:23:08 -0700</pubDate>
+    <category>Java</category>
+            <description>I&apos;m still hacking away on robots...  We&apos;re getting down to the finish line on our new robot model.  It always amazes me that the big stuff is often easy, it&apos;s the little stuff that kills.  Autonomously avoiding ships....  Easy!  Getting a compass to report reliable headings....  Hard!
+&lt;p&gt;
+For a small break from the grind, Stephen Chin from Oracle will be visiting and doing a &lt;a href=http://nighthacking.com/events/nighthacking-with-gosling-on-the-big-island/&gt;live streaming video conversation&lt;/a&gt; here with me as part of his nighthacking tour.  Should be fun.  Tune in  :-)</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/i_haven_t_disappeared</guid>
+    <title>I haven&apos;t disappeared...</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/i_haven_t_disappeared</link>
+        <pubDate>Mon, 8 Apr 2013 14:16:54 -0700</pubDate>
+    <category>Java</category>
+            <description>I&apos;ve been in the clutches of a product release.  It&apos;s been real &lt;a href=http://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine&gt;Soul of a New Machine&lt;/a&gt; stuff.  We&apos;ve just announced the &lt;a href=http://liquidr.com/news_events/press/2013/2013-04-08-sv3-announcement.html&gt;newest robot&lt;/a&gt;, so its a lot easier for me to talk.  While it looks roughly the same as the previous machine, and operates on similar principles, every part is different.  Every piece of hardware, the electronics, and a total software rewrite.  Most important to me is that it&apos;s now got a real computer onboard: an ARM processor with more than enough horsepower to do interesting things.  One of the more interesting things it does is autonomous navigation.  We funded part of this work using a
+&lt;a href=http://en.wikipedia.org/wiki/Small_Business_Innovation_Research title=&quot;Small Business Innovation Research&quot;&gt;SBIR&lt;/a&gt; grant.  They require progress reports, for which I did a couple (so far) of &lt;a href=https://vimeo.com/jamesgosling&gt;videos&lt;/a&gt;:
+&lt;p&gt;
+&lt;iframe src=&quot;http://player.vimeo.com/video/62313054&quot; width=&quot;500&quot; height=&quot;375&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/62313054&quot;&gt;Episode 1: basic autonomy: avoiding obstacles&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/jamesgosling&quot;&gt;James Gosling&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&quot;http://player.vimeo.com/video/63421676&quot; width=&quot;500&quot; height=&quot;375&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href=&quot;http://vimeo.com/63421676&quot;&gt;Episode 2: Autonomous Ship Avoidance&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/jamesgosling&quot;&gt;James Gosling&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/it_s_time</guid>
+    <title>It&apos;s long past the time.....</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/it_s_time</link>
+        <pubDate>Sun, 16 Dec 2012 19:16:12 -0800</pubDate>
+    <category>Java</category>
+            <description>&lt;center&gt;&lt;a href=http://www.bradycampaign.org&gt;&lt;img align=center src=http://s3-eu-west-1.amazonaws.com/cdn0.virgin.com/uploads/images/story/image001-16678.jpg&gt;&lt;/a&gt;
+&lt;br&gt;(as seen on &lt;a href=http://www.virgin.com/richard-branson/blog/our-thoughts-go-to-every-family-who-lost-a-loved-one&gt;Richard Branson&apos;s blog&lt;/a&gt;)&lt;/center&gt;
+
+</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/benjamin_arrives_in_australia</guid>
+    <title>PapaMau arrives in Australia</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/benjamin_arrives_in_australia</link>
+        <pubDate>Mon, 19 Nov 2012 07:42:25 -0800</pubDate>
+    <category>Java</category>
+            <description>No, I haven&apos;t disappeared.  I&apos;ve just been having way too much fun coding.  It is so incredible being a user of the Java ecosystem.  I&apos;m always amazed at what&apos;s out there.  And the tools...  I&apos;ve been using Netbeans, Jenkins, GitBlit, Jira and Artifactory.  All lovely!
+&lt;p&gt;
+The first of our 4 transpacific voyagers has made it to Australia.  After a hectic final dash through the
+&lt;a href=http://www.youtube.com/watch?v=m3RZ5zuLl48&gt;East Australia Current&lt;/a&gt;, Papa Mau is going to be picked up in the next day or two (the white line on the map).  It got far ahead of the other waveglider headed for Australia (Benjamin) when the other took some damage to it&apos;s solar panel, so we had it detour (the red line) through Samoa and have a pit stop at a beach resort - our repair technicians get the &lt;b&gt;best&lt;/b&gt; business trips.
+&lt;center&gt;&lt;img src=http://nighthacks.com/roller/jag/resource/BenjaminArrives.jpg border=0&gt;&lt;/center&gt;</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/javafx_ensemble1</guid>
+    <title>JavaFX Ensemble</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/javafx_ensemble1</link>
+        <pubDate>Thu, 18 Oct 2012 21:17:37 -0700</pubDate>
+    <category>Java</category>
+            <description>&lt;a href=https://itunes.apple.com/us/app/ensemble/id557744983?mt=12&gt;&lt;img align=right src=&quot;http://a515.phobos.apple.com/us/r30/Purple/v4/1f/f8/73/1ff87383-fcc5-fc8a-3d1a-0b493476331a/Ensemble.175x175-75.png&quot; border=0&gt;&lt;/a&gt;It&apos;s been ridiculously long since I&apos;ve last written a blog entry.  Lots has happened (like
+&lt;a href=http://medianetwork.oracle.com/video/player/1881008974001&gt;giving a talk at JavaOne&lt;/a&gt;, which was fun).  But life has been such a mad dash that I didn&apos;t even blog that.  But this evening someone pointed me at something so cool I just had to write something:
+&lt;a href=https://itunes.apple.com/us/app/ensemble/id557744983?mt=12&gt;JavaFX Ensemble&lt;/a&gt;.
+It&apos;s a really nicely put together app that demonstrates all the amazing stuff in the new JavaFX.
+What a lovely new world of UIs.  There&apos;s a lot more to it than I knew.  I can&apos;t wait to start playing with it.
+&lt;p&gt;
+As cool as the new JavaFX is, I was doubly impressed by the fact that it&apos;s in the Apple app store.
+What an earthquake...  Tectonic action...
+&lt;p&gt;
+If you&apos;re not reading this on a Mac, you can try out Ensemble &lt;a href=http://www.oracle.com/technetwork/java/javafx/samples/index.html&gt;here&lt;/a&gt;.</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/working_crazy_hard</guid>
+    <title>Working crazy hard</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/working_crazy_hard</link>
+        <pubDate>Tue, 21 Aug 2012 16:24:09 -0700</pubDate>
+    <category>Java</category>
+            <description>Having lots of fun.  My usually-slow blogging rate has gone totally into the trash.  A couple of weeks ago I did
+&lt;a href=http://www.youtube.com/watch?v=r95vcr7G5EM&amp;feature=player_embedded&gt;a talk
+on some of what I&apos;m working on&lt;/a&gt;.  There were some issues with the recording: it&apos;s missing the animations
+in the slides and the demos.  But you&apos;ll get the idea  :-)  The PacX challenge robots are
+&lt;a href=http://slab.liquidr.com/finishline/&gt;strolling across the pacific, getting closer and closer to Australia
+and Japan&lt;/a&gt;.  One major sadness is that one of the robots heading for Japan (Fontaine Maru) came to
+an unknown end - it&apos;s drifting with everything dead except its tracking beacon.
+&lt;p&gt;
+I finally got a &lt;a href=http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qad9Vfwb&amp;v=1&amp;page=Job%20Description&amp;j=oOtyWfwv&gt;job
+opening for a JavaEE/cloud hacker, based in Sunnyvale&lt;/a&gt;.  If you&apos;re looking for something &lt;i&gt;different&lt;/i&gt;,
+apply!</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/more_job_postings</guid>
+    <title>More job postings!</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/more_job_postings</link>
+        <pubDate>Wed, 27 Jun 2012 09:52:27 -0700</pubDate>
+    <category>Java</category>
+            <description>&lt;a href=&quot;http://hire.jobvite.com/j/?bj=ouxsWfw9&amp;s=Nighthacks&quot;&gt;&lt;img src=http://duke.kenai.com/guitar/.Thumbnails/DukeAsKeith-daylight.png.png align=right border=0&gt;&lt;/a&gt;
+We&apos;ve had a recent
+&lt;a href=http://www.forbes.com/sites/toddwoody/2012/06/21/oil-giant-to-launch-fleet-of-ocean-going-robots/&gt;funding event&lt;/a&gt;
+and we&apos;re starting to
+&lt;a href=&quot;http://hire.jobvite.com/j/?bj=ouxsWfw9&amp;s=Nighthacks&quot;&gt;open some jobs.
+Including several software jobs.&lt;/a&gt;
+One that&apos;s a software job that&apos;s not posted in the software section is for a
+&lt;a href=&quot;http://hire.jobvite.com/j/?cj=oYtyWfwF&amp;s=Nighthacks&quot;&gt;Vice President,
+Data Services Engineering&lt;/a&gt; which is about all of the software not on the robot.
+&lt;p&gt;
+It&apos;s the usual startup scene: crazy hours, tight funding and ridiculous (sounding) goals :-)</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/looking_for_a_senior_electrical</guid>
+    <title>Looking for a senior electrical engineer</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/looking_for_a_senior_electrical</link>
+        <pubDate>Fri, 15 Jun 2012 15:53:39 -0700</pubDate>
+    <category>Java</category>
+            <description>&lt;a href=&quot;http://hire.jobvite.com/j/?cj=ouxsWfw9&amp;s=Nighthacks&quot;&gt;&lt;img src=http://hire.jobvite.com/logo/1165_liquidrobotics_logo.png align=right border=0&gt;&lt;/a&gt;Liquid Robotics is starting to open up some &lt;a href=&quot;http://hire.jobvite.com/j/?bj=ouxsWfw9&amp;s=Nighthacks&quot;&gt;new jobs&lt;/a&gt;.  One we&apos;re really desperate for is a &lt;a href=&quot;http://hire.jobvite.com/j/?cj=ouxsWfw9&amp;s=Nighthacks&quot;&gt;Senior Electrical Engineer&lt;/a&gt;.  We&apos;re looking for someone to drive our next generation ARM processor boards.  A key skill is around how to deal with making systems manufacturable - volume in the thousands (not millions, and not one-ofs); low-power and rock solid.</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/meltdown_averted</guid>
+    <title>Meltdown Averted</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/meltdown_averted</link>
+        <pubDate>Fri, 1 Jun 2012 06:39:13 -0700</pubDate>
+    <category>Java</category>
+            <description>&lt;a href=http://news.cnet.com/8301-1035_3-57445082-94/judge-william-alsup-master-of-the-court-and-java/&gt;Sanity prevails&lt;/a&gt;:
+&lt;blockquote&gt;
+So long as the specific code used to implement a method is different, anyone is free under the Copyright Act to write his or her own code to carry out exactly the same function or specification of any methods used in the Java API. It does not matter that the declaration or method header lines are identical.&lt;p&gt;
+Under the rules of Java, they must be identical to declare a method specifying the same functionality -- even when the implementation is different. When there is only one way to express an idea or function, then everyone is free to do so and no one can monopolize that expression. And, while the Android method and class names could have been different from the names of their counterparts in Java and still have worked, copyright protection never extends to names or short phrases as a matter of law.
+&lt;/blockquote&gt;</description>          </item>
+    <item>
+    <guid isPermaLink="true">http://www.nighthacks.net/roller/jag/entry/ovg_it_s_finally_almost</guid>
+    <title>OvG: It&apos;s finally (almost) over.</title>
+    <dc:creator>James Gosling</dc:creator>
+    <link>http://www.nighthacks.net/roller/jag/entry/ovg_it_s_finally_almost</link>
+        <pubDate>Wed, 23 May 2012 13:27:03 -0700</pubDate>
+    <category>Java</category>
+            <description>&lt;img align=right border=0 src=http://duke.kenai.com/gun/Gun.jpg height=128&gt;The patent part of the case is &lt;a href=http://www.wired.com/wiredenterprise/2012/05/oracle-google-patent-verdict/&gt;finally over, with Google acquitted on (almost) all counts.&lt;/a&gt;.  The happy part for me is that despite having been on the witness list and gone through a bunch of prep work with lawyers, I didn&apos;t actually have to testify.  Despite all the furor that went into this one, it went out with a wimper.  Court cases are never about right and wrong, they&apos;re about the law and what you can convince a jury of.  For those of us at Sun who felt trampled-on and abused by Google&apos;s callous self-righteousness, I would have preferred a different outcome - not from the court case as much as from events of years past.</description>          </item>
+  </channel>
+</rss>
