@@ -1,9 +1,9 @@
 /* @import url(https://fonts.googleapis.com/css?family=Oxygen:400,700,300); */
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic,700);
-body { margin:0; font-family: 'Cabin', sans-serif; font-weight: 400; background: #BBB;
+body { margin:0; font-family: 'Cabin', sans-serif; font-weight: 400; 
 	padding: 0; text-align:center; }
 h1 { font-family: 'Cabin', sans-serif; font-weight: 700; font-size: 200%; }
-div.entry { background: #fff; border: thin solid black; border-radius: 10px;
+div.entry { 
     text-align: left; 
     width: 95%;
     padding: 5px 20px; }
