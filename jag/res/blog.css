@@ -2,7 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore);
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic,700);
 body { margin:0; font-family: 'Cabin', sans-serif; font-weight: 400; 
-	padding: 0; text-align:center; }
+	padding: 0; border:none; text-align:center; }
+html { margin:0; padding:0; border:none; }
 h1 { font-family: 'Cabin', sans-serif; font-weight: 700; font-size: 200%; }
 div.entry { 
     text-align: left; 
@@ -20,7 +21,7 @@ a.button {
     display: inline-block;
 }
 a.button:hover { background: #555; }
-.tight { border:0; margin:0; padding:0;}
+.tight { border:none; margin:0; padding:0;}
 .fullwidth { width:100%; }
 img.jag { position:fixed; display:block; bottom: 0; }
 td.nav {

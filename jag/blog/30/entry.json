@@ -3,7 +3,7 @@
   "title" : "Netbeans as a platform",
   "body" : "One of the cooler aspects of NetBeans is that it can be used as a\n<i>platform</i> for building applications, not just as an IDE. By\nthis I mean that if you look under the hood at the implementation\nof NetBeans, you'll find that, just like any other Java\napplication, it is a large collection of classes. These classes can\nbe used outside of NetBeans to provide a framework for general\ndesktop applications. For more information, look <a href=\n\"http://www.netbeans.org/kb/articles/docList.html\" shape=\n\"rect\">here</a>.\n\n<p>The platform APIs include extensive facilities built on top of\nSwing to do window, action, toolbar and menu management. There is\nalso an abstract file system that allows things like CVS\nrepositories and FTP sites to be viewed as file systems. There's a\nwhole framework for wizards, and a facility for managing and\nstoring settings. My personal favorite is the AutoUpdate module\nthat allows applications (at the direction of users through plugin\nmanager UI) to be extended by installing plugins, and to handle\nautomatic updating when new versions appear.</p>\n\n<p>Taken together these dramatically simplify the construction of\nsophisticated desktop applications. Take them out for a spin!</p>\n\n",
   "images" : [ {
-    "image" : "Image61-large.jpeg",
+    "image" : "Image61-large.png",
     "href" : null,
     "align" : "right",
     "width" : 458,
