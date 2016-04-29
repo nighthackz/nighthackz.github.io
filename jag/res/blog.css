@@ -20,7 +20,8 @@ a.button {
     display: inline-block;
 }
 a.button:hover { background: #555; }
-img.banner { width:100%; }
+.tight { border:0; margin:0; padding:0;}
+.fullwidth { width:100%; }
 img.jag { position:fixed; display:block; bottom: 0; }
 td.nav {
     vertical-align: top;
