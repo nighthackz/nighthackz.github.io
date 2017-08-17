@@ -1,0 +1,12 @@
+{
+  "date" : 1495465200000,
+  "title" : "Made the leap to Amazon Web Services!",
+  "body" : "It's time for a change. I'm leaving Boeing Defense (nee Liquid Robotics), with many fond memories. Today I start a new Adventure at Amazon Web Services.  I've been getting a lot of questions on what I'll be working on at Amazon. Sadly, I can't say: it's Amazon's policy to be quiet. As much as secrecy can be annoying, it usually makes sense.<p>This blog has become almost totally stagnant.  These days, I mostly use <a href=https://www.facebook.com/james.gosling.96>Facebook</a> for posting.",
+  "images" : [ {
+    "image" : "AWS_Logo.png",
+    "href" : "https://aws.amazon.com/",
+    "align" : "right",
+    "width" : 320,
+    "height" : 120
+  } ]
+}
