@@ -47,6 +47,8 @@ td.thisRef {
 }
 td.otherRef {
 	text-align: left;
+	text-indent: -1em;
+	padding-left: 1em;
 }
 table.dir {
 	background: #eee;
